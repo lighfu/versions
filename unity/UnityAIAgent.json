@@ -1,6 +1,9 @@
 {
-"version": "1.0.0",
-"downloadUrl": "future",
-"changelog": "初回リリース",
-"sha256": "future"
-}     
+  "version": "1.0.0",
+  "downloadUrl": "...",
+  "changelog": "初回リリース",
+  "sha256": "...",
+  "expirations": [
+      { "version": "1.0.0", "date": "2026-06-30" }
+  ]
+}
