@@ -1,9 +1,10 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "downloadUrl": "...",
-  "changelog": "初回リリース",
+  "changelog": "v0.1.1\n・補完機能を調整\n・利用可能なAPIを追加\n　・Claude API\n　・OpenAI\n　・DeepSeek\n　・Groq\n　・Ollama\n　・xAI / Grok\n　・Mistral\n　・Perplexity\n　・GeminiCLI\n　・ClaudeCLI\n・いくつかのスキルを微調整\n・UIアップデートに向けた内部ライブラリの作成\n・リファクタリング",
   "sha256": "...",
   "expirations": [
-      { "version": "0.1.0", "date": "2030-06-01", "reason": "このバージョンはサポートしなくなりました。" }
+      { "version": "0.1.0", "date": "2026-04-01", "reason": "このバージョンはサポートしなくなりました。" },
+      { "version": "0.1.1", "date": "2050-06-01", "reason": "このバージョンはサポートしなくなりました。" }
   ]
 }
