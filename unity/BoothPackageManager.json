@@ -1,1 +1,1 @@
-{"version":"0.3.76","changelog":"- Cookie セットアップ中に Unity を閉じた場合、次回起動時にウィザードが正しく再表示されるよう修正しました\n- セキュリティ改善: 設定データの保存方法を改善しました","url":"https://github.com/lighfu/vpm/releases/tag/bpm-v0.3.76"}
+{"version":"0.3.76","changelog":"- Cookie セットアップ中に Unity を閉じた場合、次回起動時にウィザードが正しく再表示されるよう修正しました\n- セキュリティ改善: 設定データの保存方法を改善しました","url":"https://github.com/lighfu/vpm-dev/releases/tag/bpm-v0.3.76"}
