@@ -1,1 +1,1 @@
-{"version":"0.5.0","changelog":"- オープンソース化 (MIT License、ソースコード配布に移行)\n- 更新通知バナー + 更新後changelogダイアログ追加\n- Claude CLI アクティビティパネル (thinking/tool ライブ表示)\n- Claude CLI リアルタイム出力修正\n- 非活動タイムアウトに変更 (応答中のタイムアウト誤判定修正)","url":"https://github.com/lighfu/vpm/releases/tag/editor-v0.5.0"}
+{"version":"0.5.0","changelog":"- オープンソース化 (MIT License、ソースコード配布に移行)\n- 更新通知バナー + 更新後changelogダイアログ追加\n- Claude CLI アクティビティパネル (thinking/tool ライブ表示)\n- Claude CLI リアルタイム出力修正\n- 非活動タイムアウトに変更 (応答中のタイムアウト誤判定修正)","url":"https://github.com/lighfu/vpm-dev/releases/tag/editor-v0.5.0"}
