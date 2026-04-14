@@ -1,1 +1,1 @@
-{"version":"0.7.1","changelog":"- 修正: カスタムテーマ使用時にアップデート通知バナー (「新しいバージョンが利用可能です」) の背景・テキストが透明になり内容が見えなくなる問題を修正。テーマの ErrorContainer/OnErrorContainer が未定義でも常に表示される実装に差し替えました","url":"https://github.com/lighfu/unity-agent/releases/tag/editor-v0.7.1"}
+{"version":"0.7.2","changelog":"- チャット UI を刷新。ツール実行を 1 枚のカードにまとめて表示 (Running → Success/Error の状態遷移、実行時間、引数/結果の折りたたみ、アセットリンク)\n- ローディングインジケータのラベルが 1.5 秒ごとにローテーション (考え中…/接続中…/応答を待っています…/処理しています…)\n- 実行中のツールカードに左ボーダーアクセントとスピナーを追加、カスタムテーマでも見えるフォールバック色を適用","url":"https://github.com/lighfu/unity-agent/releases/tag/editor-v0.7.2"}
