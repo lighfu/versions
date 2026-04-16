@@ -1,1 +1,1 @@
-{"version":"0.8.3","changelog":"- グラデーション範囲修正: Mesh Painter のグラデーション開始/終了範囲が正しく動作するように修正","url":"https://github.com/lighfu/unity-agent/releases/tag/editor-v0.8.3"}
+{"version":"0.9.0","changelog":"- もちふぃった～プロファイルカタログ機能を追加（305件のBOOTH商品を収録）\n- グリッド/リスト切替表示、変換タイプ・価格フィルタ、サムネイル遅延読み込み対応\n- AIツール連携: アバター対応確認、シーンスキャン、プロファイル推薦\n- チャットUI: BOOTH URLのDiscord風リンクプレビューカード表示\n- チャットUI: リンク確認ダイアログ（信頼済みドメイン判定付き）\n- グラデーション範囲修正: Mesh Painterの開始/終了範囲が正しく動作するように","url":"https://github.com/lighfu/unity-agent/releases/tag/editor-v0.9.0"}
