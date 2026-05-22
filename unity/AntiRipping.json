@@ -1,1 +1,1 @@
-{"version":"0.34.19","changelog":"","url":"https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.34.19"}
+{"version":"0.35.0","changelog":"解錠キーとOSCパスをDPAPI暗号化、古いAntiRippingClientでのビルドを検知、バージョン管理を単一情報源化","url":"https://github.com/lighfu/vpm-dev/releases/tag/anti-ripping-v0.35.0"}
