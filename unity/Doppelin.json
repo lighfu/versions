@@ -1,70 +1,63 @@
 {
-  "version": "0.5.0",
+  "version": "1.1.0",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-07-15",
-  "changelog": "しゃがみ追従・ドッペル視点の見回しに対応し、セットアップUIを刷新しました。",
+  "releaseDate": "2026-07-26",
+  "changelog": "アニメ再生やNPCモードと、ポーズ編集を同時に使えるようにしました。",
   "localized": [
     {
       "lang": "ja",
-      "summary": "しゃがみ追従とドッペル視点の見回しに対応し、セットアップUIを刷新しました。",
+      "summary": "アニメ再生やNPCモードと、ポーズ編集を同時に使えるようにしました。",
       "entries": [
-        { "category": "new", "text": "しゃがみ・地面這いが分身にも反映されるようになりました（ゲーム内トグル対応）" },
-        { "category": "new", "text": "ドッペル視点で周囲を見回せるようになりました" },
-        { "category": "improve", "text": "セットアップ画面を折りたたみ式に整理し、繁体字（香港）表示に対応しました" }
+        { "category": "fix", "text": "アニメ再生やNPCモードを使っていると、ポーズ編集で分身の関節をうまく掴めなくなる問題を修正しました" },
+        { "category": "improve", "text": "内部構造の変更にともない、既存のアバターはセットアップを押し直してからアップロードしてください" }
       ]
     },
     {
       "lang": "en",
-      "summary": "Adds crouch following and Doppel view look-around, and revamps the setup UI.",
+      "summary": "You can now use pose editing at the same time as animation playback or NPC mode.",
       "entries": [
-        { "category": "new", "text": "Crouching and crawling are now mirrored on the doppelganger (with an in-game toggle)" },
-        { "category": "new", "text": "You can now look around while in Doppel view" },
-        { "category": "improve", "text": "Reorganized the setup screen into collapsible sections and added Traditional Chinese (Hong Kong)" }
+        { "category": "fix", "text": "Fixed an issue where the clone's joints could not be grabbed properly during pose editing while using animation playback or NPC mode" },
+        { "category": "improve", "text": "Due to internal structure changes, please click Setup again for existing avatars before uploading" }
       ]
     },
     {
       "lang": "ko",
-      "summary": "웅크리기 추종과 도플 시점 둘러보기를 지원하고 설정 UI를 개편했습니다.",
+      "summary": "애니메이션 재생이나 NPC 모드와 포즈 편집을 동시에 사용할 수 있게 되었습니다.",
       "entries": [
-        { "category": "new", "text": "웅크리기·바닥 기기 동작이 분신에도 반영됩니다(인게임 토글 지원)" },
-        { "category": "new", "text": "도플 시점에서 주위를 둘러볼 수 있습니다" },
-        { "category": "improve", "text": "설정 화면을 접이식으로 정리하고 번체 중국어(홍콩) 표시를 지원합니다" }
+        { "category": "fix", "text": "애니메이션 재생이나 NPC 모드를 사용할 때 포즈 편집에서 분신의 관절을 제대로 잡을 수 없던 문제를 수정했습니다" },
+        { "category": "improve", "text": "내부 구조 변경에 따라 기존 아바타는 셋업을 다시 누른 후 업로드해 주시기 바랍니다" }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "新增蹲下跟随与分身视角环视，并重构了设置界面。",
+      "summary": "现在支持同时使用动画播放或NPC模式与姿势编辑。",
       "entries": [
-        { "category": "new", "text": "蹲下和趴地动作现在也会反映到分身（支持游戏内开关）" },
-        { "category": "new", "text": "分身视角下现在可以环视四周" },
-        { "category": "improve", "text": "将设置界面整理为可折叠分区，并新增繁体中文（香港）" }
+        { "category": "fix", "text": "修复了在使用动画播放或NPC模式时，姿势编辑无法正常抓取分身关节的问题" },
+        { "category": "improve", "text": "由于内部结构更改，现有的Avatar请重新点击Setup后再上传" }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "新增蹲下跟隨與分身視角環視，並重構了設定介面。",
+      "summary": "現在支援同時使用動畫播放或NPC模式與姿勢編輯。",
       "entries": [
-        { "category": "new", "text": "蹲下與趴地動作現在也會反映到分身（支援遊戲內開關）" },
-        { "category": "new", "text": "分身視角下現在可以環視四周" },
-        { "category": "improve", "text": "將設定介面整理為可摺疊分區，並新增繁體中文（香港）" }
+        { "category": "fix", "text": "修復了在使用動畫播放或NPC模式時，姿勢編輯無法正常抓取分身關節的問題" },
+        { "category": "improve", "text": "由於內部結構更改，現有的Avatar請重新點擊Setup後再上傳" }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "新增蹲下跟隨與分身視角環視，並重構了設定介面。",
+      "summary": "現在支援同時使用動畫播放或NPC模式與姿勢編輯。",
       "entries": [
-        { "category": "new", "text": "蹲下與趴地動作現在也會反映到分身（支援遊戲內開關）" },
-        { "category": "new", "text": "分身視角下現在可以環視四周" },
-        { "category": "improve", "text": "將設定介面整理為可摺疊分區，並新增繁體中文（香港）" }
+        { "category": "fix", "text": "修復了在使用動畫播放或NPC模式時，姿勢編輯無法正常抓取分身關節的問題" },
+        { "category": "improve", "text": "由於內部結構變更，現有Avatar請重新點選Setup後再上傳" }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "新增蹲下跟隨與分身視角環視，並重構了設定介面。",
+      "summary": "現在支援同時使用動畫播放或NPC模式與姿勢編輯。",
       "entries": [
-        { "category": "new", "text": "蹲下與趴地動作現在也會反映到分身（支援遊戲內開關）" },
-        { "category": "new", "text": "分身視角下現在可以環視四周" },
-        { "category": "improve", "text": "將設定介面整理為可摺疊分區，並新增繁體中文（香港）" }
+        { "category": "fix", "text": "修正了在使用動畫播放或NPC模式時，姿勢編輯無法正常捉住分身關節的問題" },
+        { "category": "improve", "text": "由於內部結構變更，現有Avatar請重新按Setup後再上載" }
       ]
     }
   ]
