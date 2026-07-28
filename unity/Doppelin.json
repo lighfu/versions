@@ -1,63 +1,84 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-07-26",
-  "changelog": "アニメ再生やNPCモードと、ポーズ編集を同時に使えるようにしました。",
+  "releaseDate": "2026-07-28",
+  "changelog": "ポーズ編集に、分身を掴んで持ち運べる「原点ハンドル」を追加しました。表情・アニメ再生・セットアップの不具合も多数修正しています。",
   "localized": [
     {
       "lang": "ja",
-      "summary": "アニメ再生やNPCモードと、ポーズ編集を同時に使えるようにしました。",
+      "summary": "ポーズ編集に、分身を掴んで持ち運べる「原点ハンドル」を追加しました。表情・アニメ再生・セットアップの不具合も多数修正しています。",
       "entries": [
-        { "category": "fix", "text": "アニメ再生やNPCモードを使っていると、ポーズ編集で分身の関節をうまく掴めなくなる問題を修正しました" },
-        { "category": "improve", "text": "内部構造の変更にともない、既存のアバターはセットアップを押し直してからアップロードしてください" }
+        { "category": "new", "text": "ポーズ編集に「原点ハンドル」を追加 — 分身の腰の前の黄色い球を掴んで、分身ごと持ち運べます。ボーンのポーズは「掴んだままトリガーで固定」する方式になりました" },
+        { "category": "fix", "text": "FaceEmo で表情管理しているアバターで、分身の表情が動かない問題を修正しました（分身ソース側・本体側の両方）。表情フリーズも FaceEmo で機能するようになりました" },
+        { "category": "fix", "text": "アニメ再生の不具合を多数修正しました — 直視で分身の頭が追従しない／腰が固定されたままダンスする／分身が小刻みに震える／ポーズ編集の掴み位置がずれる（高さ含む）" },
+        { "category": "fix", "text": "セットアップが極端に遅くなる問題（重いアバターで数十分→数十秒）と、セットアップ時に本体の衣装がずれることがある問題を修正しました" },
+        { "category": "improve", "text": "古い環境でのセットアップ失敗に分かりやすい案内を表示するようにしました。既存の分身には再セットアップの案内が表示されます" }
       ]
     },
     {
       "lang": "en",
-      "summary": "You can now use pose editing at the same time as animation playback or NPC mode.",
+      "summary": "Added an \"origin handle\" to pose editing that allows you to grab and carry the clone. Also fixed numerous bugs related to facial expressions, animation playback, and Setup.",
       "entries": [
-        { "category": "fix", "text": "Fixed an issue where the clone's joints could not be grabbed properly during pose editing while using animation playback or NPC mode" },
-        { "category": "improve", "text": "Due to internal structure changes, please click Setup again for existing avatars before uploading" }
+        { "category": "new", "text": "Added \"origin handle\" to pose editing — You can grab the yellow sphere in front of the clone's waist to carry the whole clone. Bone posing now uses a \"hold and lock with trigger\" method." },
+        { "category": "fix", "text": "Fixed an issue where the clone's facial expressions wouldn't change for avatars using FaceEmo for expression management (both clone source and main avatar sides). Expression freezing now also works with FaceEmo." },
+        { "category": "fix", "text": "Fixed multiple animation playback issues — clone's head not following when looking directly / dancing with a fixed waist / clone shivering slightly / grab position shifting during pose editing (including height)." },
+        { "category": "fix", "text": "Fixed an issue where Setup would become extremely slow (reduced from tens of minutes to tens of seconds for heavy avatars), and an issue where the main avatar's clothing would sometimes shift during Setup." },
+        { "category": "improve", "text": "Added a clear guide for Setup failures in older environments. A re-Setup guide will be displayed for existing clones." }
       ]
     },
     {
       "lang": "ko",
-      "summary": "애니메이션 재생이나 NPC 모드와 포즈 편집을 동시에 사용할 수 있게 되었습니다.",
+      "summary": "포즈 편집에 분신을 잡고 옮길 수 있는 '원점 핸들'을 추가했습니다. 표정, 애니메이션 재생, Setup 관련 버그도 다수 수정했습니다.",
       "entries": [
-        { "category": "fix", "text": "애니메이션 재생이나 NPC 모드를 사용할 때 포즈 편집에서 분신의 관절을 제대로 잡을 수 없던 문제를 수정했습니다" },
-        { "category": "improve", "text": "내부 구조 변경에 따라 기존 아바타는 셋업을 다시 누른 후 업로드해 주시기 바랍니다" }
+        { "category": "new", "text": "포즈 편집에 '원점 핸들' 추가 — 분신의 허리 앞에 있는 노란색 구를 잡고 분신 전체를 옮길 수 있습니다. 본(bone) 포즈는 '잡은 상태에서 트리거로 고정'하는 방식으로 변경되었습니다." },
+        { "category": "fix", "text": "FaceEmo로 표정을 관리하는 아바타에서 분신의 표정이 움직이지 않는 문제를 수정했습니다(분신 소스 측 및 본체 측 모두). 이제 표정 프리즈도 FaceEmo에서 작동합니다." },
+        { "category": "fix", "text": "애니메이션 재생 관련 다수 버그 수정 — 직시할 때 분신의 머리가 따라오지 않음 / 허리가 고정된 채로 춤을 춤 / 분신이 잘게 떨림 / 포즈 편집 시 잡는 위치가 어긋남(높이 포함)." },
+        { "category": "fix", "text": "Setup이 극단적으로 느려지는 문제(무거운 아바타의 경우 수십 분에서 수십 초로 단축) 및 Setup 시 본체의 의상이 어긋나는 경우가 있는 문제를 수정했습니다." },
+        { "category": "improve", "text": "오래된 환경에서 Setup 실패 시 이해하기 쉬운 안내를 표시하도록 개선했습니다. 기존 분신에는 재 Setup 안내가 표시됩니다." }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "现在支持同时使用动画播放或NPC模式与姿势编辑。",
+      "summary": "在姿势编辑中添加了“原点手柄”，可抓住并移动分身。同时修复了大量关于表情、动画播放和Setup的问题。",
       "entries": [
-        { "category": "fix", "text": "修复了在使用动画播放或NPC模式时，姿势编辑无法正常抓取分身关节的问题" },
-        { "category": "improve", "text": "由于内部结构更改，现有的Avatar请重新点击Setup后再上传" }
+        { "category": "new", "text": "在姿势编辑中添加“原点手柄” — 抓住分身腰部前方的黄色圆球，即可搬运整个分身。骨骼姿势现在改为“保持抓住并用扳机键固定”的方式。" },
+        { "category": "fix", "text": "修复了在使用FaceEmo管理表情的虚拟形象上，分身表情不移动的问题（包括分身源侧和本体侧）。表情冻结现在也能与FaceEmo一起正常工作了。" },
+        { "category": "fix", "text": "修复了多项动画播放问题 — 直视时分身头部不跟随 / 腰部固定不动地跳舞 / 分身轻微颤抖 / 姿势编辑时抓取位置偏移（包括高度）。" },
+        { "category": "fix", "text": "修复了Setup变得极慢的问题（重型虚拟形象从几十分钟缩短至几十秒），以及Setup时本体服装有时会发生偏移的问题。" },
+        { "category": "improve", "text": "在旧环境中Setup失败时，现在会显示易懂的指引。对于现有的分身，将会显示重新Setup的指引。" }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "現在支援同時使用動畫播放或NPC模式與姿勢編輯。",
+      "summary": "在姿勢編輯中新增了「原點手柄」，可抓住並移動分身。同時修復了大量關於表情、動畫播放和Setup的問題。",
       "entries": [
-        { "category": "fix", "text": "修復了在使用動畫播放或NPC模式時，姿勢編輯無法正常抓取分身關節的問題" },
-        { "category": "improve", "text": "由於內部結構更改，現有的Avatar請重新點擊Setup後再上傳" }
+        { "category": "new", "text": "在姿勢編輯中新增「原點手柄」 — 抓住分身腰部前方的黃色圓球，即可搬運整個分身。骨架姿勢現在改為「保持抓住並用扳機鍵固定」的方式。" },
+        { "category": "fix", "text": "修復了在使用FaceEmo管理表情的虛擬角色上，分身表情不作動的問題（包含分身來源側與本體側）。表情凍結現在也能在FaceEmo中運作。" },
+        { "category": "fix", "text": "修復了多項動畫播放問題 — 直視時分身頭部不跟隨 / 腰部固定不動地跳舞 / 分身輕微顫抖 / 姿勢編輯時抓取位置偏移（包含高度）。" },
+        { "category": "fix", "text": "修復了Setup變得極慢的問題（重型虛擬角色從幾十分鐘縮短至幾十秒），以及Setup時本體服裝有時會發生偏移的問題。" },
+        { "category": "improve", "text": "在舊環境中Setup失敗時，現在會顯示易懂的指引。對於現有的分身，將會顯示重新Setup的指引。" }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "現在支援同時使用動畫播放或NPC模式與姿勢編輯。",
+      "summary": "在姿勢編輯中新增了「原點把手」，可握住並移動分身。同時修復了大量關於表情、動畫播放和 Setup 的問題。",
       "entries": [
-        { "category": "fix", "text": "修復了在使用動畫播放或NPC模式時，姿勢編輯無法正常抓取分身關節的問題" },
-        { "category": "improve", "text": "由於內部結構變更，現有Avatar請重新點選Setup後再上傳" }
+        { "category": "new", "text": "在姿勢編輯中新增「原點把手」 — 握住分身腰部前方的黃色圓球，即可搬運整個分身。骨架姿勢現在改為「保持握住並用板機鍵鎖定」的操作方式。" },
+        { "category": "fix", "text": "修復了在使用 FaceEmo 管理表情的虛擬人偶上，分身表情無法運作的問題（包含分身來源側與本體側）。表情凍結現在也能在 FaceEmo 中正常運作。" },
+        { "category": "fix", "text": "修復了多項動畫播放問題 — 直視時分身頭部無法跟隨 / 腰部固定不動地跳舞 / 分身輕微抖動 / 姿勢編輯時抓取位置跑位（包含高度）。" },
+        { "category": "fix", "text": "修復了 Setup 變得極慢的問題（負載較大的虛擬人偶從幾十分鐘縮短至幾十秒），以及 Setup 時本體服裝有時會跑位的問題。" },
+        { "category": "improve", "text": "在舊環境中 Setup 失敗時，現在會顯示易懂的引導說明。對於現存的分身，將會顯示重新 Setup 的提示。" }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "現在支援同時使用動畫播放或NPC模式與姿勢編輯。",
+      "summary": "在姿勢編輯中新增了「原點手柄」，可捉住並移動分身。同時修正了大量關於表情、動畫播放和 Setup 的問題。",
       "entries": [
-        { "category": "fix", "text": "修正了在使用動畫播放或NPC模式時，姿勢編輯無法正常捉住分身關節的問題" },
-        { "category": "improve", "text": "由於內部結構變更，現有Avatar請重新按Setup後再上載" }
+        { "category": "new", "text": "在姿勢編輯中新增「原點手柄」 — 捉住分身腰部前方的黃色圓球，即可搬運整個分身。骨架姿勢現在改為「保持捉住並用扳機掣固定」的操作方式。" },
+        { "category": "fix", "text": "修正了在使用 FaceEmo 管理表情的虛擬化身上，分身表情無法運作的問題（包含分身來源側與本體側）。表情凍結現在也能在 FaceEmo 中正常運作。" },
+        { "category": "fix", "text": "修正了多項動畫播放問題 — 直視時分身頭部不跟隨 / 腰部固定不動地跳舞 / 分身輕微震動 / 姿勢編輯時抓取位置移位（包含高度）。" },
+        { "category": "fix", "text": "修正了 Setup 變得極慢的問題（資源需求較高的虛擬化身由幾十分鐘縮短至幾十秒），以及 Setup 時本體服裝有時會移位的問題。" },
+        { "category": "improve", "text": "在舊環境中 Setup 失敗時，現在會顯示易明的指示。對於現有的分身，將會顯示重新 Setup 的提示。" }
       ]
     }
   ]
