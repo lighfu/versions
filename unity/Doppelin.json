@@ -1,132 +1,188 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-07-28",
-  "changelog": "VRCFury の一部のコンポーネントとの互換性を強化しました。アニメ再生中に分身の揺れが止まる問題も修正しています。",
+  "releaseDate": "2026-07-29",
+  "changelog": "同期の状態が分かりやすくなり、うまくいかないときの問い合わせもボタン1つで済むようになりました。",
   "localized": [
     {
       "lang": "ja",
-      "summary": "VRCFury の一部のコンポーネントとの互換性を強化しました。アニメ再生中に分身の揺れが止まる問題も修正しています。",
+      "summary": "同期の状態が分かりやすくなり、うまくいかないときの問い合わせもボタン1つで済むようになりました。",
       "entries": [
         {
+          "category": "new",
+          "text": "同期を OFF にしている機能にバッジが付くようになりました。"
+        },
+        {
           "category": "improve",
-          "text": "VRCFury の一部のコンポーネントとの互換性を強化しました"
+          "text": "同期パラメータの内訳を一覧で確認できるようになり、その場でチェックを外して同期を切れるようになりました。"
+        },
+        {
+          "category": "new",
+          "text": "うまくいかないときに、設定画面の「サポート」から診断情報をボタン1つで作れるようになりました。"
+        },
+        {
+          "category": "improve",
+          "text": "鏡やカメラに分身を映す設定を廃止し、常に映るようにしました。"
         },
         {
           "category": "fix",
-          "text": "アニメ再生中に分身の髪やスカートの揺れが止まってしまう問題を修正しました"
-        },
-        {
-          "category": "improve",
-          "text": "分身の向きに関わる内部構造が変わりました。すでに導入済みのアバターは一度セットアップし直してください（設定画面にも案内が表示されます）"
+          "text": "同じ分身元アバターを複数のアバターで使ったときに、生成物の参照が外れることがある問題を修正しました。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "Compatibility with some VRCFury components has been improved. Also fixed an issue where the clone would stop swaying during animation playback.",
+      "summary": "The sync status is now easier to understand, and you can contact support with a single button if something goes wrong.",
       "entries": [
         {
+          "category": "new",
+          "text": "A badge is now added to features where sync is turned OFF."
+        },
+        {
           "category": "improve",
-          "text": "Compatibility with some VRCFury components has been improved."
+          "text": "You can now view a list of synced parameters and easily turn off sync by unchecking them on the spot."
+        },
+        {
+          "category": "new",
+          "text": "If something goes wrong, you can now generate a diagnostics bundle with a single button from \"Support\" in the settings screen."
+        },
+        {
+          "category": "improve",
+          "text": "The setting to show the clone in mirrors and cameras has been removed, and it will now always be visible."
         },
         {
           "category": "fix",
-          "text": "Fixed an issue where the clone's hair and skirt would stop swaying during animation playback."
-        },
-        {
-          "category": "improve",
-          "text": "Notice: internal structure related to the clone's orientation has changed. Avatars that already have Doppelin installed should run Setup again. (A notice is also shown in the settings window.)"
+          "text": "Fixed an issue where generated references could be lost when the same base avatar for the clone is used across multiple avatars."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "VRCFury의 일부 컴포넌트와의 호환성을 강화했습니다. 애니메이션 재생 중 분신의 흔들림이 멈추는 문제도 수정했습니다.",
+      "summary": "동기화 상태를 더 쉽게 알 수 있게 되었으며, 문제가 생겼을 때 버튼 하나로 문의할 수 있습니다.",
       "entries": [
         {
+          "category": "new",
+          "text": "동기화를 끈 기능에 배지가 표시됩니다."
+        },
+        {
           "category": "improve",
-          "text": "VRCFury의 일부 컴포넌트와의 호환성을 강화했습니다."
+          "text": "동기화 파라미터 내역을 목록으로 확인하고, 그 자리에서 체크를 해제하여 동기화를 끌 수 있게 되었습니다."
+        },
+        {
+          "category": "new",
+          "text": "문제가 발생했을 때 설정 화면의 '지원' 탭에서 버튼 하나로 진단 정보를 생성할 수 있습니다."
+        },
+        {
+          "category": "improve",
+          "text": "거울이나 카메라에 분신을 표시하는 설정을 없애고 항상 보이도록 했습니다."
         },
         {
           "category": "fix",
-          "text": "애니메이션 재생 중 분신의 머리카락이나 스커트의 흔들림이 멈추는 문제를 수정했습니다."
-        },
-        {
-          "category": "improve",
-          "text": "안내: 분신의 방향과 관련된 내부 구조가 변경되었습니다. 이미 Doppelin을 도입한 아바타는 Setup을 다시 실행해 주세요. (설정 화면에도 안내가 표시됩니다.)"
+          "text": "동일한 분신 원본 아바타를 여러 아바타에서 사용할 때 생성물의 참조가 해제될 수 있는 문제를 수정했습니다."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "增强了与部分 VRCFury 组件的兼容性。同时修复了动画播放期间分身停止摇动的问题。",
+      "summary": "现在更容易了解同步状态了，并且遇到问题时只需点击一个按钮即可联系支持。",
       "entries": [
         {
+          "category": "new",
+          "text": "已关闭同步的功能现在会显示徽章。"
+        },
+        {
           "category": "improve",
-          "text": "增强了与部分 VRCFury 组件的兼容性。"
+          "text": "现在您可以查看同步参数的列表，并直接取消勾选以关闭同步。"
+        },
+        {
+          "category": "new",
+          "text": "遇到问题时，您现在可以在设置界面的“支持”中，通过一个按钮生成诊断信息。"
+        },
+        {
+          "category": "improve",
+          "text": "取消了在镜子和相机中显示分身的设置，现在分身会始终显示。"
         },
         {
           "category": "fix",
-          "text": "修复了动画播放期间分身的头发和裙子停止摇动的问题。"
-        },
-        {
-          "category": "improve",
-          "text": "注意：与分身朝向相关的内部结构已更改。已安装 Doppelin 的化身请重新运行 Setup。（设置窗口中也会显示相关提示。）"
+          "text": "修复了在多个 Avatar 中使用同一个分身源 Avatar 时，生成的引用可能会丢失的问题。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "增強了與部分 VRCFury 組件的相容性。同時修復了動畫播放期間分身停止搖動的問題。",
+      "summary": "現在更容易了解同步狀態了，並且遇到問題時只需點擊一個按鈕即可聯繫支援。",
       "entries": [
         {
+          "category": "new",
+          "text": "已關閉同步的功能現在會顯示徽章。"
+        },
+        {
           "category": "improve",
-          "text": "增強了與部分 VRCFury 組件的相容性。"
+          "text": "現在您可以查看同步參數的列表，並直接取消勾選以關閉同步。"
+        },
+        {
+          "category": "new",
+          "text": "遇到問題時，您現在可以在設定介面的「支援」中，透過一個按鈕生成診斷資訊。"
+        },
+        {
+          "category": "improve",
+          "text": "取消了在鏡子和相機中顯示分身的設定，現在分身會始終顯示。"
         },
         {
           "category": "fix",
-          "text": "修復了動畫播放期間分身的頭髮與裙子停止搖動的問題。"
-        },
-        {
-          "category": "improve",
-          "text": "注意：與分身朝向相關的內部結構已更改。已安裝 Doppelin 的化身請重新執行 Setup。（設定視窗中也會顯示相關提示。）"
+          "text": "修復了在多個 Avatar 中使用同一個分身源 Avatar 時，生成的引用可能會遺失的問題。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "增強了與部分 VRCFury 元件的相容性。同時修復了動畫播放期間分身停止搖動的問題。",
+      "summary": "現在更容易了解同步狀態了，並且遇到問題時只需點擊一個按鈕即可聯繫支援。",
       "entries": [
         {
+          "category": "new",
+          "text": "已關閉同步的功能現在會顯示徽章。"
+        },
+        {
           "category": "improve",
-          "text": "增強了與部分 VRCFury 元件的相容性。"
+          "text": "現在您可以查看同步參數的列表，並直接取消勾選以關閉同步。"
+        },
+        {
+          "category": "new",
+          "text": "遇到問題時，您現在可以在設定介面的「支援」中，透過一個按鈕生成診斷資訊。"
+        },
+        {
+          "category": "improve",
+          "text": "取消了在鏡子和相機中顯示分身的設定，現在分身會始終顯示。"
         },
         {
           "category": "fix",
-          "text": "修復了動畫播放期間分身的頭髮與裙子停止搖動的問題。"
-        },
-        {
-          "category": "improve",
-          "text": "注意：與分身朝向相關的內部結構已更改。已安裝 Doppelin 的化身請重新執行 Setup。（設定視窗中也會顯示相關提示。）"
+          "text": "修復了在多個 Avatar 中使用同一個分身源 Avatar 時，生成的引用可能會遺失的問題。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "增強了與部分 VRCFury 組件的兼容性。同時修復了動畫播放期間分身停止搖動的問題。",
+      "summary": "現在更容易了解同步狀態了，並且遇到問題時只需點擊一個按鈕即可聯繫支援。",
       "entries": [
         {
+          "category": "new",
+          "text": "已關閉同步的功能現在會顯示徽章。"
+        },
+        {
           "category": "improve",
-          "text": "增強了與部分 VRCFury 組件的兼容性。"
+          "text": "現在您可以查看同步參數的列表，並直接取消勾選以關閉同步。"
+        },
+        {
+          "category": "new",
+          "text": "遇到問題時，您現在可以在設定介面的「支援」中，透過一個按鈕生成診斷資訊。"
+        },
+        {
+          "category": "improve",
+          "text": "取消了在鏡子和相機中顯示分身的設定，現在分身會始終顯示。"
         },
         {
           "category": "fix",
-          "text": "修復了動畫播放期間分身的頭髮與裙子停止搖動的問題。"
-        },
-        {
-          "category": "improve",
-          "text": "注意：與分身朝向相關的內部結構已更改。已安裝 Doppelin 的化身請重新執行 Setup。（設定視窗中也會顯示相關提示。）"
+          "text": "修復了在多個 Avatar 中使用同一個分身源 Avatar 時，生成的引用可能會遺失的問題。"
         }
       ]
     }
