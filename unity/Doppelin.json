@@ -1,188 +1,240 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-07-29",
-  "changelog": "同期の状態が分かりやすくなり、うまくいかないときの問い合わせもボタン1つで済むようになりました。",
+  "releaseDate": "2026-08-01",
+  "changelog": "VRCFury との互換性を改善し、設定画面を整理して読みやすくしました。",
   "localized": [
     {
       "lang": "ja",
-      "summary": "同期の状態が分かりやすくなり、うまくいかないときの問い合わせもボタン1つで済むようになりました。",
+      "summary": "VRCFury との互換性を改善し、設定画面を整理して読みやすくしました。",
       "entries": [
         {
-          "category": "new",
-          "text": "同期を OFF にしている機能にバッジが付くようになりました。"
-        },
-        {
           "category": "improve",
-          "text": "同期パラメータの内訳を一覧で確認できるようになり、その場でチェックを外して同期を切れるようになりました。"
-        },
-        {
-          "category": "new",
-          "text": "うまくいかないときに、設定画面の「サポート」から診断情報をボタン1つで作れるようになりました。"
-        },
-        {
-          "category": "improve",
-          "text": "鏡やカメラに分身を映す設定を廃止し、常に映るようにしました。"
+          "text": "VRCFury の一部のコンポーネントとの互換性を向上させました。(再アップロードするだけで反映されます)"
         },
         {
           "category": "fix",
-          "text": "同じ分身元アバターを複数のアバターで使ったときに、生成物の参照が外れることがある問題を修正しました。"
+          "text": "Write Defaults がオフのアバターで、アニメ再生・音楽・NPC モーション・視点固定・分身から声 が動かない問題を修正しました。反映には設定のやり直しが必要です。"
+        },
+        {
+          "category": "improve",
+          "text": "設定画面を整理し、説明文を短く読みやすくしました。"
+        },
+        {
+          "category": "improve",
+          "text": "「全て有効化 / 全て無効化」が、シンクロ・NPC モード・しゃがみ追従にも効くようになりました。"
+        },
+        {
+          "category": "improve",
+          "text": "「別のアバター」モードのパラメータ名の接頭辞が「Doppelin/」になりました(今あるアバターの設定はそのままです)。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "The sync status is now easier to understand, and you can contact support with a single button if something goes wrong.",
+      "summary": "Improved compatibility with VRCFury and reorganized the settings screen to be easier to read.",
       "entries": [
         {
-          "category": "new",
-          "text": "A badge is now added to features where sync is turned OFF."
-        },
-        {
           "category": "improve",
-          "text": "You can now view a list of synced parameters and easily turn off sync by unchecking them on the spot."
-        },
-        {
-          "category": "new",
-          "text": "If something goes wrong, you can now generate a diagnostics bundle with a single button from \"Support\" in the settings screen."
-        },
-        {
-          "category": "improve",
-          "text": "The setting to show the clone in mirrors and cameras has been removed, and it will now always be visible."
+          "text": "Improved compatibility with some VRCFury components. (Changes will be applied simply by re-uploading.)"
         },
         {
           "category": "fix",
-          "text": "Fixed an issue where generated references could be lost when the same base avatar for the clone is used across multiple avatars."
+          "text": "Fixed an issue where Play Animation, music, NPC motion, Fix Viewpoint, and Voice from Clone would not work on avatars with Write Defaults turned off. Re-applying the settings is required for this to take effect."
+        },
+        {
+          "category": "improve",
+          "text": "Reorganized the settings screen, making descriptions shorter and easier to read."
+        },
+        {
+          "category": "improve",
+          "text": "\"Enable All / Disable All\" now also applies to Sync, NPC Mode, and Crouch Follow."
+        },
+        {
+          "category": "improve",
+          "text": "The parameter name prefix in \"Other Avatar\" mode is now \"Doppelin/\" (existing avatar settings remain unchanged)."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "동기화 상태를 더 쉽게 알 수 있게 되었으며, 문제가 생겼을 때 버튼 하나로 문의할 수 있습니다.",
+      "summary": "VRCFury와의 호환성을 개선하고 설정 화면을 정리하여 읽기 쉽게 만들었습니다.",
       "entries": [
         {
-          "category": "new",
-          "text": "동기화를 끈 기능에 배지가 표시됩니다."
-        },
-        {
           "category": "improve",
-          "text": "동기화 파라미터 내역을 목록으로 확인하고, 그 자리에서 체크를 해제하여 동기화를 끌 수 있게 되었습니다."
-        },
-        {
-          "category": "new",
-          "text": "문제가 발생했을 때 설정 화면의 '지원' 탭에서 버튼 하나로 진단 정보를 생성할 수 있습니다."
-        },
-        {
-          "category": "improve",
-          "text": "거울이나 카메라에 분신을 표시하는 설정을 없애고 항상 보이도록 했습니다."
+          "text": "일부 VRCFury 컴포넌트와의 호환성을 향상시켰습니다. (다시 업로드하기만 하면 반영됩니다.)"
         },
         {
           "category": "fix",
-          "text": "동일한 분신 원본 아바타를 여러 아바타에서 사용할 때 생성물의 참조가 해제될 수 있는 문제를 수정했습니다."
+          "text": "Write Defaults가 꺼진 아바타에서 애니메이션 재생, 음악, NPC 모션, 시점 고정, 분신 음성이 작동하지 않는 문제를 수정했습니다. 반영하려면 설정을 다시 해야 합니다."
+        },
+        {
+          "category": "improve",
+          "text": "설정 화면을 정리하고 설명문을 짧고 읽기 쉽게 만들었습니다."
+        },
+        {
+          "category": "improve",
+          "text": "\"전체 활성화 / 전체 비활성화\"가 싱크로, NPC 모드, 앉기 추종에도 적용되도록 개선했습니다."
+        },
+        {
+          "category": "improve",
+          "text": "\"다른 아바타\" 모드의 파라미터 이름 접두사가 \"Doppelin/\"이 되었습니다(기존 아바타 설정은 그대로 유지됩니다)."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "现在更容易了解同步状态了，并且遇到问题时只需点击一个按钮即可联系支持。",
+      "summary": "改善了与 VRCFury 的兼容性，整理了设置界面使其更易读。",
       "entries": [
         {
-          "category": "new",
-          "text": "已关闭同步的功能现在会显示徽章。"
-        },
-        {
           "category": "improve",
-          "text": "现在您可以查看同步参数的列表，并直接取消勾选以关闭同步。"
-        },
-        {
-          "category": "new",
-          "text": "遇到问题时，您现在可以在设置界面的“支持”中，通过一个按钮生成诊断信息。"
-        },
-        {
-          "category": "improve",
-          "text": "取消了在镜子和相机中显示分身的设置，现在分身会始终显示。"
+          "text": "提高了与部分 VRCFury 组件的兼容性。（只需重新上传即可生效）"
         },
         {
           "category": "fix",
-          "text": "修复了在多个 Avatar 中使用同一个分身源 Avatar 时，生成的引用可能会丢失的问题。"
+          "text": "修复了在 Write Defaults 为关闭状态的 Avatar 上，播放动画、音乐、NPC 动作、固定视角和分身发声无法工作的问题。需要重新进行设置才能生效。"
+        },
+        {
+          "category": "improve",
+          "text": "整理了设置界面，使说明文字更简短易读。"
+        },
+        {
+          "category": "improve",
+          "text": "“全部启用 / 全部禁用”现在也适用于同步、NPC 模式和蹲下跟随。"
+        },
+        {
+          "category": "improve",
+          "text": "“其他 Avatar”模式的参数名开头现已改为“Doppelin/”（现有 Avatar 的设置保持不变）。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "現在更容易了解同步狀態了，並且遇到問題時只需點擊一個按鈕即可聯繫支援。",
+      "summary": "改善了與 VRCFury 的相容性，並整理了設定畫面使其更易讀。",
       "entries": [
         {
-          "category": "new",
-          "text": "已關閉同步的功能現在會顯示徽章。"
-        },
-        {
           "category": "improve",
-          "text": "現在您可以查看同步參數的列表，並直接取消勾選以關閉同步。"
-        },
-        {
-          "category": "new",
-          "text": "遇到問題時，您現在可以在設定介面的「支援」中，透過一個按鈕生成診斷資訊。"
-        },
-        {
-          "category": "improve",
-          "text": "取消了在鏡子和相機中顯示分身的設定，現在分身會始終顯示。"
+          "text": "提升了與部分 VRCFury 元件的相容性。（只需重新上傳即可生效）"
         },
         {
           "category": "fix",
-          "text": "修復了在多個 Avatar 中使用同一個分身源 Avatar 時，生成的引用可能會遺失的問題。"
+          "text": "修正了在 Write Defaults 為關閉狀態的 Avatar 上，播放動畫、音樂、NPC 動作、固定視角和分身發聲無法運作的問題。需要重新進行設定才能生效。"
+        },
+        {
+          "category": "improve",
+          "text": "整理了設定畫面，使說明文字更簡短易讀。"
+        },
+        {
+          "category": "improve",
+          "text": "「全部啟用 / 全部停用」現在也適用於同步、NPC 模式和蹲下跟隨。"
+        },
+        {
+          "category": "improve",
+          "text": "「其他 Avatar」模式的參數名稱開頭現已改為「Doppelin/」（現有 Avatar 的設定保持不變）。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "現在更容易了解同步狀態了，並且遇到問題時只需點擊一個按鈕即可聯繫支援。",
+      "summary": "改善了與 VRCFury 的相容性，並整理了設定畫面，使其更容易閱讀。",
       "entries": [
         {
-          "category": "new",
-          "text": "已關閉同步的功能現在會顯示徽章。"
-        },
-        {
           "category": "improve",
-          "text": "現在您可以查看同步參數的列表，並直接取消勾選以關閉同步。"
-        },
-        {
-          "category": "new",
-          "text": "遇到問題時，您現在可以在設定介面的「支援」中，透過一個按鈕生成診斷資訊。"
-        },
-        {
-          "category": "improve",
-          "text": "取消了在鏡子和相機中顯示分身的設定，現在分身會始終顯示。"
+          "text": "提升了與部分 VRCFury 元件的相容性。（只需重新上傳即可套用）"
         },
         {
           "category": "fix",
-          "text": "修復了在多個 Avatar 中使用同一個分身源 Avatar 時，生成的引用可能會遺失的問題。"
+          "text": "修正了在 Write Defaults 為關閉狀態的 Avatar 上，播放動畫、音樂、NPC 動作、固定視角及分身發聲無法運作的問題。必須重新設定才能套用。"
+        },
+        {
+          "category": "improve",
+          "text": "整理了設定畫面，讓說明文字更為簡短易讀。"
+        },
+        {
+          "category": "improve",
+          "text": "「全部啟用 / 全部停用」現在也適用於同步、NPC 模式與蹲下跟隨。"
+        },
+        {
+          "category": "improve",
+          "text": "「其他 Avatar」模式的參數名稱前綴現已變更為「Doppelin/」（現有的 Avatar 設定將保持不變）。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "現在更容易了解同步狀態了，並且遇到問題時只需點擊一個按鈕即可聯繫支援。",
+      "summary": "改善了與 VRCFury 的兼容性，並整理了設定畫面，使其更易於閱讀。",
       "entries": [
         {
-          "category": "new",
-          "text": "已關閉同步的功能現在會顯示徽章。"
-        },
-        {
           "category": "improve",
-          "text": "現在您可以查看同步參數的列表，並直接取消勾選以關閉同步。"
-        },
-        {
-          "category": "new",
-          "text": "遇到問題時，您現在可以在設定介面的「支援」中，透過一個按鈕生成診斷資訊。"
-        },
-        {
-          "category": "improve",
-          "text": "取消了在鏡子和相機中顯示分身的設定，現在分身會始終顯示。"
+          "text": "提升了與部分 VRCFury 組件的兼容性。（只需重新上傳即可生效）"
         },
         {
           "category": "fix",
-          "text": "修復了在多個 Avatar 中使用同一個分身源 Avatar 時，生成的引用可能會遺失的問題。"
+          "text": "修正了在 Write Defaults 處於關閉狀態的 Avatar 上，播放動畫、音樂、NPC 動作、固定視角及分身發聲無法運作的問題。需要重新進行設定才能生效。"
+        },
+        {
+          "category": "improve",
+          "text": "整理了設定畫面，使說明文字更為簡短易讀。"
+        },
+        {
+          "category": "improve",
+          "text": "「全部啟用 / 全部停用」現在也適用於同步、NPC 模式及蹲下跟隨。"
+        },
+        {
+          "category": "improve",
+          "text": "「其他 Avatar」模式的參數名稱開頭現已更改為「Doppelin/」（現有 Avatar 的設定將維持不變）。"
+        }
+      ]
+    },
+    {
+      "lang": "fr",
+      "summary": "Amélioration de la compatibilité avec VRCFury et réorganisation de l'écran des paramètres pour le rendre plus lisible.",
+      "entries": [
+        {
+          "category": "improve",
+          "text": "Amélioration de la compatibilité avec certains composants VRCFury. (Il suffit de télécharger à nouveau l'avatar pour que les modifications soient appliquées.)"
+        },
+        {
+          "category": "fix",
+          "text": "Correction d'un problème où Lire l'animation, la musique, les mouvements NPC, Fixer la vue et Voix du clone ne fonctionnaient pas sur les avatars dont l'option Write Defaults est désactivée. Il est nécessaire de configurer à nouveau les paramètres pour que la correction prenne effet."
+        },
+        {
+          "category": "improve",
+          "text": "Réorganisation de l'écran des paramètres et raccourcissement des descriptions pour une meilleure lisibilité."
+        },
+        {
+          "category": "improve",
+          "text": "« Tout activer / Tout désactiver » s'applique désormais également à Synchro, au Mode NPC et au Suivi d'accroupissement."
+        },
+        {
+          "category": "improve",
+          "text": "Le préfixe des noms de paramètres du mode « Autre avatar » est désormais « Doppelin/ » (les paramètres des avatars existants restent inchangés)."
+        }
+      ]
+    },
+    {
+      "lang": "it",
+      "summary": "Migliorata la compatibilità con VRCFury e riorganizzata la schermata delle impostazioni per renderla più leggibile.",
+      "entries": [
+        {
+          "category": "improve",
+          "text": "Migliorata la compatibilità con alcuni componenti di VRCFury. (Basta caricare nuovamente l'avatar per applicare le modifiche.)"
+        },
+        {
+          "category": "fix",
+          "text": "Risolto un problema per cui Riproduci animazione, musica, movimenti NPC, Fissa visuale e Voce dal clone non funzionavano sugli avatar con Write Defaults disattivato. È necessario configurare nuovamente le impostazioni affinché la correzione abbia effetto."
+        },
+        {
+          "category": "improve",
+          "text": "Riorganizzata la schermata delle impostazioni e rese le descrizioni più brevi e leggibili."
+        },
+        {
+          "category": "improve",
+          "text": "\"Abilita tutto / Disabilita tutto\" ora si applica anche a Sincronizzazione, Modalità NPC e Inseguimento accovacciato."
+        },
+        {
+          "category": "improve",
+          "text": "Il prefisso per i nomi dei parametri nella modalità \"Altro avatar\" è ora \"Doppelin/\" (le impostazioni degli avatar esistenti rimarranno invariate)."
         }
       ]
     }
