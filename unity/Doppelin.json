@@ -1,240 +1,312 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-08-01",
-  "changelog": "VRCFury との互換性を改善し、設定画面を整理して読みやすくしました。",
+  "releaseDate": "2026-08-05",
+  "changelog": "分身の目線操作とフリーズの固定タイマーを追加し、声と VRCFury まわりの不具合を修正しました。",
   "localized": [
     {
       "lang": "ja",
-      "summary": "VRCFury との互換性を改善し、設定画面を整理して読みやすくしました。",
+      "summary": "分身の目線操作とフリーズの固定タイマーを追加し、声と VRCFury まわりの不具合を修正しました。",
       "entries": [
         {
-          "category": "improve",
-          "text": "VRCFury の一部のコンポーネントとの互換性を向上させました。(再アップロードするだけで反映されます)"
+          "category": "new",
+          "text": "分身の目線を掴んで動かせるようになりました。"
+        },
+        {
+          "category": "new",
+          "text": "フリーズに「固定までのタイマー」を追加しました。メニューを操作している最中の崩れた顔やポーズのまま固まってしまうのを防げます。"
+        },
+        {
+          "category": "new",
+          "text": "「シンクロ」と「ミラー」をメニュー上で 1 つにまとめました。鏡像にするかどうかはセットアップ画面で選ぶ形になり、既定は鏡像です。ゲーム内のトグルが 1 つ減り、同期パラメータも 1bit 節約しました。"
+        },
+        {
+          "category": "new",
+          "text": "ポーズ編集の「ボーンの動かし方」を選べるようにしました。"
         },
         {
           "category": "fix",
-          "text": "Write Defaults がオフのアバターで、アニメ再生・音楽・NPC モーション・視点固定・分身から声 が動かない問題を修正しました。反映には設定のやり直しが必要です。"
+          "text": "「分身から声」「両方から声」を ON にしているとき、他の人から見ると本体の目玉が顔から外れた位置に描画される問題を修正しました。"
         },
         {
-          "category": "improve",
-          "text": "設定画面を整理し、説明文を短く読みやすくしました。"
+          "category": "fix",
+          "text": "分身側の VRCFury コンポーネント Ring が消えてしまう問題を修正しました。"
         },
         {
-          "category": "improve",
-          "text": "「全て有効化 / 全て無効化」が、シンクロ・NPC モード・しゃがみ追従にも効くようになりました。"
-        },
-        {
-          "category": "improve",
-          "text": "「別のアバター」モードのパラメータ名の接頭辞が「Doppelin/」になりました(今あるアバターの設定はそのままです)。"
+          "category": "fix",
+          "text": "VRCFury のバージョンによっては、分身側の SPS 項目名に「Doppelin」が付かないことがある問題を修正しました。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "Improved compatibility with VRCFury and reorganized the settings screen to be easier to read.",
+      "summary": "Added gaze control for the clone and a freeze timer, and fixed issues related to voice and VRCFury.",
       "entries": [
         {
-          "category": "improve",
-          "text": "Improved compatibility with some VRCFury components. (Changes will be applied simply by re-uploading.)"
+          "category": "new",
+          "text": "You can now grab and move the clone's gaze."
+        },
+        {
+          "category": "new",
+          "text": "Added a 'Timer before freezing' to Freeze. This prevents the clone from getting stuck with a broken facial expression or pose while you are operating the menu."
+        },
+        {
+          "category": "new",
+          "text": "Combined 'Sync' and 'Mirror' into a single menu option. Whether to use a mirror image is now selected in the setup screen, and it is mirrored by default. This removes one in-game toggle and saves 1 bit of synced parameters."
+        },
+        {
+          "category": "new",
+          "text": "You can now choose 'How to move bones' in Pose Edit."
         },
         {
           "category": "fix",
-          "text": "Fixed an issue where Play Animation, music, NPC motion, Fix Viewpoint, and Voice from Clone would not work on avatars with Write Defaults turned off. Re-applying the settings is required for this to take effect."
+          "text": "Fixed an issue where, when 'Voice from Clone' or 'Voice from Both' is turned ON, the main avatar's eyeballs would appear detached from the face to other players."
         },
         {
-          "category": "improve",
-          "text": "Reorganized the settings screen, making descriptions shorter and easier to read."
+          "category": "fix",
+          "text": "Fixed an issue where the VRCFury Ring component on the clone would disappear."
         },
         {
-          "category": "improve",
-          "text": "\"Enable All / Disable All\" now also applies to Sync, NPC Mode, and Crouch Follow."
-        },
-        {
-          "category": "improve",
-          "text": "The parameter name prefix in \"Other Avatar\" mode is now \"Doppelin/\" (existing avatar settings remain unchanged)."
+          "category": "fix",
+          "text": "Fixed an issue where, depending on the VRCFury version, the SPS item name on the clone might not have 'Doppelin' prefixed."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "VRCFury와의 호환성을 개선하고 설정 화면을 정리하여 읽기 쉽게 만들었습니다.",
+      "summary": "분신의 시선 조작과 프리즈 고정 타이머를 추가하고, 음성 및 VRCFury 관련 문제를 수정했습니다.",
       "entries": [
         {
-          "category": "improve",
-          "text": "일부 VRCFury 컴포넌트와의 호환성을 향상시켰습니다. (다시 업로드하기만 하면 반영됩니다.)"
+          "category": "new",
+          "text": "분신의 시선을 잡아 움직일 수 있게 되었습니다."
+        },
+        {
+          "category": "new",
+          "text": "프리즈에 '고정까지의 타이머'를 추가했습니다. 메뉴를 조작하는 도중 표정이나 포즈가 망가진 채로 굳어버리는 현상을 방지할 수 있습니다."
+        },
+        {
+          "category": "new",
+          "text": "'싱크로'와 '미러'를 메뉴 상에서 하나로 통합했습니다. 거울상으로 할지 여부는 셋업 화면에서 선택하게 되며, 기본값은 거울상입니다. 게임 내 토글이 하나 줄어들고, 동기화 파라미터도 1bit 절약했습니다."
+        },
+        {
+          "category": "new",
+          "text": "포즈 편집의 '본 움직이는 방식'을 선택할 수 있게 되었습니다."
         },
         {
           "category": "fix",
-          "text": "Write Defaults가 꺼진 아바타에서 애니메이션 재생, 음악, NPC 모션, 시점 고정, 분신 음성이 작동하지 않는 문제를 수정했습니다. 반영하려면 설정을 다시 해야 합니다."
+          "text": "'분신에서 소리' 또는 '양쪽에서 소리'를 ON으로 했을 때, 다른 사람에게는 본체의 눈알이 얼굴에서 벗어난 위치에 렌더링되는 문제를 수정했습니다."
         },
         {
-          "category": "improve",
-          "text": "설정 화면을 정리하고 설명문을 짧고 읽기 쉽게 만들었습니다."
+          "category": "fix",
+          "text": "분신 쪽의 VRCFury 컴포넌트인 Ring이 사라져 버리는 문제를 수정했습니다."
         },
         {
-          "category": "improve",
-          "text": "\"전체 활성화 / 전체 비활성화\"가 싱크로, NPC 모드, 앉기 추종에도 적용되도록 개선했습니다."
-        },
-        {
-          "category": "improve",
-          "text": "\"다른 아바타\" 모드의 파라미터 이름 접두사가 \"Doppelin/\"이 되었습니다(기존 아바타 설정은 그대로 유지됩니다)."
+          "category": "fix",
+          "text": "VRCFury 버전에 따라 분신 쪽의 SPS 항목명에 'Doppelin'이 붙지 않는 경우가 있는 문제를 수정했습니다."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "改善了与 VRCFury 的兼容性，整理了设置界面使其更易读。",
+      "summary": "增加了分身的视线控制和冻结固定计时器，并修复了与声音及 VRCFury 相关的问题。",
       "entries": [
         {
-          "category": "improve",
-          "text": "提高了与部分 VRCFury 组件的兼容性。（只需重新上传即可生效）"
+          "category": "new",
+          "text": "现在可以抓住并移动分身的视线了。"
+        },
+        {
+          "category": "new",
+          "text": "在“冻结”中添加了“固定前计时器”。可以防止在操作菜单时脸部表情或姿势崩溃并固定住。"
+        },
+        {
+          "category": "new",
+          "text": "在菜单中将“同步”与“镜像”合并为了一个选项。是否呈现镜像由设置界面进行选择，默认为镜像。游戏内减少了一个切换开关，并节省了 1bit 的同步参数。"
+        },
+        {
+          "category": "new",
+          "text": "现在可以在“姿势编辑”中选择“骨骼的移动方式”了。"
         },
         {
           "category": "fix",
-          "text": "修复了在 Write Defaults 为关闭状态的 Avatar 上，播放动画、音乐、NPC 动作、固定视角和分身发声无法工作的问题。需要重新进行设置才能生效。"
+          "text": "修复了当开启“分身发声”或“双向发声”时，在其他人看来本体的眼球会偏离脸部的问题。"
         },
         {
-          "category": "improve",
-          "text": "整理了设置界面，使说明文字更简短易读。"
+          "category": "fix",
+          "text": "修复了分身端的 VRCFury 组件 Ring 会消失的问题。"
         },
         {
-          "category": "improve",
-          "text": "“全部启用 / 全部禁用”现在也适用于同步、NPC 模式和蹲下跟随。"
-        },
-        {
-          "category": "improve",
-          "text": "“其他 Avatar”模式的参数名开头现已改为“Doppelin/”（现有 Avatar 的设置保持不变）。"
+          "category": "fix",
+          "text": "修复了根据 VRCFury 版本的不同，分身端的 SPS 项目名称可能不会带有“Doppelin”前缀的问题。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "改善了與 VRCFury 的相容性，並整理了設定畫面使其更易讀。",
+      "summary": "新增了分身的視線控制與凍結的固定計時器，並修復了與聲音及 VRCFury 相關的問題。",
       "entries": [
         {
-          "category": "improve",
-          "text": "提升了與部分 VRCFury 元件的相容性。（只需重新上傳即可生效）"
+          "category": "new",
+          "text": "現在可以抓住並移動分身的視線了。"
+        },
+        {
+          "category": "new",
+          "text": "在「凍結」中新增了「固定前計時器」。可防止在操作選單時表情或姿勢崩壞並卡住。"
+        },
+        {
+          "category": "new",
+          "text": "在選單中將「同步」與「鏡像」合併為一個選項。是否呈現鏡像由設定介面進行選擇，預設為鏡像。遊戲內減少了一個切換開關，並節省了 1bit 的同步參數。"
+        },
+        {
+          "category": "new",
+          "text": "現在可以在「姿勢編輯」中選擇「骨骼的移動方式」了。"
         },
         {
           "category": "fix",
-          "text": "修正了在 Write Defaults 為關閉狀態的 Avatar 上，播放動畫、音樂、NPC 動作、固定視角和分身發聲無法運作的問題。需要重新進行設定才能生效。"
+          "text": "修復了當開啟「分身發聲」或「雙向發聲」時，在其他人看來本體的眼球會偏離臉部的問題。"
         },
         {
-          "category": "improve",
-          "text": "整理了設定畫面，使說明文字更簡短易讀。"
+          "category": "fix",
+          "text": "修復了分身端的 VRCFury 元件 Ring 會消失的問題。"
         },
         {
-          "category": "improve",
-          "text": "「全部啟用 / 全部停用」現在也適用於同步、NPC 模式和蹲下跟隨。"
-        },
-        {
-          "category": "improve",
-          "text": "「其他 Avatar」模式的參數名稱開頭現已改為「Doppelin/」（現有 Avatar 的設定保持不變）。"
+          "category": "fix",
+          "text": "修復了根據 VRCFury 版本的不同，分身端的 SPS 項目名稱可能不會帶有「Doppelin」前綴的問題。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "改善了與 VRCFury 的相容性，並整理了設定畫面，使其更容易閱讀。",
+      "summary": "新增了分身的視線控制與凍結固定計時器，並修正了與聲音及 VRCFury 相關的問題。",
       "entries": [
         {
-          "category": "improve",
-          "text": "提升了與部分 VRCFury 元件的相容性。（只需重新上傳即可套用）"
+          "category": "new",
+          "text": "現在可以抓住並移動分身的視線了。"
+        },
+        {
+          "category": "new",
+          "text": "在「凍結」中新增了「固定前計時器」。可以防止在操作選單時，表情或姿勢崩壞並卡住。"
+        },
+        {
+          "category": "new",
+          "text": "在選單中將「同步」與「鏡像」合併為一個選項。是否呈現鏡像改由設定畫面選擇，預設為鏡像。遊戲內減少了一個切換開關，並節省了 1bit 的同步參數。"
+        },
+        {
+          "category": "new",
+          "text": "現在可以在「姿勢編輯」中選擇「骨骼的移動方式」了。"
         },
         {
           "category": "fix",
-          "text": "修正了在 Write Defaults 為關閉狀態的 Avatar 上，播放動畫、音樂、NPC 動作、固定視角及分身發聲無法運作的問題。必須重新設定才能套用。"
+          "text": "修正了當開啟「分身發聲」或「雙方發聲」時，其他玩家會看到本體的眼球偏離臉部的問題。"
         },
         {
-          "category": "improve",
-          "text": "整理了設定畫面，讓說明文字更為簡短易讀。"
+          "category": "fix",
+          "text": "修正了分身側的 VRCFury 元件 Ring 會消失的問題。"
         },
         {
-          "category": "improve",
-          "text": "「全部啟用 / 全部停用」現在也適用於同步、NPC 模式與蹲下跟隨。"
-        },
-        {
-          "category": "improve",
-          "text": "「其他 Avatar」模式的參數名稱前綴現已變更為「Doppelin/」（現有的 Avatar 設定將保持不變）。"
+          "category": "fix",
+          "text": "修正了根據 VRCFury 版本的不同，分身側的 SPS 項目名稱可能不會加上「Doppelin」前綴的問題。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "改善了與 VRCFury 的兼容性，並整理了設定畫面，使其更易於閱讀。",
+      "summary": "新增了分身的視線控制和凍結固定計時器，並修復了與聲音及 VRCFury 相關的問題。",
       "entries": [
         {
-          "category": "improve",
-          "text": "提升了與部分 VRCFury 組件的兼容性。（只需重新上傳即可生效）"
+          "category": "new",
+          "text": "現在可以捉住並移動分身的視線。"
+        },
+        {
+          "category": "new",
+          "text": "在「凍結」中加入了「固定前計時器」。可以防止在操作選單時，因為表情或姿勢崩壞而卡住。"
+        },
+        {
+          "category": "new",
+          "text": "在選單上將「同步」與「鏡像」合併為一個選項。是否呈現鏡像改由設定畫面進行選擇，預設為鏡像。遊戲內減少了一個切換開關，並節省了 1bit 的同步參數。"
+        },
+        {
+          "category": "new",
+          "text": "現在可以在「姿勢編輯」中選擇「骨骼的移動方式」。"
         },
         {
           "category": "fix",
-          "text": "修正了在 Write Defaults 處於關閉狀態的 Avatar 上，播放動畫、音樂、NPC 動作、固定視角及分身發聲無法運作的問題。需要重新進行設定才能生效。"
+          "text": "修復了當開啟「分身發聲」或「雙方發聲」時，從其他玩家的角度會看到本體的眼球偏離面部的問題。"
         },
         {
-          "category": "improve",
-          "text": "整理了設定畫面，使說明文字更為簡短易讀。"
+          "category": "fix",
+          "text": "修復了分身側的 VRCFury 組件 Ring 會消失的問題。"
         },
         {
-          "category": "improve",
-          "text": "「全部啟用 / 全部停用」現在也適用於同步、NPC 模式及蹲下跟隨。"
-        },
-        {
-          "category": "improve",
-          "text": "「其他 Avatar」模式的參數名稱開頭現已更改為「Doppelin/」（現有 Avatar 的設定將維持不變）。"
+          "category": "fix",
+          "text": "修復了根據 VRCFury 版本的不同，分身側的 SPS 項目名稱可能不會加上「Doppelin」前綴的問題。"
         }
       ]
     },
     {
       "lang": "fr",
-      "summary": "Amélioration de la compatibilité avec VRCFury et réorganisation de l'écran des paramètres pour le rendre plus lisible.",
+      "summary": "Ajout du contrôle du regard du clone et d'un minuteur pour la fonction Figer. Les problèmes liés à la voix et à VRCFury ont également été corrigés.",
       "entries": [
         {
-          "category": "improve",
-          "text": "Amélioration de la compatibilité avec certains composants VRCFury. (Il suffit de télécharger à nouveau l'avatar pour que les modifications soient appliquées.)"
+          "category": "new",
+          "text": "Vous pouvez désormais attraper et déplacer le regard du clone."
+        },
+        {
+          "category": "new",
+          "text": "Ajout d'un « Minuteur avant de figer » dans Figer. Cela évite que le clone ne se fige avec une expression ou une pose déformée pendant que vous naviguez dans le menu."
+        },
+        {
+          "category": "new",
+          "text": "Les options « Synchro » et « Miroir » ont été fusionnées en un seul bouton dans le menu. L'activation de l'effet miroir se choisit désormais dans l'écran de configuration, et il est activé par défaut. Cela supprime un bouton dans le jeu et économise 1 bit de paramètre de synchronisation."
+        },
+        {
+          "category": "new",
+          "text": "Vous pouvez maintenant choisir la « Méthode de déplacement des os » dans Édition de pose."
         },
         {
           "category": "fix",
-          "text": "Correction d'un problème où Lire l'animation, la musique, les mouvements NPC, Fixer la vue et Voix du clone ne fonctionnaient pas sur les avatars dont l'option Write Defaults est désactivée. Il est nécessaire de configurer à nouveau les paramètres pour que la correction prenne effet."
+          "text": "Correction d'un problème où, lorsque « Voix du clone » ou « Voix des deux » est activé, les globes oculaires de l'avatar principal apparaissaient détachés du visage pour les autres joueurs."
         },
         {
-          "category": "improve",
-          "text": "Réorganisation de l'écran des paramètres et raccourcissement des descriptions pour une meilleure lisibilité."
+          "category": "fix",
+          "text": "Correction d'un problème où le composant Ring de VRCFury sur le clone disparaissait."
         },
         {
-          "category": "improve",
-          "text": "« Tout activer / Tout désactiver » s'applique désormais également à Synchro, au Mode NPC et au Suivi d'accroupissement."
-        },
-        {
-          "category": "improve",
-          "text": "Le préfixe des noms de paramètres du mode « Autre avatar » est désormais « Doppelin/ » (les paramètres des avatars existants restent inchangés)."
+          "category": "fix",
+          "text": "Correction d'un problème où, selon la version de VRCFury, le nom de l'élément SPS sur le clone pouvait ne pas avoir le préfixe « Doppelin »."
         }
       ]
     },
     {
       "lang": "it",
-      "summary": "Migliorata la compatibilità con VRCFury e riorganizzata la schermata delle impostazioni per renderla più leggibile.",
+      "summary": "Aggiunti il controllo dello sguardo per il clone e un timer per Freeze, e corretti i problemi relativi alla voce e a VRCFury.",
       "entries": [
         {
-          "category": "improve",
-          "text": "Migliorata la compatibilità con alcuni componenti di VRCFury. (Basta caricare nuovamente l'avatar per applicare le modifiche.)"
+          "category": "new",
+          "text": "Ora puoi afferrare e muovere lo sguardo del clone."
+        },
+        {
+          "category": "new",
+          "text": "Aggiunto un 'Timer prima del blocco' in Freeze. Questo evita che il clone rimanga bloccato con un'espressione facciale o una posa rotta mentre stai operando nel menu."
+        },
+        {
+          "category": "new",
+          "text": "'Sincro' e 'Specchio' sono stati uniti in un'unica opzione nel menu. La scelta di usare l'effetto specchio si fa ora nella schermata di configurazione, ed è attivo di default. Questo rimuove un interruttore nel gioco e risparmia 1 bit nei parametri di sincronizzazione."
+        },
+        {
+          "category": "new",
+          "text": "Ora puoi scegliere il 'Metodo di movimento delle ossa' in Modifica posa."
         },
         {
           "category": "fix",
-          "text": "Risolto un problema per cui Riproduci animazione, musica, movimenti NPC, Fissa visuale e Voce dal clone non funzionavano sugli avatar con Write Defaults disattivato. È necessario configurare nuovamente le impostazioni affinché la correzione abbia effetto."
+          "text": "Risolto un problema per cui, con 'Voce dal clone' o 'Voce da entrambi' attivi, i bulbi oculari dell'avatar principale apparivano staccati dal viso agli altri giocatori."
         },
         {
-          "category": "improve",
-          "text": "Riorganizzata la schermata delle impostazioni e rese le descrizioni più brevi e leggibili."
+          "category": "fix",
+          "text": "Risolto un problema per cui il componente Ring di VRCFury sul clone scompariva."
         },
         {
-          "category": "improve",
-          "text": "\"Abilita tutto / Disabilita tutto\" ora si applica anche a Sincronizzazione, Modalità NPC e Inseguimento accovacciato."
-        },
-        {
-          "category": "improve",
-          "text": "Il prefisso per i nomi dei parametri nella modalità \"Altro avatar\" è ora \"Doppelin/\" (le impostazioni degli avatar esistenti rimarranno invariate)."
+          "category": "fix",
+          "text": "Risolto un problema per cui, a seconda della versione di VRCFury, il nome dell'elemento SPS sul clone poteva non avere il prefisso 'Doppelin'."
         }
       ]
     }
