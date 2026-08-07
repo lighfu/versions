@@ -1,312 +1,420 @@
 {
-  "version": "1.6.0",
+  "version": "1.7.0",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-08-05",
-  "changelog": "分身の目線操作とフリーズの固定タイマーを追加し、声と VRCFury まわりの不具合を修正しました。",
+  "releaseDate": "2026-08-07",
+  "changelog": "分身の側から本体や相手に触れられるようになりました。別のアバターを分身にしたとき、なでなで等のコンタクトやましゅまろPB系のギミックが動かなかった問題も解消しています。※今回は分身に残すものが増えたため、インストーラーの「セットアップ」を押し直してからアップロードしてください（再アップロードだけでは反映されません）。",
   "localized": [
     {
       "lang": "ja",
-      "summary": "分身の目線操作とフリーズの固定タイマーを追加し、声と VRCFury まわりの不具合を修正しました。",
+      "summary": "分身の側から本体や相手に触れられるようになりました。別のアバターを分身にしたとき、なでなで等のコンタクトやましゅまろPB系のギミックが動かなかった問題も解消しています。※今回は分身に残すものが増えたため、インストーラーの「セットアップ」を押し直してからアップロードしてください（再アップロードだけでは反映されません）。",
       "entries": [
         {
           "category": "new",
-          "text": "分身の目線を掴んで動かせるようになりました。"
+          "text": "分身の側から本体や相手に触れられるようになりました。これまで分身には触る側の部品が残らず、分身の手で相手をなでる、といったことができませんでした。"
         },
         {
           "category": "new",
-          "text": "フリーズに「固定までのタイマー」を追加しました。メニューを操作している最中の崩れた顔やポーズのまま固まってしまうのを防げます。"
-        },
-        {
-          "category": "new",
-          "text": "「シンクロ」と「ミラー」をメニュー上で 1 つにまとめました。鏡像にするかどうかはセットアップ画面で選ぶ形になり、既定は鏡像です。ゲーム内のトグルが 1 つ減り、同期パラメータも 1bit 節約しました。"
-        },
-        {
-          "category": "new",
-          "text": "ポーズ編集の「ボーンの動かし方」を選べるようにしました。"
+          "text": "なでなで等で音が鳴るギミックについて、分身の側から音が鳴るようになりました（別のアバターを分身にするモード）。"
         },
         {
           "category": "fix",
-          "text": "「分身から声」「両方から声」を ON にしているとき、他の人から見ると本体の目玉が顔から外れた位置に描画される問題を修正しました。"
+          "text": "別のアバターを分身にしているとき、なでなで等のコンタクトが分身側でまったく反応しなかった問題を修正しました。"
         },
         {
           "category": "fix",
-          "text": "分身側の VRCFury コンポーネント Ring が消えてしまう問題を修正しました。"
+          "text": "ましゅまろPB のようなギミックが、別のアバターを分身にしたときに動かなかった問題を修正しました。"
         },
         {
           "category": "fix",
-          "text": "VRCFury のバージョンによっては、分身側の SPS 項目名に「Doppelin」が付かないことがある問題を修正しました。"
+          "text": "分身の SPS のコンポーネントを誤って解釈するバグを修正しました。穴にプラグを挿すと、入った先が消えてしまう症状が出ていました。"
+        },
+        {
+          "category": "fix",
+          "text": "アニメーションが指すオブジェクトの位置が分身の内部構造とずれて届かなくなることがある問題を修正しました。"
+        },
+        {
+          "category": "fix",
+          "text": "ましゅまろPB をお使いの方へ：分身から「他プレイヤーとの胸干渉」は現在正常に機能しません。分身の Contact Sender が自分自身の Receiver 範囲に常に重なり、胸が押し込まれ続けるため、セットアップ時に自動で取り除きます。分身の胸に触れて反応させる操作は今までどおり使えます。"
+        },
+        {
+          "category": "improve",
+          "text": "分身に残す Constraint を既定で保持するようになりました。ましゅまろPB のように「揺れた結果を Constraint で骨に伝える」種類のギミックが、分身側でも動くようになります。"
+        },
+        {
+          "category": "improve",
+          "text": "「FX の上書きを回避する」の設定を廃止し、常に有効になりました。ほぼ全てのアバターで有効にしておくべき設定で、切る理由がほとんど無かったためです。"
+        },
+        {
+          "category": "improve",
+          "text": "設定画面のいくつかの項目を整理・移動しました。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "Added gaze control for the clone and a freeze timer, and fixed issues related to voice and VRCFury.",
+      "summary": "The clone can now touch the wearer's own avatar and other players. We have also fixed issues where head-patting and other contacts, as well as gimmicks like ましゅまろPB, didn't work when using a different avatar as the clone. *Note: Since we are keeping more components on the clone in this update, please re-run Setup from the Doppelin installer before uploading (simply re-uploading won't apply the changes).",
       "entries": [
         {
           "category": "new",
-          "text": "You can now grab and move the clone's gaze."
+          "text": "The clone can now touch the wearer's own avatar and other players. Previously, the components for touching were not kept on the clone, so you couldn't pet someone with the clone's hand."
         },
         {
           "category": "new",
-          "text": "Added a 'Timer before freezing' to Freeze. This prevents the clone from getting stuck with a broken facial expression or pose while you are operating the menu."
-        },
-        {
-          "category": "new",
-          "text": "Combined 'Sync' and 'Mirror' into a single menu option. Whether to use a mirror image is now selected in the setup screen, and it is mirrored by default. This removes one in-game toggle and saves 1 bit of synced parameters."
-        },
-        {
-          "category": "new",
-          "text": "You can now choose 'How to move bones' in Pose Edit."
+          "text": "For gimmicks that play sounds during head-patting or petting, the sounds will now play from the clone's side (when using a different avatar as the clone)."
         },
         {
           "category": "fix",
-          "text": "Fixed an issue where, when 'Voice from Clone' or 'Voice from Both' is turned ON, the main avatar's eyeballs would appear detached from the face to other players."
+          "text": "Fixed an issue where head-patting and other contacts did not respond at all on the clone when a different avatar was used as the clone."
         },
         {
           "category": "fix",
-          "text": "Fixed an issue where the VRCFury Ring component on the clone would disappear."
+          "text": "Fixed an issue where gimmicks like ましゅまろPB did not work when using a different avatar as the clone."
         },
         {
           "category": "fix",
-          "text": "Fixed an issue where, depending on the VRCFury version, the SPS item name on the clone might not have 'Doppelin' prefixed."
+          "text": "Fixed a bug where the clone's SPS components were misinterpreted. This caused symptoms like the plug disappearing when inserted into a hole."
+        },
+        {
+          "category": "fix",
+          "text": "Fixed an issue where the object paths referenced by animations could misalign with the clone's internal structure and fail to work."
+        },
+        {
+          "category": "fix",
+          "text": "To ましゅまろPB users: The \"chest interference with other players\" from the clone is currently not functioning properly. Because the clone's Contact Sender always overlaps with its own Receiver zone, causing the chest to be continuously pushed in, it will be automatically removed during setup. However, you can still trigger reactions by touching the clone's chest just like before."
+        },
+        {
+          "category": "improve",
+          "text": "Constraints meant to be kept on the clone are now retained by default. Gimmicks that transfer jiggle results to bones via Constraints, like ましゅまろPB, will now work on the clone as well."
+        },
+        {
+          "category": "improve",
+          "text": "The \"Avoid FX overwrite\" setting has been removed and is now always enabled. This is because it should be enabled for almost all avatars, and there was little reason to turn it off."
+        },
+        {
+          "category": "improve",
+          "text": "Organized and moved some items in the settings screen."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "분신의 시선 조작과 프리즈 고정 타이머를 추가하고, 음성 및 VRCFury 관련 문제를 수정했습니다.",
+      "summary": "이제 분신(the clone)이 본체나 다른 플레이어를 만질 수 있게 되었습니다. 다른 아바타를 분신으로 사용할 때 쓰다듬기 등의 컨택트나 ましゅまろPB 계열 기믹이 작동하지 않던 문제도 해결했습니다. ※이번에는 분신에 남기는 컴포넌트가 늘어났으므로, 업로드하기 전에 인스톨러의 '셋업'을 다시 눌러주세요(단순히 다시 업로드하는 것만으로는 반영되지 않습니다).",
       "entries": [
         {
           "category": "new",
-          "text": "분신의 시선을 잡아 움직일 수 있게 되었습니다."
+          "text": "이제 분신이 본체나 다른 플레이어를 만질 수 있게 되었습니다. 이전에는 분신에 만지는 쪽의 부품이 남지 않아, 분신의 손으로 다른 사람을 쓰다듬는 등의 행동을 할 수 없었습니다."
         },
         {
           "category": "new",
-          "text": "프리즈에 '고정까지의 타이머'를 추가했습니다. 메뉴를 조작하는 도중 표정이나 포즈가 망가진 채로 굳어버리는 현상을 방지할 수 있습니다."
-        },
-        {
-          "category": "new",
-          "text": "'싱크로'와 '미러'를 메뉴 상에서 하나로 통합했습니다. 거울상으로 할지 여부는 셋업 화면에서 선택하게 되며, 기본값은 거울상입니다. 게임 내 토글이 하나 줄어들고, 동기화 파라미터도 1bit 절약했습니다."
-        },
-        {
-          "category": "new",
-          "text": "포즈 편집의 '본 움직이는 방식'을 선택할 수 있게 되었습니다."
+          "text": "쓰다듬기 등에서 소리가 나는 기믹에 대해, 이제 분신 쪽에서도 소리가 납니다(다른 아바타를 분신으로 사용하는 모드)."
         },
         {
           "category": "fix",
-          "text": "'분신에서 소리' 또는 '양쪽에서 소리'를 ON으로 했을 때, 다른 사람에게는 본체의 눈알이 얼굴에서 벗어난 위치에 렌더링되는 문제를 수정했습니다."
+          "text": "다른 아바타를 분신으로 사용 중일 때, 쓰다듬기 등의 컨택트가 분신 측에서 전혀 반응하지 않던 문제를 수정했습니다."
         },
         {
           "category": "fix",
-          "text": "분신 쪽의 VRCFury 컴포넌트인 Ring이 사라져 버리는 문제를 수정했습니다."
+          "text": "다른 아바타를 분신으로 사용했을 때 ましゅまろPB 같은 기믹이 작동하지 않던 문제를 수정했습니다."
         },
         {
           "category": "fix",
-          "text": "VRCFury 버전에 따라 분신 쪽의 SPS 항목명에 'Doppelin'이 붙지 않는 경우가 있는 문제를 수정했습니다."
+          "text": "분신의 SPS 컴포넌트를 잘못 해석하는 버그를 수정했습니다. 구멍에 플러그를 꽂으면 들어간 부분이 사라져버리는 증상이 발생했었습니다."
+        },
+        {
+          "category": "fix",
+          "text": "애니메이션이 가리키는 오브젝트 위치가 분신의 내부 구조와 어긋나 작동하지 않게 되는 문제를 수정했습니다."
+        },
+        {
+          "category": "fix",
+          "text": "ましゅまろPB를 사용하시는 분들께: 분신에서의 '다른 플레이어와의 가슴 간섭'은 현재 정상적으로 작동하지 않습니다. 분신의 Contact Sender가 자신의 Receiver 범위에 항상 겹쳐 가슴이 계속 눌린 상태가 되기 때문에, 셋업 시 자동으로 제거됩니다. 분신의 가슴을 만져서 반응하게 하는 조작은 이전과 동일하게 사용할 수 있습니다."
+        },
+        {
+          "category": "improve",
+          "text": "분신에 남기는 Constraint를 기본적으로 유지하게 되었습니다. ましゅまろPB처럼 '흔들린 결과를 Constraint로 뼈에 전달하는' 종류의 기믹이 분신 측에서도 작동하게 됩니다."
+        },
+        {
+          "category": "improve",
+          "text": "'FX 덮어쓰기 방지' 설정을 폐지하고 항상 활성화되도록 변경했습니다. 거의 모든 아바타에서 활성화해 두어야 하는 설정이며, 끌 이유가 거의 없었기 때문입니다."
+        },
+        {
+          "category": "improve",
+          "text": "설정 화면의 일부 항목을 정리하고 이동했습니다."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "增加了分身的视线控制和冻结固定计时器，并修复了与声音及 VRCFury 相关的问题。",
+      "summary": "分身现在可以触碰本体和其他玩家了。同时也修复了将其他模型作为分身时，摸头等 Contact 交互以及 ましゅまろPB 类机关无法工作的问题。※由于本次增加了保留在分身上的组件，请在上传前重新点击安装器的“Setup”（仅重新上传不会生效）。",
       "entries": [
         {
           "category": "new",
-          "text": "现在可以抓住并移动分身的视线了。"
+          "text": "分身现在可以触碰本体和其他玩家了。在此之前，分身没有保留用于触碰的组件，因此无法用分身的手去摸其他人。"
         },
         {
           "category": "new",
-          "text": "在“冻结”中添加了“固定前计时器”。可以防止在操作菜单时脸部表情或姿势崩溃并固定住。"
-        },
-        {
-          "category": "new",
-          "text": "在菜单中将“同步”与“镜像”合并为了一个选项。是否呈现镜像由设置界面进行选择，默认为镜像。游戏内减少了一个切换开关，并节省了 1bit 的同步参数。"
-        },
-        {
-          "category": "new",
-          "text": "现在可以在“姿势编辑”中选择“骨骼的移动方式”了。"
+          "text": "修复了摸头等会发出声音的机关，现在声音会从分身一侧发出（在将其他模型作为分身的模式下）。"
         },
         {
           "category": "fix",
-          "text": "修复了当开启“分身发声”或“双向发声”时，在其他人看来本体的眼球会偏离脸部的问题。"
+          "text": "修复了将其他模型作为分身时，摸头等 Contact 交互在分身侧完全没有反应的问题。"
         },
         {
           "category": "fix",
-          "text": "修复了分身端的 VRCFury 组件 Ring 会消失的问题。"
+          "text": "修复了将其他模型作为分身时，ましゅまろPB 等机关无法工作的问题。"
         },
         {
           "category": "fix",
-          "text": "修复了根据 VRCFury 版本的不同，分身端的 SPS 项目名称可能不会带有“Doppelin”前缀的问题。"
+          "text": "修复了错误解析分身的 SPS 组件的 Bug。之前会出现将 Plug 插入 Hole 后，进入的部分消失的症状。"
+        },
+        {
+          "category": "fix",
+          "text": "修复了动画指向的物体位置与分身内部结构错位导致无法生效的问题。"
+        },
+        {
+          "category": "fix",
+          "text": "给 ましゅまろPB 用户的说明：分身对“其他玩家的胸部干涉”目前无法正常工作。因为分身的 Contact Sender 会始终与自身的 Receiver 范围重叠，导致胸部一直处于被挤压的状态，因此在 Setup 时会自动将其移除。不过，触碰分身的胸部触发反应的操作依然可以像以前一样正常使用。"
+        },
+        {
+          "category": "improve",
+          "text": "默认会保留在分身上的 Constraint。像 ましゅまろPB 这种“通过 Constraint 将摇动结果传递给骨骼”的机关，现在也可以在分身侧正常工作了。"
+        },
+        {
+          "category": "improve",
+          "text": "废除了“避免覆盖 FX”的选项，现在该功能始终开启。因为几乎所有模型都应该开启此设置，几乎没有理由关闭它。"
+        },
+        {
+          "category": "improve",
+          "text": "整理并移动了设置界面中的一些选项。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "新增了分身的視線控制與凍結的固定計時器，並修復了與聲音及 VRCFury 相關的問題。",
+      "summary": "分身現在可以觸碰本尊和其他玩家了。同時也修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動以及 ましゅまろPB 類機關無法運作的問題。※因為這次增加了保留在分身上的元件，請在上傳前重新點擊安裝器的「Setup」（僅重新上傳不會生效）。",
       "entries": [
         {
           "category": "new",
-          "text": "現在可以抓住並移動分身的視線了。"
+          "text": "分身現在可以觸碰本尊和其他玩家了。在此之前，分身沒有保留用於觸碰的元件，因此無法用分身的手去摸其他人。"
         },
         {
           "category": "new",
-          "text": "在「凍結」中新增了「固定前計時器」。可防止在操作選單時表情或姿勢崩壞並卡住。"
-        },
-        {
-          "category": "new",
-          "text": "在選單中將「同步」與「鏡像」合併為一個選項。是否呈現鏡像由設定介面進行選擇，預設為鏡像。遊戲內減少了一個切換開關，並節省了 1bit 的同步參數。"
-        },
-        {
-          "category": "new",
-          "text": "現在可以在「姿勢編輯」中選擇「骨骼的移動方式」了。"
+          "text": "關於摸頭等會發出聲音的機關，現在聲音會從分身一側發出（在將其他 Avatar 作為分身的模式下）。"
         },
         {
           "category": "fix",
-          "text": "修復了當開啟「分身發聲」或「雙向發聲」時，在其他人看來本體的眼球會偏離臉部的問題。"
+          "text": "修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動在分身側完全沒有反應的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了分身端的 VRCFury 元件 Ring 會消失的問題。"
+          "text": "修復了將其他 Avatar 作為分身時，ましゅまろPB 等機關無法運作的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了根據 VRCFury 版本的不同，分身端的 SPS 項目名稱可能不會帶有「Doppelin」前綴的問題。"
+          "text": "修復了錯誤解析分身的 SPS 元件的 Bug。之前會出現將 Plug 插入 Hole 後，進入的部分消失的症狀。"
+        },
+        {
+          "category": "fix",
+          "text": "修復了動畫指向的物件位置與分身內部結構錯位，導致無法生效的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "給 ましゅまろPB 使用者的說明：分身對「其他玩家的胸部干涉」目前無法正常運作。因為分身的 Contact Sender 會始終與自身的 Receiver 範圍重疊，導致胸部一直處於被擠壓的狀態，因此在 Setup 時會自動將其移除。不過，觸碰分身的胸部觸發反應的操作依然可以像以前一樣正常使用。"
+        },
+        {
+          "category": "improve",
+          "text": "預設會保留在分身上的 Constraint。像 ましゅまろPB 這種「透過 Constraint 將搖晃結果傳遞給骨骼」的機關，現在也可以在分身側正常運作了。"
+        },
+        {
+          "category": "improve",
+          "text": "廢除了「避免覆蓋 FX」的設定，現在該功能始終開啟。因為幾乎所有 Avatar 都應該開啟此設定，幾乎沒有理由關閉它。"
+        },
+        {
+          "category": "improve",
+          "text": "整理並移動了設定介面中的一些選項。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "新增了分身的視線控制與凍結固定計時器，並修正了與聲音及 VRCFury 相關的問題。",
+      "summary": "分身現在可以觸碰本尊和其他玩家了。同時也修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動以及 ましゅまろPB 類機關無法運作的問題。※因為這次增加了保留在分身上的元件，請在上傳前重新點擊安裝器的「Setup」（僅重新上傳不會生效）。",
       "entries": [
         {
           "category": "new",
-          "text": "現在可以抓住並移動分身的視線了。"
+          "text": "分身現在可以觸碰本尊和其他玩家了。在此之前，分身沒有保留用於觸碰的元件，因此無法用分身的手去摸其他人。"
         },
         {
           "category": "new",
-          "text": "在「凍結」中新增了「固定前計時器」。可以防止在操作選單時，表情或姿勢崩壞並卡住。"
-        },
-        {
-          "category": "new",
-          "text": "在選單中將「同步」與「鏡像」合併為一個選項。是否呈現鏡像改由設定畫面選擇，預設為鏡像。遊戲內減少了一個切換開關，並節省了 1bit 的同步參數。"
-        },
-        {
-          "category": "new",
-          "text": "現在可以在「姿勢編輯」中選擇「骨骼的移動方式」了。"
+          "text": "關於摸頭等會發出聲音的機關，現在聲音會從分身一側發出（在將其他 Avatar 作為分身的模式下）。"
         },
         {
           "category": "fix",
-          "text": "修正了當開啟「分身發聲」或「雙方發聲」時，其他玩家會看到本體的眼球偏離臉部的問題。"
+          "text": "修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動在分身側完全沒有反應的問題。"
         },
         {
           "category": "fix",
-          "text": "修正了分身側的 VRCFury 元件 Ring 會消失的問題。"
+          "text": "修復了將其他 Avatar 作為分身時，ましゅまろPB 等機關無法運作的問題。"
         },
         {
           "category": "fix",
-          "text": "修正了根據 VRCFury 版本的不同，分身側的 SPS 項目名稱可能不會加上「Doppelin」前綴的問題。"
+          "text": "修復了錯誤解析分身的 SPS 元件的 Bug。之前會出現將 Plug 插入 Hole 後，進入的部分消失的症狀。"
+        },
+        {
+          "category": "fix",
+          "text": "修復了動畫指向的物件位置與分身內部結構錯位，導致無法生效的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "給 ましゅまろPB 使用者的說明：分身對「其他玩家的胸部干涉」目前無法正常運作。因為分身的 Contact Sender 會始終與自身的 Receiver 範圍重疊，導致胸部一直處於被擠壓的狀態，因此在 Setup 時會自動將其移除。不過，觸碰分身的胸部觸發反應的操作依然可以像以前一樣正常使用。"
+        },
+        {
+          "category": "improve",
+          "text": "預設會保留在分身上的 Constraint。像 ましゅまろPB 這種「透過 Constraint 將搖晃結果傳遞給骨骼」的機關，現在也可以在分身側正常運作了。"
+        },
+        {
+          "category": "improve",
+          "text": "廢除了「避免覆蓋 FX」的設定，現在該功能始終開啟。因為幾乎所有 Avatar 都應該開啟此設定，幾乎沒有理由關閉它。"
+        },
+        {
+          "category": "improve",
+          "text": "整理並移動了設定介面中的一些選項。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "新增了分身的視線控制和凍結固定計時器，並修復了與聲音及 VRCFury 相關的問題。",
+      "summary": "分身現在可以觸碰本尊和其他玩家了。同時也修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動以及 ましゅまろPB 類機關無法運作的問題。※因為這次增加了保留在分身上的元件，請在上傳前重新點擊安裝器的「Setup」（僅重新上傳不會生效）。",
       "entries": [
         {
           "category": "new",
-          "text": "現在可以捉住並移動分身的視線。"
+          "text": "分身現在可以觸碰本尊和其他玩家了。在此之前，分身沒有保留用於觸碰的元件，因此無法用分身的手去摸其他人。"
         },
         {
           "category": "new",
-          "text": "在「凍結」中加入了「固定前計時器」。可以防止在操作選單時，因為表情或姿勢崩壞而卡住。"
-        },
-        {
-          "category": "new",
-          "text": "在選單上將「同步」與「鏡像」合併為一個選項。是否呈現鏡像改由設定畫面進行選擇，預設為鏡像。遊戲內減少了一個切換開關，並節省了 1bit 的同步參數。"
-        },
-        {
-          "category": "new",
-          "text": "現在可以在「姿勢編輯」中選擇「骨骼的移動方式」。"
+          "text": "關於摸頭等會發出聲音的機關，現在聲音會從分身一側發出（在將其他 Avatar 作為分身的模式下）。"
         },
         {
           "category": "fix",
-          "text": "修復了當開啟「分身發聲」或「雙方發聲」時，從其他玩家的角度會看到本體的眼球偏離面部的問題。"
+          "text": "修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動在分身側完全沒有反應的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了分身側的 VRCFury 組件 Ring 會消失的問題。"
+          "text": "修復了將其他 Avatar 作為分身時，ましゅまろPB 等機關無法運作的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了根據 VRCFury 版本的不同，分身側的 SPS 項目名稱可能不會加上「Doppelin」前綴的問題。"
+          "text": "修復了錯誤解析分身的 SPS 元件的 Bug。之前會出現將 Plug 插入 Hole 後，進入的部分消失的症狀。"
+        },
+        {
+          "category": "fix",
+          "text": "修復了動畫指向的物件位置與分身內部結構錯位，導致無法生效的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "給 ましゅまろPB 使用者的說明：分身對「其他玩家的胸部干涉」目前無法正常運作。因為分身的 Contact Sender 會始終與自身的 Receiver 範圍重疊，導致胸部一直處於被擠壓的狀態，因此在 Setup 時會自動將其移除。不過，觸碰分身的胸部觸發反應的操作依然可以像以前一樣正常使用。"
+        },
+        {
+          "category": "improve",
+          "text": "預設會保留在分身上的 Constraint。像 ましゅまろPB 這種「透過 Constraint 將搖晃結果傳遞給骨骼」的機關，現在也可以在分身側正常運作了。"
+        },
+        {
+          "category": "improve",
+          "text": "廢除了「避免覆蓋 FX」的設定，現在該功能始終開啟。因為幾乎所有 Avatar 都應該開啟此設定，幾乎沒有理由關閉它。"
+        },
+        {
+          "category": "improve",
+          "text": "整理並移動了設定介面中的一些選項。"
         }
       ]
     },
     {
       "lang": "fr",
-      "summary": "Ajout du contrôle du regard du clone et d'un minuteur pour la fonction Figer. Les problèmes liés à la voix et à VRCFury ont également été corrigés.",
+      "summary": "Le clone peut désormais toucher votre propre avatar et les autres joueurs. Nous avons également corrigé les problèmes où les contacts (comme les caresses) et les systèmes de type ましゅまろPB ne fonctionnaient pas lorsqu'un avatar différent était utilisé comme clone. *Remarque : Étant donné que davantage de composants sont conservés sur le clone dans cette mise à jour, veuillez relancer le \"Setup\" depuis l'installateur Doppelin avant de l'uploader (un simple re-upload ne suffira pas pour appliquer les modifications).",
       "entries": [
         {
           "category": "new",
-          "text": "Vous pouvez désormais attraper et déplacer le regard du clone."
+          "text": "Le clone peut désormais toucher votre propre avatar et les autres joueurs. Auparavant, les composants permettant le contact n'étaient pas conservés sur le clone, il n'était donc pas possible de caresser un autre joueur avec la main du clone par exemple."
         },
         {
           "category": "new",
-          "text": "Ajout d'un « Minuteur avant de figer » dans Figer. Cela évite que le clone ne se fige avec une expression ou une pose déformée pendant que vous naviguez dans le menu."
-        },
-        {
-          "category": "new",
-          "text": "Les options « Synchro » et « Miroir » ont été fusionnées en un seul bouton dans le menu. L'activation de l'effet miroir se choisit désormais dans l'écran de configuration, et il est activé par défaut. Cela supprime un bouton dans le jeu et économise 1 bit de paramètre de synchronisation."
-        },
-        {
-          "category": "new",
-          "text": "Vous pouvez maintenant choisir la « Méthode de déplacement des os » dans Édition de pose."
+          "text": "Pour les systèmes qui émettent des sons lors de caresses (head-patting) et autres, le son sera désormais émis du côté du clone (dans le mode utilisant un autre avatar comme clone)."
         },
         {
           "category": "fix",
-          "text": "Correction d'un problème où, lorsque « Voix du clone » ou « Voix des deux » est activé, les globes oculaires de l'avatar principal apparaissaient détachés du visage pour les autres joueurs."
+          "text": "Correction d'un problème où les contacts comme les caresses ne réagissaient pas du tout du côté du clone lorsqu'un avatar différent était utilisé comme clone."
         },
         {
           "category": "fix",
-          "text": "Correction d'un problème où le composant Ring de VRCFury sur le clone disparaissait."
+          "text": "Correction d'un problème où les systèmes comme ましゅまろPB ne fonctionnaient pas lors de l'utilisation d'un avatar différent comme clone."
         },
         {
           "category": "fix",
-          "text": "Correction d'un problème où, selon la version de VRCFury, le nom de l'élément SPS sur le clone pouvait ne pas avoir le préfixe « Doppelin »."
+          "text": "Correction d'un bug où les composants SPS du clone étaient mal interprétés. Cela provoquait des symptômes tels que la disparition de la partie insérée lorsqu'un plug était inséré dans un hole."
+        },
+        {
+          "category": "fix",
+          "text": "Correction d'un problème où l'emplacement de l'objet ciblé par l'animation pouvait être désaligné avec la structure interne du clone, empêchant son bon fonctionnement."
+        },
+        {
+          "category": "fix",
+          "text": "Aux utilisateurs de ましゅまろPB : L'\"interférence de la poitrine avec les autres joueurs\" depuis le clone ne fonctionne actuellement pas correctement. Étant donné que le Contact Sender du clone chevauche en permanence sa propre zone Receiver, la poitrine resterait continuellement enfoncée ; cela sera donc automatiquement retiré lors de l'exécution du Setup. Vous pouvez cependant toujours toucher la poitrine du clone pour déclencher une réaction, comme auparavant."
+        },
+        {
+          "category": "improve",
+          "text": "Les Constraints destinées à rester sur le clone sont désormais conservées par défaut. Les systèmes qui transfèrent les résultats du rebond aux os via des Constraints, comme ましゅまろPB, fonctionneront désormais également sur le clone."
+        },
+        {
+          "category": "improve",
+          "text": "Le paramètre \"Éviter l'écrasement du FX\" a été supprimé et est désormais toujours activé. Ce réglage devrait être activé pour presque tous les avatars, il n'y avait donc presque aucune raison de le désactiver."
+        },
+        {
+          "category": "improve",
+          "text": "Réorganisation et déplacement de quelques éléments dans l'écran des paramètres."
         }
       ]
     },
     {
       "lang": "it",
-      "summary": "Aggiunti il controllo dello sguardo per il clone e un timer per Freeze, e corretti i problemi relativi alla voce e a VRCFury.",
+      "summary": "Il clone ora può toccare il tuo avatar e gli altri giocatori. Abbiamo anche risolto problemi per cui i contatti (come le carezze/head-patting) e i sistemi come ましゅまろPB non funzionavano quando si utilizzava un avatar diverso come clone. *Nota: Poiché in questo aggiornamento conserveremo più componenti sul clone, si prega di rieseguire il \"Setup\" dall'installer di Doppelin prima di caricarlo (il semplice ri-upload non applicherà le modifiche).",
       "entries": [
         {
           "category": "new",
-          "text": "Ora puoi afferrare e muovere lo sguardo del clone."
+          "text": "Il clone ora può toccare il tuo avatar e gli altri giocatori. In precedenza, i componenti per il tocco non venivano mantenuti sul clone, quindi non era possibile accarezzare qualcuno con la mano del clone."
         },
         {
           "category": "new",
-          "text": "Aggiunto un 'Timer prima del blocco' in Freeze. Questo evita che il clone rimanga bloccato con un'espressione facciale o una posa rotta mentre stai operando nel menu."
-        },
-        {
-          "category": "new",
-          "text": "'Sincro' e 'Specchio' sono stati uniti in un'unica opzione nel menu. La scelta di usare l'effetto specchio si fa ora nella schermata di configurazione, ed è attivo di default. Questo rimuove un interruttore nel gioco e risparmia 1 bit nei parametri di sincronizzazione."
-        },
-        {
-          "category": "new",
-          "text": "Ora puoi scegliere il 'Metodo di movimento delle ossa' in Modifica posa."
+          "text": "Per i gimmick che riproducono suoni durante le carezze (head-patting, ecc.), l'audio ora verrà riprodotto dal lato del clone (nella modalità in cui viene utilizzato un avatar diverso come clone)."
         },
         {
           "category": "fix",
-          "text": "Risolto un problema per cui, con 'Voce dal clone' o 'Voce da entrambi' attivi, i bulbi oculari dell'avatar principale apparivano staccati dal viso agli altri giocatori."
+          "text": "Risolto un problema per cui le interazioni di contatto (come le carezze) non rispondevano affatto sul clone quando si utilizzava un avatar diverso come clone."
         },
         {
           "category": "fix",
-          "text": "Risolto un problema per cui il componente Ring di VRCFury sul clone scompariva."
+          "text": "Risolto un problema per cui gimmick come ましゅまろPB non funzionavano quando si utilizzava un avatar diverso come clone."
         },
         {
           "category": "fix",
-          "text": "Risolto un problema per cui, a seconda della versione di VRCFury, il nome dell'elemento SPS sul clone poteva non avere il prefisso 'Doppelin'."
+          "text": "Risolto un bug in cui i componenti SPS del clone venivano interpretati in modo errato. Questo causava problemi come la scomparsa del plug quando veniva inserito in un hole."
+        },
+        {
+          "category": "fix",
+          "text": "Risolto un problema in cui il percorso degli oggetti di riferimento delle animazioni si disallineava con la struttura interna del clone, non riuscendo ad applicare l'effetto."
+        },
+        {
+          "category": "fix",
+          "text": "Agli utenti di ましゅまろPB: L'\"interferenza del petto con altri giocatori\" da parte del clone attualmente non funziona correttamente. Poiché il Contact Sender del clone si sovrappone costantemente alla sua stessa area Receiver, causando una compressione continua del petto, questo verrà rimosso automaticamente durante il Setup. L'interazione di toccare il petto del clone per innescare una reazione funzionerà ancora come prima."
+        },
+        {
+          "category": "improve",
+          "text": "I Constraint che devono rimanere sul clone ora vengono mantenuti per impostazione predefinita. I gimmick che trasmettono i risultati del tremolio/movimento alle ossa tramite Constraint, come ましゅまろPB, ora funzioneranno anche sul lato del clone."
+        },
+        {
+          "category": "improve",
+          "text": "L'impostazione \"Evita la sovrascrittura dell'FX\" è stata rimossa ed è ora sempre abilitata. Questa opzione dovrebbe essere attiva per quasi tutti gli avatar e non c'era quasi alcun motivo per disattivarla."
+        },
+        {
+          "category": "improve",
+          "text": "Alcune opzioni nella schermata delle impostazioni sono state riorganizzate e spostate."
         }
       ]
     }
