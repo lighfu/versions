@@ -1,0 +1,52 @@
+{
+  "version": "0.1.0",
+  "url": "https://ajisaiflow.booth.pm/",
+  "releaseDate": "2026-08-22",
+  "changelog": "最初の公開版です。NonToon / lilToon / Super lilToon / Poiyomi / Sunao の 5 系統で、アバターに柔らかい落ち影（PCSS）を付けられます。",
+  "localized": [
+    {
+      "lang": "ja",
+      "summary": "最初の公開版です。NonToon / lilToon / Super lilToon / Poiyomi / Sunao の 5 系統で、アバターに柔らかい落ち影（PCSS）を付けられます。",
+      "entries": [
+        {
+          "category": "new",
+          "text": "アバターに柔らかい落ち影を付けられるようになりました。距離が近いほど輪郭がはっきりし、離れるほどぼけます。"
+        },
+        {
+          "category": "new",
+          "text": "NonToon / lilToon / Super lilToon / Poiyomi / Sunao の 5 系統に対応しています。lilToon のカスタムシェーダーにも自動で対応します。"
+        },
+        {
+          "category": "new",
+          "text": "影の品質を「軽量 / 通常 / 高負荷 / 超高負荷」から選べます。実機のメニューから撮影用の画質へ切り替えることもできます。"
+        },
+        {
+          "category": "new",
+          "text": "影を受けたくない場所を画像で塗り分けられます。"
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "summary": "First public release. Adds soft contact-hardening shadows (PCSS) to your avatar across five shader families: NonToon, lilToon, Super lilToon, Poiyomi and Sunao.",
+      "entries": [
+        {
+          "category": "new",
+          "text": "Your avatar can now cast soft shadows that sharpen up close and blur with distance."
+        },
+        {
+          "category": "new",
+          "text": "Supports five shader families: NonToon, lilToon, Super lilToon, Poiyomi and Sunao. lilToon custom shaders are handled automatically."
+        },
+        {
+          "category": "new",
+          "text": "Shadow quality can be set to Light / Normal / Heavy / Very Heavy, and you can switch to a photo-quality setting from the in-game menu."
+        },
+        {
+          "category": "new",
+          "text": "You can paint a mask image to mark places that should not receive the shadow."
+        }
+      ]
+    }
+  ]
+}
