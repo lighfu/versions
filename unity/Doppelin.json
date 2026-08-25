@@ -1,420 +1,600 @@
 {
-  "version": "1.7.0",
+  "version": "1.8.1",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-08-07",
-  "changelog": "分身の側から本体や相手に触れられるようになりました。別のアバターを分身にしたとき、なでなで等のコンタクトやましゅまろPB系のギミックが動かなかった問題も解消しています。※今回は分身に残すものが増えたため、インストーラーの「セットアップ」を押し直してからアップロードしてください（再アップロードだけでは反映されません）。",
+  "releaseDate": "2026-08-25",
+  "changelog": "v1.8.0 と v1.8.1 の内容をまとめて含みます。左右反転中に分身の揺れギミックの形が崩れる問題、別のアバターを分身にしたときに目が白目になる問題、身長の違うアバターでしゃがむと分身が地面にめり込む問題を修正しました。あわせて、アップロードが止まる原因になりやすい Constraint と同期パラメータの使用量を確認できるようにしています。分身の大きさの引き継ぎ・Constraint のギミックの保持・シンクロの向きは、インストーラーの「セットアップ」を押し直すと反映されます。",
   "localized": [
     {
       "lang": "ja",
-      "summary": "分身の側から本体や相手に触れられるようになりました。別のアバターを分身にしたとき、なでなで等のコンタクトやましゅまろPB系のギミックが動かなかった問題も解消しています。※今回は分身に残すものが増えたため、インストーラーの「セットアップ」を押し直してからアップロードしてください（再アップロードだけでは反映されません）。",
+      "summary": "v1.8.0 と v1.8.1 の内容をまとめて含みます。左右反転中に分身の揺れギミックの形が崩れる問題、別のアバターを分身にしたときに目が白目になる問題、身長の違うアバターでしゃがむと分身が地面にめり込む問題を修正しました。あわせて、アップロードが止まる原因になりやすい Constraint と同期パラメータの使用量を確認できるようにしています。分身の大きさの引き継ぎ・Constraint のギミックの保持・シンクロの向きは、インストーラーの「セットアップ」を押し直すと反映されます。",
       "entries": [
         {
+          "category": "fix",
+          "text": "「左右反転」をONにしている間、分身の胸などの揺れギミック(marshmallow PB 等)が左右逆に効いて形が崩れる問題を修正しました。"
+        },
+        {
+          "category": "fix",
+          "text": "Constraint の使用量の内訳で、日本語以外の言語だと数値が欠けて表示されることがある問題を修正しました。"
+        },
+        {
+          "category": "fix",
+          "text": "シンクロの設定に問題がないのに「再セットアップが必要です」と案内されることがある問題を修正しました。"
+        },
+        {
           "category": "new",
-          "text": "分身の側から本体や相手に触れられるようになりました。これまで分身には触る側の部品が残らず、分身の手で相手をなでる、といったことができませんでした。"
+          "text": "設定画面に「VRC Constraint 予算」のゲージと内訳グラフが付きました。"
         },
         {
           "category": "new",
-          "text": "なでなで等で音が鳴るギミックについて、分身の側から音が鳴るようになりました（別のアバターを分身にするモード）。"
+          "text": "「パラメータが多すぎます」でアップロードが止まるときの報告を詳細にしました。"
+        },
+        {
+          "category": "new",
+          "text": "「別のアバター」を分身にするとき、そのアバターがルートの大きさで身長を決めていても、分身がその大きさを引き継ぐようになりました。"
+        },
+        {
+          "category": "new",
+          "text": "「Constraint のギミックを保持」を設定画面から ON / OFF できるようになりました。"
         },
         {
           "category": "fix",
-          "text": "別のアバターを分身にしているとき、なでなで等のコンタクトが分身側でまったく反応しなかった問題を修正しました。"
+          "text": "「別のアバター」を分身にしたとき、瞳の向きの作り方が本体と違うアバターだと分身が白目になる（瞳が頭の中に埋もれる）問題を修正しました。"
         },
         {
           "category": "fix",
-          "text": "ましゅまろPB のようなギミックが、別のアバターを分身にしたときに動かなかった問題を修正しました。"
+          "text": "本体と身長・等身の違うアバターを分身にすると、しゃがむ・膝立ち・伏せるといった姿勢で分身だけが地面にめり込む問題を修正しました。"
         },
         {
           "category": "fix",
-          "text": "分身の SPS のコンポーネントを誤って解釈するバグを修正しました。穴にプラグを挿すと、入った先が消えてしまう症状が出ていました。"
+          "text": "VRChat SDK 3.10.3 より前のバージョンで、NPCモードのせいでアップロードが必ず失敗していた問題に対処しました。"
         },
         {
           "category": "fix",
-          "text": "アニメーションが指すオブジェクトの位置が分身の内部構造とずれて届かなくなることがある問題を修正しました。"
+          "text": "分身側の SPS Socket が本体のパラメータ書き込みを打ち消し、連携させていたギミック（PCS 連携など）が本体ごと動かなくなる問題を修正しました。"
         },
         {
           "category": "fix",
-          "text": "ましゅまろPB をお使いの方へ：分身から「他プレイヤーとの胸干渉」は現在正常に機能しません。分身の Contact Sender が自分自身の Receiver 範囲に常に重なり、胸が押し込まれ続けるため、セットアップ時に自動で取り除きます。分身の胸に触れて反応させる操作は今までどおり使えます。"
+          "text": "シーンを開き直した後などに分身の元アバターの指定が内部で壊れ、アップロードごと止まることがある問題を修正しました。"
+        },
+        {
+          "category": "fix",
+          "text": "ポーズのスムージングが、本体と等身の違う分身では設定より遅く適用される問題を修正しました。"
+        },
+        {
+          "category": "fix",
+          "text": "シンクロの向きの初期値が「向かい合わせ」になりました。"
         },
         {
           "category": "improve",
-          "text": "分身に残す Constraint を既定で保持するようになりました。ましゅまろPB のように「揺れた結果を Constraint で骨に伝える」種類のギミックが、分身側でも動くようになります。"
-        },
-        {
-          "category": "improve",
-          "text": "「FX の上書きを回避する」の設定を廃止し、常に有効になりました。ほぼ全てのアバターで有効にしておくべき設定で、切る理由がほとんど無かったためです。"
-        },
-        {
-          "category": "improve",
-          "text": "設定画面のいくつかの項目を整理・移動しました。"
+          "text": "設定画面とエラーメッセージの言い回しを全面的に見直しました。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "The clone can now touch the wearer's own avatar and other players. We have also fixed issues where head-patting and other contacts, as well as gimmicks like ましゅまろPB, didn't work when using a different avatar as the clone. *Note: Since we are keeping more components on the clone in this update, please re-run Setup from the Doppelin installer before uploading (simply re-uploading won't apply the changes).",
+      "summary": "This update includes the contents of both v1.8.0 and v1.8.1. It fixes the issue where the shape of the jiggle/physics gimmick of the clone deforms while the Left/Right Flip toggle is active, the issue where the eyes turn white when another avatar is used as the clone, and the issue where the clone sinks into the ground when crouching with an avatar of a different height. Additionally, you can now check the usage of Constraint and sync parameters, which are a common cause for uploads stopping. The inheritance of the size of the clone, the preservation of the Constraint gimmick, and the direction of Sync will be applied when you re-run Setup in the installer.",
       "entries": [
         {
+          "category": "fix",
+          "text": "Fixed an issue where the clone's jiggle/physics gimmick on the chest and other areas (such as marshmallow PB) applies in reverse left-to-right while the Left/Right Flip toggle is ON, causing the shape to collapse."
+        },
+        {
+          "category": "fix",
+          "text": "Fixed an issue where the numerical values in the Constraint usage breakdown may be missing in languages other than Japanese."
+        },
+        {
+          "category": "fix",
+          "text": "Fixed an issue where a prompt stating that re-running Setup is required may appear even when there are no issues with the Sync settings."
+        },
+        {
           "category": "new",
-          "text": "The clone can now touch the wearer's own avatar and other players. Previously, the components for touching were not kept on the clone, so you couldn't pet someone with the clone's hand."
+          "text": "Added a \"VRC Constraint Budget\" gauge and breakdown graph to the settings screen."
         },
         {
           "category": "new",
-          "text": "For gimmicks that play sounds during head-patting or petting, the sounds will now play from the clone's side (when using a different avatar as the clone)."
+          "text": "Made the report more detailed when an upload stops with a \"too many parameters\" error."
+        },
+        {
+          "category": "new",
+          "text": "When you use a different avatar as the clone, the clone now inherits that avatar's size even if the avatar sets its height through its root scale."
+        },
+        {
+          "category": "new",
+          "text": "You can now turn \"Keep Constraint gimmicks\" ON / OFF from the settings screen."
         },
         {
           "category": "fix",
-          "text": "Fixed an issue where head-patting and other contacts did not respond at all on the clone when a different avatar was used as the clone."
+          "text": "Fixed an issue where using a different avatar as the clone made the clone's eyes turn white (the pupils sinking into the head) when that avatar builds its eye direction differently from your avatar."
         },
         {
           "category": "fix",
-          "text": "Fixed an issue where gimmicks like ましゅまろPB did not work when using a different avatar as the clone."
+          "text": "Fixed an issue where using an avatar with a different height or proportions as the clone made only the clone sink into the ground in poses such as crouching, kneeling, and lying down."
         },
         {
           "category": "fix",
-          "text": "Fixed a bug where the clone's SPS components were misinterpreted. This caused symptoms like the plug disappearing when inserted into a hole."
+          "text": "Addressed an issue on VRChat SDK versions older than 3.10.3 where NPC Mode made uploads fail every time."
         },
         {
           "category": "fix",
-          "text": "Fixed an issue where the object paths referenced by animations could misalign with the clone's internal structure and fail to work."
+          "text": "Fixed an issue where the clone's SPS Socket cancelled out parameter writes from your avatar, stopping linked gimmicks (such as PCS integration) from working on the avatar itself as well."
         },
         {
           "category": "fix",
-          "text": "To ましゅまろPB users: The \"chest interference with other players\" from the clone is currently not functioning properly. Because the clone's Contact Sender always overlaps with its own Receiver zone, causing the chest to be continuously pushed in, it will be automatically removed during setup. However, you can still trigger reactions by touching the clone's chest just like before."
+          "text": "Fixed an issue where the clone's source avatar reference could break internally — for example after reopening the scene — and stop the upload entirely."
+        },
+        {
+          "category": "fix",
+          "text": "Fixed an issue where pose smoothing was applied more slowly than the setting on clones whose proportions differ from your avatar."
+        },
+        {
+          "category": "fix",
+          "text": "The default direction for sync is now \"face-to-face\"."
         },
         {
           "category": "improve",
-          "text": "Constraints meant to be kept on the clone are now retained by default. Gimmicks that transfer jiggle results to bones via Constraints, like ましゅまろPB, will now work on the clone as well."
-        },
-        {
-          "category": "improve",
-          "text": "The \"Avoid FX overwrite\" setting has been removed and is now always enabled. This is because it should be enabled for almost all avatars, and there was little reason to turn it off."
-        },
-        {
-          "category": "improve",
-          "text": "Organized and moved some items in the settings screen."
+          "text": "Reworked the wording throughout the settings screen and the error messages."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "이제 분신(the clone)이 본체나 다른 플레이어를 만질 수 있게 되었습니다. 다른 아바타를 분신으로 사용할 때 쓰다듬기 등의 컨택트나 ましゅまろPB 계열 기믹이 작동하지 않던 문제도 해결했습니다. ※이번에는 분신에 남기는 컴포넌트가 늘어났으므로, 업로드하기 전에 인스톨러의 '셋업'을 다시 눌러주세요(단순히 다시 업로드하는 것만으로는 반영되지 않습니다).",
+      "summary": "v1.8.0 및 v1.8.1의 내용을 모두 포함하고 있습니다. the Left/Right Flip toggle이 켜져 있는 동안 분신의 jiggle/physics gimmick 형태가 무너지는 문제, 다른 아바타를 분신으로 설정했을 때 눈이 하얗게 되는 문제, 키가 다른 아바타로 앉았을 때 분신이 땅에 파묻히는 문제를 수정했습니다. 아울러 업로드 중단의 원인이 되기 쉬운 Constraint 및 동기화 파라미터의 사용량을 확인할 수 있도록 변경했습니다. 분신의 크기 유지, Constraint 기믹 유지, Sync 방향은 인스톨러에서 Setup을 다시 실행하면 반영됩니다.",
       "entries": [
         {
+          "category": "fix",
+          "text": "'좌우 반전'을 켠 상태에서 분신의 가슴 등 흔들림 기믹(marshmallow PB 등)이 좌우 역방향으로 적용되어 형태가 무너지는 현상을 수정했습니다."
+        },
+        {
+          "category": "fix",
+          "text": "Constraint 사용량 내역에서 일본어 이외의 언어일 경우 수치가 누락되어 표시되는 현상을 수정했습니다."
+        },
+        {
+          "category": "fix",
+          "text": "Sync 설정에 문제가 없음에도 재설정이 필요하다는 안내가 표시되는 현상을 수정했습니다."
+        },
+        {
           "category": "new",
-          "text": "이제 분신이 본체나 다른 플레이어를 만질 수 있게 되었습니다. 이전에는 분신에 만지는 쪽의 부품이 남지 않아, 분신의 손으로 다른 사람을 쓰다듬는 등의 행동을 할 수 없었습니다."
+          "text": "설정 화면에 'VRC Constraint 예산' 게이지와 내역 그래프가 추가되었습니다."
         },
         {
           "category": "new",
-          "text": "쓰다듬기 등에서 소리가 나는 기믹에 대해, 이제 분신 쪽에서도 소리가 납니다(다른 아바타를 분신으로 사용하는 모드)."
+          "text": "'파라미터가 너무 많습니다'로 인해 업로드가 중단될 때의 보고를 상세하게 변경했습니다."
+        },
+        {
+          "category": "new",
+          "text": "'다른 아바타'를 분신으로 설정할 때, 해당 아바타가 루트의 크기로 키를 결정하고 있더라도 분신이 그 크기를 이어받게 되었습니다."
+        },
+        {
+          "category": "new",
+          "text": "'Constraint 기믹 유지'를 설정 화면에서 ON / OFF 할 수 있게 되었습니다."
         },
         {
           "category": "fix",
-          "text": "다른 아바타를 분신으로 사용 중일 때, 쓰다듬기 등의 컨택트가 분신 측에서 전혀 반응하지 않던 문제를 수정했습니다."
+          "text": "'다른 아바타'를 분신으로 했을 때, 눈동자 방향을 만드는 방식이 본체와 다른 아바타인 경우 분신이 흰자위만 보이는(눈동자가 머릿속에 파묻히는) 문제를 수정했습니다."
         },
         {
           "category": "fix",
-          "text": "다른 아바타를 분신으로 사용했을 때 ましゅまろPB 같은 기믹이 작동하지 않던 문제를 수정했습니다."
+          "text": "본체와 키 및 등신이 다른 아바타를 분신으로 할 경우, 웅크리기, 무릎 꿇기, 엎드리기 등의 자세에서 분신만 땅에 파묻히는 문제를 수정했습니다."
         },
         {
           "category": "fix",
-          "text": "분신의 SPS 컴포넌트를 잘못 해석하는 버그를 수정했습니다. 구멍에 플러그를 꽂으면 들어간 부분이 사라져버리는 증상이 발생했었습니다."
+          "text": "VRChat SDK 3.10.3 이전 버전에서 NPC 모드로 인해 업로드가 반드시 실패하던 문제를 해결했습니다."
         },
         {
           "category": "fix",
-          "text": "애니메이션이 가리키는 오브젝트 위치가 분신의 내부 구조와 어긋나 작동하지 않게 되는 문제를 수정했습니다."
+          "text": "분신 측의 SPS Socket이 본체의 파라미터 쓰기를 상쇄시켜, 연동해 둔 기믹(PCS 연동 등)이 본체째로 작동하지 않게 되는 문제를 수정했습니다."
         },
         {
           "category": "fix",
-          "text": "ましゅまろPB를 사용하시는 분들께: 분신에서의 '다른 플레이어와의 가슴 간섭'은 현재 정상적으로 작동하지 않습니다. 분신의 Contact Sender가 자신의 Receiver 범위에 항상 겹쳐 가슴이 계속 눌린 상태가 되기 때문에, 셋업 시 자동으로 제거됩니다. 분신의 가슴을 만져서 반응하게 하는 조작은 이전과 동일하게 사용할 수 있습니다."
+          "text": "씬을 다시 연 후 등에 분신의 원본 아바타 지정이 내부적으로 깨져, 업로드 자체가 중단되는 경우가 있는 문제를 수정했습니다."
+        },
+        {
+          "category": "fix",
+          "text": "포즈 스무딩이 본체와 등신이 다른 분신에서는 설정보다 느리게 적용되는 문제를 수정했습니다."
+        },
+        {
+          "category": "fix",
+          "text": "싱크로 방향의 초기값이 '마주보기'가 되었습니다."
         },
         {
           "category": "improve",
-          "text": "분신에 남기는 Constraint를 기본적으로 유지하게 되었습니다. ましゅまろPB처럼 '흔들린 결과를 Constraint로 뼈에 전달하는' 종류의 기믹이 분신 측에서도 작동하게 됩니다."
-        },
-        {
-          "category": "improve",
-          "text": "'FX 덮어쓰기 방지' 설정을 폐지하고 항상 활성화되도록 변경했습니다. 거의 모든 아바타에서 활성화해 두어야 하는 설정이며, 끌 이유가 거의 없었기 때문입니다."
-        },
-        {
-          "category": "improve",
-          "text": "설정 화면의 일부 항목을 정리하고 이동했습니다."
+          "text": "설정 화면과 에러 메시지의 표현을 전면적으로 다듬었습니다."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "分身现在可以触碰本体和其他玩家了。同时也修复了将其他模型作为分身时，摸头等 Contact 交互以及 ましゅまろPB 类机关无法工作的问题。※由于本次增加了保留在分身上的组件，请在上传前重新点击安装器的“Setup”（仅重新上传不会生效）。",
+      "summary": "本更新包含了 v1.8.0 与 v1.8.1 的内容。修复了在使用 the Left/Right Flip toggle 时克隆的 jiggle/physics gimmick 形状发生变形的问题、将其他化身作为克隆使用时眼睛变白的问题，以及使用不同身高的化身下蹲时克隆会陷入地面的问题。此外，现在可以查看容易导致上传中断的 Constraint 与同步参数的使用量。克隆大小的继承、Constraint 机制的保留以及 Sync 的朝向，将在安装程序中重新运行 Setup 后生效。",
       "entries": [
         {
+          "category": "fix",
+          "text": "修复了在开启“左右翻转”时，克隆的胸部等物理晃动效果（如 marshmallow PB 等）会左右反向作用导致形状崩坏的问题。"
+        },
+        {
+          "category": "fix",
+          "text": "修复了 Constraint 使用量明细在日语以外的语言下，数值可能会缺失显示的问题。"
+        },
+        {
+          "category": "fix",
+          "text": "修复了在 Sync 设置没有问题的情况下，仍会提示需要重新设置的问题。"
+        },
+        {
           "category": "new",
-          "text": "分身现在可以触碰本体和其他玩家了。在此之前，分身没有保留用于触碰的组件，因此无法用分身的手去摸其他人。"
+          "text": "设置界面新增了“VRC Constraint 预算”进度条与明细图表。"
         },
         {
           "category": "new",
-          "text": "修复了摸头等会发出声音的机关，现在声音会从分身一侧发出（在将其他模型作为分身的模式下）。"
+          "text": "详细优化了因“参数过多”导致上传中断时的报错信息。"
+        },
+        {
+          "category": "new",
+          "text": "当使用“另一个 Avatar”作为分身时，即使该 Avatar 的身高是由根节点（Root）大小决定的，分身现在也能继承该大小。"
+        },
+        {
+          "category": "new",
+          "text": "现在可以在设置界面中开启或关闭“保留 Constraint 机制”。"
         },
         {
           "category": "fix",
-          "text": "修复了将其他模型作为分身时，摸头等 Contact 交互在分身侧完全没有反应的问题。"
+          "text": "修复了将“另一个 Avatar”设置为分身时，如果该 Avatar 眼睛朝向的制作方式与本体不同，会导致分身翻白眼（眼球凹陷进头部）的问题。"
         },
         {
           "category": "fix",
-          "text": "修复了将其他模型作为分身时，ましゅまろPB 等机关无法工作的问题。"
+          "text": "修复了使用与本体身高、头身比不同的 Avatar 作为分身时，在做蹲下、跪姿或趴下等动作时，分身会单独陷入地面的问题。"
         },
         {
           "category": "fix",
-          "text": "修复了错误解析分身的 SPS 组件的 Bug。之前会出现将 Plug 插入 Hole 后，进入的部分消失的症状。"
+          "text": "修复了在 VRChat SDK 3.10.3 之前的版本中，因 NPC 模式导致上传必定失败的问题。"
         },
         {
           "category": "fix",
-          "text": "修复了动画指向的物体位置与分身内部结构错位导致无法生效的问题。"
+          "text": "修复了分身侧的 SPS Socket 会抵消本体的参数写入，导致正在联动的机制（如 PCS 联动等）连同本体一起失效的问题。"
         },
         {
           "category": "fix",
-          "text": "给 ましゅまろPB 用户的说明：分身对“其他玩家的胸部干涉”目前无法正常工作。因为分身的 Contact Sender 会始终与自身的 Receiver 范围重叠，导致胸部一直处于被挤压的状态，因此在 Setup 时会自动将其移除。不过，触碰分身的胸部触发反应的操作依然可以像以前一样正常使用。"
+          "text": "修复了在重新打开场景等操作后，分身的源 Avatar 指定在内部发生损坏，从而有时会导致上传中断的问题。"
+        },
+        {
+          "category": "fix",
+          "text": "修复了在使用与本体头身比不同的分身时，姿势平滑过渡效果的应用会比设定值更迟缓的问题。"
+        },
+        {
+          "category": "fix",
+          "text": "同步朝向的默认值已更改为“面对面”。"
         },
         {
           "category": "improve",
-          "text": "默认会保留在分身上的 Constraint。像 ましゅまろPB 这种“通过 Constraint 将摇动结果传递给骨骼”的机关，现在也可以在分身侧正常工作了。"
-        },
-        {
-          "category": "improve",
-          "text": "废除了“避免覆盖 FX”的选项，现在该功能始终开启。因为几乎所有模型都应该开启此设置，几乎没有理由关闭它。"
-        },
-        {
-          "category": "improve",
-          "text": "整理并移动了设置界面中的一些选项。"
+          "text": "全面优化了设置界面和错误提示的措辞。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "分身現在可以觸碰本尊和其他玩家了。同時也修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動以及 ましゅまろPB 類機關無法運作的問題。※因為這次增加了保留在分身上的元件，請在上傳前重新點擊安裝器的「Setup」（僅重新上傳不會生效）。",
+      "summary": "本更新包含了 v1.8.0 與 v1.8.1 的內容。修復了在使用 the Left/Right Flip toggle 時克隆的 jiggle/physics gimmick 形狀發生變形的問題、將其他化身作為克隆使用時眼睛變白的問題，以及使用不同身高的化身下蹲時克隆會陷入地面的問題。此外，現在可以查看容易導致上傳中斷的 Constraint 與同步參數的使用量。克隆大小的繼承、Constraint 機制的保留以及 Sync 的朝向，將在安裝程式中重新執行 Setup 後生效。",
       "entries": [
         {
+          "category": "fix",
+          "text": "修復了在開啟「左右翻轉」時，克隆的胸部等物理晃動效果（如 marshmallow PB 等）會左右反向作用導致形狀崩壞的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "修復了 Constraint 使用量明細在日語以外的語言下，數值可能會缺失顯示的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "修復了在 Sync 設置沒有問題的情況下，仍會提示需要重新設置的問題。"
+        },
+        {
           "category": "new",
-          "text": "分身現在可以觸碰本尊和其他玩家了。在此之前，分身沒有保留用於觸碰的元件，因此無法用分身的手去摸其他人。"
+          "text": "設定畫面中新增了「VRC Constraint 預算」的計量表與詳細內容圖表。"
         },
         {
           "category": "new",
-          "text": "關於摸頭等會發出聲音的機關，現在聲音會從分身一側發出（在將其他 Avatar 作為分身的模式下）。"
+          "text": "擴充了因「參數過多」導致上傳中斷時的錯誤報告詳細度。"
+        },
+        {
+          "category": "new",
+          "text": "將「其他 Avatar」設為分身時，即使該 Avatar 是以根節點（Root）的大小來決定身高，現在分身也能夠繼承該大小。"
+        },
+        {
+          "category": "new",
+          "text": "現在可以從設定畫面將「保留 Constraint 機關」切換為 ON / OFF。"
         },
         {
           "category": "fix",
-          "text": "修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動在分身側完全沒有反應的問題。"
+          "text": "修正了將「其他 Avatar」設為分身時，若該 Avatar 的瞳孔朝向做法與本體 Avatar 不同，會導致分身翻白眼（瞳孔陷入頭部）的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了將其他 Avatar 作為分身時，ましゅまろPB 等機關無法運作的問題。"
+          "text": "修正了將身高或頭身比例與本體 Avatar 不同的 Avatar 設為分身時，在蹲下、跪姿或趴下等姿勢下，只有分身會陷入地面的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了錯誤解析分身的 SPS 元件的 Bug。之前會出現將 Plug 插入 Hole 後，進入的部分消失的症狀。"
+          "text": "處理了在 VRChat SDK 3.10.3 之前的版本中，因 NPC 模式導致上傳必定失敗的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了動畫指向的物件位置與分身內部結構錯位，導致無法生效的問題。"
+          "text": "修正了分身側的 SPS Socket 會抵銷本體 Avatar 的參數寫入，導致連動的機關（如 PCS 連動等）連同本體 Avatar 一起失效的問題。"
         },
         {
           "category": "fix",
-          "text": "給 ましゅまろPB 使用者的說明：分身對「其他玩家的胸部干涉」目前無法正常運作。因為分身的 Contact Sender 會始終與自身的 Receiver 範圍重疊，導致胸部一直處於被擠壓的狀態，因此在 Setup 時會自動將其移除。不過，觸碰分身的胸部觸發反應的操作依然可以像以前一樣正常使用。"
+          "text": "修正了重新開啟場景等操作後，分身的來源 Avatar 指定在內部損壞，有時會造成上傳中斷的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "修正了在頭身比例與本體 Avatar 不同的分身上，姿勢平滑處理的套用速度會比設定值還要慢的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "動作同步的方向預設值已變更為「面對面」。"
         },
         {
           "category": "improve",
-          "text": "預設會保留在分身上的 Constraint。像 ましゅまろPB 這種「透過 Constraint 將搖晃結果傳遞給骨骼」的機關，現在也可以在分身側正常運作了。"
-        },
-        {
-          "category": "improve",
-          "text": "廢除了「避免覆蓋 FX」的設定，現在該功能始終開啟。因為幾乎所有 Avatar 都應該開啟此設定，幾乎沒有理由關閉它。"
-        },
-        {
-          "category": "improve",
-          "text": "整理並移動了設定介面中的一些選項。"
+          "text": "全面調整了設定畫面與錯誤訊息的用詞。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "分身現在可以觸碰本尊和其他玩家了。同時也修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動以及 ましゅまろPB 類機關無法運作的問題。※因為這次增加了保留在分身上的元件，請在上傳前重新點擊安裝器的「Setup」（僅重新上傳不會生效）。",
+      "summary": "本更新包含了 v1.8.0 與 v1.8.1 的內容。修復了在使用 the Left/Right Flip toggle 時克隆的 jiggle/physics gimmick 形狀發生變形的問題、將其他虛擬化身作為克隆使用時眼睛變白的問題，以及使用不同身高的虛擬化身下蹲時克隆會陷入地面的問題。此外，現在可以查看容易導致上傳中斷的 Constraint 與同步參數的使用量。關於克隆大小的繼承、Constraint 機制的保留以及 Sync 的朝向，將在安裝程式中重新執行 Setup 後生效。",
       "entries": [
         {
+          "category": "fix",
+          "text": "修復了在開啟「左右翻轉」時，克隆的胸部等物理晃動效果（如 marshmallow PB 等）會左右反向作用導致形狀崩壞的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "修復了 Constraint 使用量明細在日語以外的語言下，數值可能會缺失顯示的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "修復了在 Sync 設定沒有問題的情況下，仍會提示需要重新設定的問題。"
+        },
+        {
           "category": "new",
-          "text": "分身現在可以觸碰本尊和其他玩家了。在此之前，分身沒有保留用於觸碰的元件，因此無法用分身的手去摸其他人。"
+          "text": "在設定畫面中新增了「VRC Constraint 預算」的計量表與明細圖表。"
         },
         {
           "category": "new",
-          "text": "關於摸頭等會發出聲音的機關，現在聲音會從分身一側發出（在將其他 Avatar 作為分身的模式下）。"
+          "text": "詳細列出了因「參數過多」導致上傳中斷時的錯誤回報資訊。"
+        },
+        {
+          "category": "new",
+          "text": "將「其他 Avatar」設為分身時，即使該 Avatar 是透過 Root 大小來決定身高，分身現在也能正確繼承該大小。"
+        },
+        {
+          "category": "new",
+          "text": "現在可以在設定畫面中開啟或關閉「保留 Constraint 機關」。"
         },
         {
           "category": "fix",
-          "text": "修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動在分身側完全沒有反應的問題。"
+          "text": "修正了將「其他 Avatar」設為分身時，若其眼球轉動的設定方式與本體不同，會導致分身出現白眼（瞳孔凹陷至頭部內）的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了將其他 Avatar 作為分身時，ましゅまろPB 等機關無法運作的問題。"
+          "text": "修正了當分身與本體的體型比例或身高不同時，在做出蹲下、跪姿或趴下等姿勢時，只有分身會陷入地面的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了錯誤解析分身的 SPS 元件的 Bug。之前會出現將 Plug 插入 Hole 後，進入的部分消失的症狀。"
+          "text": "修正了在 VRChat SDK 3.10.3 之前的版本中，因 NPC 模式導致上傳必定失敗的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了動畫指向的物件位置與分身內部結構錯位，導致無法生效的問題。"
+          "text": "修正了分身側的 SPS Socket 會抵銷本體的參數寫入，導致連動的機關（如 PCS 連動等）連同本體一起失效的問題。"
         },
         {
           "category": "fix",
-          "text": "給 ましゅまろPB 使用者的說明：分身對「其他玩家的胸部干涉」目前無法正常運作。因為分身的 Contact Sender 會始終與自身的 Receiver 範圍重疊，導致胸部一直處於被擠壓的狀態，因此在 Setup 時會自動將其移除。不過，觸碰分身的胸部觸發反應的操作依然可以像以前一樣正常使用。"
+          "text": "修正了在重新開啟場景等情況後，分身的來源 Avatar 指定在內部損壞，進而導致上傳中斷的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "修正了當分身與本體的體型比例不同時，姿勢平滑化（Smoothing）的套用速度會比設定值還要慢的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "「同步」方向的預設值已更改為「面對面」。"
         },
         {
           "category": "improve",
-          "text": "預設會保留在分身上的 Constraint。像 ましゅまろPB 這種「透過 Constraint 將搖晃結果傳遞給骨骼」的機關，現在也可以在分身側正常運作了。"
-        },
-        {
-          "category": "improve",
-          "text": "廢除了「避免覆蓋 FX」的設定，現在該功能始終開啟。因為幾乎所有 Avatar 都應該開啟此設定，幾乎沒有理由關閉它。"
-        },
-        {
-          "category": "improve",
-          "text": "整理並移動了設定介面中的一些選項。"
+          "text": "全面重新修飾了設定畫面與錯誤訊息的用詞。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "分身現在可以觸碰本尊和其他玩家了。同時也修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動以及 ましゅまろPB 類機關無法運作的問題。※因為這次增加了保留在分身上的元件，請在上傳前重新點擊安裝器的「Setup」（僅重新上傳不會生效）。",
+      "summary": "本更新包含了 v1.8.0 與 v1.8.1 的內容。修復了在使用 the Left/Right Flip toggle 時克隆的 jiggle/physics gimmick 形狀發生變形的問題、將其他虛擬化身作為克隆使用時眼睛變白的問題，以及使用不同身高的虛擬化身下蹲時克隆會陷入地面的問題。此外，現在可以查看容易導致上傳中斷的 Constraint 與同步參數的使用量。關於克隆大小的繼承、Constraint 機制的保留以及 Sync 的朝向，將在安裝程式中重新執行 Setup 後生效。",
       "entries": [
         {
+          "category": "fix",
+          "text": "修復了在開啟「左右翻轉」時，克隆的胸部等物理晃動效果（如 marshmallow PB 等）會左右反向作用導致形狀崩壞的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "修復了 Constraint 使用量明細在日語以外的語言下，數值可能會缺失顯示的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "修復了在 Sync 設定沒有問題的情況下，仍會提示需要重新設定的問題。"
+        },
+        {
           "category": "new",
-          "text": "分身現在可以觸碰本尊和其他玩家了。在此之前，分身沒有保留用於觸碰的元件，因此無法用分身的手去摸其他人。"
+          "text": "設定畫面新增了「VRC Constraint 預算」的計量表與詳細分佈圖。"
         },
         {
           "category": "new",
-          "text": "關於摸頭等會發出聲音的機關，現在聲音會從分身一側發出（在將其他 Avatar 作為分身的模式下）。"
+          "text": "提供了因「參數過多」導致上傳中斷時更詳細的錯誤報告。"
+        },
+        {
+          "category": "new",
+          "text": "當設定「另一個 Avatar」為分身時，即使該 Avatar 是以 Root 的大小來決定身高，分身現在也能繼承該大小。"
+        },
+        {
+          "category": "new",
+          "text": "現在可以在設定畫面中開啟或關閉「保留 Constraint 機關」。"
         },
         {
           "category": "fix",
-          "text": "修復了將其他 Avatar 作為分身時，摸頭等 Contact 互動在分身側完全沒有反應的問題。"
+          "text": "修正了設定「另一個 Avatar」為分身時，若其瞳孔轉向的製作方式與本體不同，會導致分身眼睛反白（瞳孔陷入頭部內）的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了將其他 Avatar 作為分身時，ましゅまろPB 等機關無法運作的問題。"
+          "text": "修正了將身高或比例與本體不同的 Avatar 設定為分身時，在蹲下、跪姿或趴下等姿勢下，只有分身會陷入地面的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了錯誤解析分身的 SPS 元件的 Bug。之前會出現將 Plug 插入 Hole 後，進入的部分消失的症狀。"
+          "text": "解決了在早於 VRChat SDK 3.10.3 的版本中，因 NPC模式 導致必定上傳失敗的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了動畫指向的物件位置與分身內部結構錯位，導致無法生效的問題。"
+          "text": "修正了分身側的 SPS Socket 會抵銷本體的參數寫入，導致相關連動機關（如 PCS 連動等）連同本體一起無法運作的問題。"
         },
         {
           "category": "fix",
-          "text": "給 ましゅまろPB 使用者的說明：分身對「其他玩家的胸部干涉」目前無法正常運作。因為分身的 Contact Sender 會始終與自身的 Receiver 範圍重疊，導致胸部一直處於被擠壓的狀態，因此在 Setup 時會自動將其移除。不過，觸碰分身的胸部觸發反應的操作依然可以像以前一樣正常使用。"
+          "text": "修正了重新開啟 Scene 等情況下，指定給分身的來源 Avatar 在內部損毀，導致有時會上傳中斷的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "修正了在比例與本體不同的分身上，姿勢平滑化（Smoothing）的套用速度會比設定值慢的問題。"
+        },
+        {
+          "category": "fix",
+          "text": "同步的預設面向變更為「面對面」。"
         },
         {
           "category": "improve",
-          "text": "預設會保留在分身上的 Constraint。像 ましゅまろPB 這種「透過 Constraint 將搖晃結果傳遞給骨骼」的機關，現在也可以在分身側正常運作了。"
-        },
-        {
-          "category": "improve",
-          "text": "廢除了「避免覆蓋 FX」的設定，現在該功能始終開啟。因為幾乎所有 Avatar 都應該開啟此設定，幾乎沒有理由關閉它。"
-        },
-        {
-          "category": "improve",
-          "text": "整理並移動了設定介面中的一些選項。"
+          "text": "全面重新修訂了設定畫面與錯誤訊息的用詞。"
         }
       ]
     },
     {
       "lang": "fr",
-      "summary": "Le clone peut désormais toucher votre propre avatar et les autres joueurs. Nous avons également corrigé les problèmes où les contacts (comme les caresses) et les systèmes de type ましゅまろPB ne fonctionnaient pas lorsqu'un avatar différent était utilisé comme clone. *Remarque : Étant donné que davantage de composants sont conservés sur le clone dans cette mise à jour, veuillez relancer le \"Setup\" depuis l'installateur Doppelin avant de l'uploader (un simple re-upload ne suffira pas pour appliquer les modifications).",
+      "summary": "Cette mise à jour inclut le contenu des versions 1.8.0 et 1.8.1. Elle corrige le problème de déformation du jiggle/physics gimmick de the clone lors de l'utilisation de the Left/Right Flip toggle, le problème des yeux devenant blancs lorsqu'un autre avatar est utilisé comme the clone, et le problème où the clone s'enfonce dans le sol lors de l'accroupissement avec un avatar de taille différente. De plus, il est désormais possible de vérifier l'utilisation de Constraint et des paramètres de synchronisation, qui causent souvent l'arrêt des téléchargements. L'héritage de la taille de the clone, la conservation du mécanisme de Constraint et la direction de Sync seront appliqués lorsque vous relancerez Setup dans l'installateur.",
       "entries": [
         {
+          "category": "fix",
+          "text": "Il a été corrigé un problème où le gimmick de physique (tel que marshmallow PB) sur la poitrine du clone et d'autres zones s'appliquait de manière inversée de gauche à droite lorsque l'inversion gauche/droite était activée, provoquant une déformation."
+        },
+        {
+          "category": "fix",
+          "text": "Il a été corrigé un problème où les valeurs numériques dans les détails de l'utilisation des Constraint pouvaient ne pas s'afficher correctement dans les langues autres que le japonais."
+        },
+        {
+          "category": "fix",
+          "text": "Il a été corrigé un problème où un message indiquant qu'une reconfiguration est nécessaire apparaissait parfois même lorsqu'il n'y avait aucun problème avec les paramètres de Sync."
+        },
+        {
           "category": "new",
-          "text": "Le clone peut désormais toucher votre propre avatar et les autres joueurs. Auparavant, les composants permettant le contact n'étaient pas conservés sur le clone, il n'était donc pas possible de caresser un autre joueur avec la main du clone par exemple."
+          "text": "Une jauge et un graphique détaillé pour le budget VRC Constraint ont été ajoutés à l'écran des paramètres."
         },
         {
           "category": "new",
-          "text": "Pour les systèmes qui émettent des sons lors de caresses (head-patting) et autres, le son sera désormais émis du côté du clone (dans le mode utilisant un autre avatar comme clone)."
+          "text": "Le rapport d'erreur lorsque l'upload s'arrête avec le message « trop de paramètres » a été détaillé."
+        },
+        {
+          "category": "new",
+          "text": "Lorsqu'un autre avatar est utilisé comme clone, même si la taille de cet avatar est définie par l'échelle de sa racine, le clone hérite désormais de cette taille."
+        },
+        {
+          "category": "new",
+          "text": "L'option « Conserver les gimmicks de Constraint » peut désormais être activée ou désactivée depuis l'écran des paramètres."
         },
         {
           "category": "fix",
-          "text": "Correction d'un problème où les contacts comme les caresses ne réagissaient pas du tout du côté du clone lorsqu'un avatar différent était utilisé comme clone."
+          "text": "Nous avons corrigé le problème où, lorsqu'un autre avatar est utilisé comme clone, celui-ci avait les yeux blancs (les pupilles enfoncées dans la tête) si la configuration de l'orientation de ses yeux différait de celle de l'avatar principal."
         },
         {
           "category": "fix",
-          "text": "Correction d'un problème où les systèmes comme ましゅまろPB ne fonctionnaient pas lors de l'utilisation d'un avatar différent comme clone."
+          "text": "Nous avons corrigé le problème où, en utilisant un clone de taille ou de proportions différentes de l'avatar principal, seul le clone s'enfonçait dans le sol lors de postures telles que s'accroupir, s'agenouiller ou s'allonger."
         },
         {
           "category": "fix",
-          "text": "Correction d'un bug où les composants SPS du clone étaient mal interprétés. Cela provoquait des symptômes tels que la disparition de la partie insérée lorsqu'un plug était inséré dans un hole."
+          "text": "Nous avons corrigé un problème sur les versions antérieures au VRChat SDK 3.10.3 où le mode NPC provoquait systématiquement l'échec de l'upload."
         },
         {
           "category": "fix",
-          "text": "Correction d'un problème où l'emplacement de l'objet ciblé par l'animation pouvait être désaligné avec la structure interne du clone, empêchant son bon fonctionnement."
+          "text": "Nous avons corrigé le problème où le SPS Socket du clone annulait l'écriture des paramètres de l'avatar principal, empêchant les gimmicks liés (comme la liaison PCS) de fonctionner sur l'ensemble de l'avatar principal."
         },
         {
           "category": "fix",
-          "text": "Aux utilisateurs de ましゅまろPB : L'\"interférence de la poitrine avec les autres joueurs\" depuis le clone ne fonctionne actuellement pas correctement. Étant donné que le Contact Sender du clone chevauche en permanence sa propre zone Receiver, la poitrine resterait continuellement enfoncée ; cela sera donc automatiquement retiré lors de l'exécution du Setup. Vous pouvez cependant toujours toucher la poitrine du clone pour déclencher une réaction, comme auparavant."
+          "text": "Nous avons corrigé un problème où, par exemple après la réouverture d'une scène, la référence à l'avatar source du clone se corrompait en interne, ce qui pouvait arrêter l'upload."
+        },
+        {
+          "category": "fix",
+          "text": "Nous avons corrigé le problème où le lissage des poses s'appliquait plus lentement que configuré sur les clones ayant des proportions différentes de l'avatar principal."
+        },
+        {
+          "category": "fix",
+          "text": "La valeur initiale de l'orientation pour la synchro est désormais le face-à-face."
         },
         {
           "category": "improve",
-          "text": "Les Constraints destinées à rester sur le clone sont désormais conservées par défaut. Les systèmes qui transfèrent les résultats du rebond aux os via des Constraints, comme ましゅまろPB, fonctionneront désormais également sur le clone."
-        },
-        {
-          "category": "improve",
-          "text": "Le paramètre \"Éviter l'écrasement du FX\" a été supprimé et est désormais toujours activé. Ce réglage devrait être activé pour presque tous les avatars, il n'y avait donc presque aucune raison de le désactiver."
-        },
-        {
-          "category": "improve",
-          "text": "Réorganisation et déplacement de quelques éléments dans l'écran des paramètres."
+          "text": "Les formulations de l'écran des paramètres et des messages d'erreur ont été entièrement revues."
         }
       ]
     },
     {
       "lang": "it",
-      "summary": "Il clone ora può toccare il tuo avatar e gli altri giocatori. Abbiamo anche risolto problemi per cui i contatti (come le carezze/head-patting) e i sistemi come ましゅまろPB non funzionavano quando si utilizzava un avatar diverso come clone. *Nota: Poiché in questo aggiornamento conserveremo più componenti sul clone, si prega di rieseguire il \"Setup\" dall'installer di Doppelin prima di caricarlo (il semplice ri-upload non applicherà le modifiche).",
+      "summary": "Questo aggiornamento include i contenuti delle versioni 1.8.0 e 1.8.1. È stato corretto il problema per cui la forma del jiggle/physics gimmick di the clone si deforma durante l'utilizzo di the Left/Right Flip toggle, il problema in cui gli occhi diventano bianchi quando si utilizza un altro avatar come the clone e il problema in cui the clone sprofonda nel terreno quando ci si accovaccia con un avatar di altezza diversa. Inoltre, è ora possibile controllare l'uso di Constraint e dei parametri di sincronizzazione, che spesso causano l'interruzione dei caricamenti. L'ereditarietà delle dimensioni di the clone, la conservazione del meccanismo di Constraint e la direzione di Sync verranno applicati eseguendo nuovamente Setup nel programma di installazione.",
       "entries": [
         {
+          "category": "fix",
+          "text": "È stato risolto un problema per cui il gimmick fisico (come marshmallow PB) sul petto del clone e in altre aree veniva applicato al contrario da sinistra a destra quando l'inversione destra/sinistra era attivata, causando una deformazione."
+        },
+        {
+          "category": "fix",
+          "text": "È stato risolto un problema per cui i valori numerici nel dettaglio dell'utilizzo dei Constraint potevano risultare mancanti se visualizzati in lingue diverse dal giapponese."
+        },
+        {
+          "category": "fix",
+          "text": "È stato risolto un problema per cui veniva mostrato un messaggio che richiedeva di eseguire nuovamente il setup anche quando non vi erano problemi con le impostazioni di Sync."
+        },
+        {
           "category": "new",
-          "text": "Il clone ora può toccare il tuo avatar e gli altri giocatori. In precedenza, i componenti per il tocco non venivano mantenuti sul clone, quindi non era possibile accarezzare qualcuno con la mano del clone."
+          "text": "Nella schermata delle impostazioni sono stati aggiunti un indicatore per il \"budget dei VRC Constraint\" e un grafico riassuntivo."
         },
         {
           "category": "new",
-          "text": "Per i gimmick che riproducono suoni durante le carezze (head-patting, ecc.), l'audio ora verrà riprodotto dal lato del clone (nella modalità in cui viene utilizzato un avatar diverso come clone)."
+          "text": "L'avviso in caso di blocco dell'upload con il messaggio \"troppi parametri\" è stato reso più dettagliato."
+        },
+        {
+          "category": "new",
+          "text": "Quando si imposta \"Un altro avatar\" come clone, ora il clone ne eredita le dimensioni anche se quell'avatar determina la propria altezza in base alla scala della root."
+        },
+        {
+          "category": "new",
+          "text": "Ora è possibile attivare o disattivare l'opzione \"Mantieni le meccaniche dei Constraint\" dalla schermata delle impostazioni."
         },
         {
           "category": "fix",
-          "text": "Risolto un problema per cui le interazioni di contatto (come le carezze) non rispondevano affatto sul clone quando si utilizzava un avatar diverso come clone."
+          "text": "È stato corretto il problema per cui, usando \"Un altro avatar\" come clone, gli occhi del clone diventano bianchi (le pupille sprofondano nella testa) se il metodo di gestione della direzione degli occhi di tale avatar è diverso da quello dell'avatar principale."
         },
         {
           "category": "fix",
-          "text": "Risolto un problema per cui gimmick come ましゅまろPB non funzionavano quando si utilizzava un avatar diverso come clone."
+          "text": "È stato corretto il problema per cui, usando come clone un avatar con altezza o proporzioni diverse dall'avatar principale, solo il clone sprofonda nel pavimento in posture come accovacciato, in ginocchio o prono."
         },
         {
           "category": "fix",
-          "text": "Risolto un bug in cui i componenti SPS del clone venivano interpretati in modo errato. Questo causava problemi come la scomparsa del plug quando veniva inserito in un hole."
+          "text": "È stato risolto il problema per cui l'upload falliva sempre a causa della modalità NPC nelle versioni antecedenti a VRChat SDK 3.10.3."
         },
         {
           "category": "fix",
-          "text": "Risolto un problema in cui il percorso degli oggetti di riferimento delle animazioni si disallineava con la struttura interna del clone, non riuscendo ad applicare l'effetto."
+          "text": "È stato corretto il problema per cui i SPS Socket sul clone annullavano la scrittura dei parametri dell'avatar principale, bloccando sia l'avatar principale sia le funzionalità collegate (come l'integrazione PCS)."
         },
         {
           "category": "fix",
-          "text": "Agli utenti di ましゅまろPB: L'\"interferenza del petto con altri giocatori\" da parte del clone attualmente non funziona correttamente. Poiché il Contact Sender del clone si sovrappone costantemente alla sua stessa area Receiver, causando una compressione continua del petto, questo verrà rimosso automaticamente durante il Setup. L'interazione di toccare il petto del clone per innescare una reazione funzionerà ancora come prima."
+          "text": "È stato corretto un problema per cui il riferimento all'avatar sorgente del clone si corrompeva internamente (ad esempio dopo aver riaperto la scena), causando a volte il blocco dell'upload."
+        },
+        {
+          "category": "fix",
+          "text": "È stato corretto il problema per cui lo smoothing delle pose veniva applicato più lentamente rispetto alle impostazioni su un clone con proporzioni diverse da quelle dell'avatar principale."
+        },
+        {
+          "category": "fix",
+          "text": "Il valore iniziale per la direzione della sincronizzazione è ora impostato su \"faccia a faccia\"."
         },
         {
           "category": "improve",
-          "text": "I Constraint che devono rimanere sul clone ora vengono mantenuti per impostazione predefinita. I gimmick che trasmettono i risultati del tremolio/movimento alle ossa tramite Constraint, come ましゅまろPB, ora funzioneranno anche sul lato del clone."
-        },
-        {
-          "category": "improve",
-          "text": "L'impostazione \"Evita la sovrascrittura dell'FX\" è stata rimossa ed è ora sempre abilitata. Questa opzione dovrebbe essere attiva per quasi tutti gli avatar e non c'era quasi alcun motivo per disattivarla."
-        },
-        {
-          "category": "improve",
-          "text": "Alcune opzioni nella schermata delle impostazioni sono state riorganizzate e spostate."
+          "text": "I testi della schermata delle impostazioni e dei messaggi di errore sono stati completamente revisionati."
         }
       ]
     }
