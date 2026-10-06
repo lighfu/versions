@@ -1,168 +1,240 @@
 {
-  "version": "1.9.0",
+  "version": "1.10.0",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-09-23",
-  "changelog": "別のアバターを分身にしている方へ：更新後、Doppelin Installer の「セットアップ」を押し直してください（再アップロードだけでは反映されません）。",
+  "releaseDate": "2026-10-07",
+  "changelog": "「本体を隠す」を追加しました。ゲーム内のトグルで、自分や他の人から本体の見た目を隠せます。分身には影響しません。\nNPCモードに「指さし移動」を追加しました。手首で指した場所へ分身を歩かせ、着いたら登録したモーションを再生できます。\n「別のアバター」で、分身の元アバターのパラメータを本体と同じ名前で共有できるようになりました。本体の服の切り替えが分身にも連動し、同期パラメータも増えません。\nセットアップと設定画面の動作を軽くしました。\n設定画面の説明文を、読みやすく書き直しました。",
   "localized": [
     {
       "lang": "ja",
-      "summary": "別のアバターを分身にしている方へ：更新後、Doppelin Installer の「セットアップ」を押し直してください（再アップロードだけでは反映されません）。",
+      "summary": "",
       "entries": [
         {
           "category": "new",
-          "text": "別のアバターを分身にするとき、分身の腕などの初期姿勢を本体に合わせるようにしました。本体と分身で T ポーズ／A ポーズなど構えが違うと、分身の腕が常にクロスしたり、ずれたりする問題の修正。"
+          "text": "「本体を隠す」を追加しました。ゲーム内のトグルで、自分や他の人から本体の見た目を隠せます。分身には影響しません。"
         },
         {
-          "category": "fix",
-          "text": "同じ名前の元アバターで分身を 2 体以上セットアップすると、先にセットアップした分身の衣装（Modular Avatar で合体した服など）が消える問題を修正しました。"
+          "category": "new",
+          "text": "NPCモードに「指さし移動」を追加しました。手首で指した場所へ分身を歩かせ、着いたら登録したモーションを再生できます。"
         },
         {
-          "category": "fix",
-          "text": "Doppelin を更新しただけなのに「設定を変えた後にセットアップしていません」と表示される問題を修正しました。"
+          "category": "new",
+          "text": "「別のアバター」で、分身の元アバターのパラメータを本体と同じ名前で共有できるようになりました。本体の服の切り替えが分身にも連動し、同期パラメータも増えません。"
+        },
+        {
+          "category": "improve",
+          "text": "セットアップと設定画面の動作を軽くしました。"
+        },
+        {
+          "category": "improve",
+          "text": "設定画面の説明文を、読みやすく書き直しました。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "For those using a different avatar as the clone: after updating, press \"Set Up\" on the Doppelin Installer again (re-uploading alone does not apply the changes).",
+      "summary": "",
       "entries": [
         {
           "category": "new",
-          "text": "When a different avatar is used as the clone, the initial pose of the clone's arms and other limbs now matches your main avatar. This fixes the issue where the clone's arms stayed crossed or misaligned when your avatar and the clone had different stances, such as a T-pose and an A-pose."
+          "text": "Added \"Hide main avatar\". You can hide the main avatar's appearance from yourself and others via an in-game toggle. This does not affect the clone."
         },
         {
-          "category": "fix",
-          "text": "Fixed an issue where setting up two or more clones from source avatars with the same name made the outfits of the clone set up first (such as clothes merged with Modular Avatar) disappear."
+          "category": "new",
+          "text": "Added \"Point-to-Move\" to \"NPC Mode\". You can make the clone walk to where you point with your wrist, and it can play a registered motion upon arriving."
         },
         {
-          "category": "fix",
-          "text": "Fixed an issue where the warning \"You changed Doppelin's settings but did not run Set Up\" appeared even when you had only updated Doppelin."
+          "category": "new",
+          "text": "In \"Other Avatar\", the clone's source avatar can now share parameters with the main avatar using the same names. Clothing changes on the main avatar are now linked to the clone, and synced parameters will not increase."
+        },
+        {
+          "category": "improve",
+          "text": "Made Setup and the settings screen run lighter."
+        },
+        {
+          "category": "improve",
+          "text": "Rewrote the descriptions on the settings screen to be easier to read."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "다른 아바타를 분신으로 사용하시는 분들께: 업데이트 후, Doppelin Installer의 「셋업」을 다시 눌러 주십시오(재업로드만으로는 반영되지 않습니다).",
+      "summary": "",
       "entries": [
         {
           "category": "new",
-          "text": "다른 아바타를 분신으로 설정할 때, 분신의 팔 등 초기 자세를 본체에 맞추도록 변경했습니다. 본체와 분신의 T-pose/A-pose 등 자세가 다를 경우, 분신의 팔이 항상 교차하거나 어긋나는 문제를 수정했습니다."
+          "text": "\"본체 숨기기\"를 추가했습니다. 게임 내 토글로 자신이나 다른 사람에게서 본체의 모습을 숨길 수 있습니다. 분신에는 영향을 주지 않습니다."
         },
         {
-          "category": "fix",
-          "text": "같은 이름의 원본 아바타로 분신을 2개 이상 셋업하면, 먼저 셋업한 분신의 의상(Modular Avatar로 병합한 옷 등)이 사라지는 문제를 수정했습니다."
+          "category": "new",
+          "text": "\"NPC 모드\"에 \"가리켜 이동\"을 추가했습니다. 손목으로 가리킨 곳으로 분신을 걸어가게 하고, 도착하면 등록된 모션을 재생할 수 있습니다."
         },
         {
-          "category": "fix",
-          "text": "Doppelin을 업데이트하기만 했는데도 \"Doppelin 설정을 변경한 후 셋업하지 않았습니다\"라는 메시지가 표시되는 문제를 수정했습니다."
+          "category": "new",
+          "text": "\"다른 아바타\"에서 분신의 원본 아바타 파라미터를 본체와 같은 이름으로 공유할 수 있게 되었습니다. 본체의 옷 변경이 분신에도 연동되며, 동기화 파라미터도 늘어나지 않습니다."
+        },
+        {
+          "category": "improve",
+          "text": "셋업과 설정 화면의 동작을 가볍게 만들었습니다."
+        },
+        {
+          "category": "improve",
+          "text": "설정 화면의 설명문을 읽기 쉽게 다시 작성했습니다."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "致使用其他 Avatar 作为分身的用户：更新后，请重新点击 Doppelin Installer 的“设置”（仅重新上传不会生效）。",
+      "summary": "",
       "entries": [
         {
           "category": "new",
-          "text": "在将其他 Avatar 作为分身时，现在会使分身的手臂等初始姿势与本体保持一致。修复了由于本体与分身在 T-pose/A-pose 等姿势上不同，导致分身的手臂始终交叉或错位的问题。"
+          "text": "添加了“隐藏本体”。你可以通过游戏内开关对自己和他人隐藏本体的外观。这不会影响分身。"
         },
         {
-          "category": "fix",
-          "text": "修复了使用同名基础 Avatar 设置 2 个或更多分身时，会导致先设置的分身服装（如通过 Modular Avatar 合并的衣服等）消失的问题。"
+          "category": "new",
+          "text": "在“NPC 模式”中添加了“指向移动”。你可以让分身走到手腕指向的位置，到达后还可以播放已注册的动作。"
         },
         {
-          "category": "fix",
-          "text": "修复了仅仅更新 Doppelin 却提示“你在更改 Doppelin 的设置后尚未执行设置”的问题。"
+          "category": "new",
+          "text": "在“其他 Avatar”中，分身的来源 Avatar 现可与本体共享同名的参数。本体的服装切换现在会联动到分身，且不会增加同步参数。"
+        },
+        {
+          "category": "improve",
+          "text": "减轻了设置流程和设置界面的运行负担。"
+        },
+        {
+          "category": "improve",
+          "text": "重写了设置界面的说明文本，使其更易于阅读。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "致使用其他 Avatar 作為分身的用戶：更新後，請重新點擊 Doppelin Installer 的「設定」（僅重新上傳不會生效）。",
+      "summary": "",
       "entries": [
         {
           "category": "new",
-          "text": "在將其他 Avatar 作為分身時，現在會使分身的手臂等初始姿勢與本體保持一致。修復了由於本體與分身在 T-pose/A-pose 等姿勢上不同，導致分身的手臂始終交叉或錯位的問題。"
+          "text": "加入了「隱藏本體」。您可以透過遊戲內的開關，對自己和他人隱藏本體的外觀。這不會影響分身。"
         },
         {
-          "category": "fix",
-          "text": "修復了使用同名基礎 Avatar 設定 2 個或更多分身時，會導致先設定的分身服裝（如透過 Modular Avatar 合併的衣服等）消失的問題。"
+          "category": "new",
+          "text": "在「NPC 模式」中加入了「指向移動」。您可以讓分身走到手腕指向的位置，並在到達後播放已註冊的動作。"
         },
         {
-          "category": "fix",
-          "text": "修復了僅僅更新 Doppelin 卻提示「你在變更 Doppelin 的設定後尚未執行設定」的問題。"
+          "category": "new",
+          "text": "在「其他 Avatar」中，分身的來源 Avatar 現在可以與本體共用同名的參數。本體的服裝切換現在會連動到分身，且不會增加同步參數。"
+        },
+        {
+          "category": "improve",
+          "text": "減輕了設定流程與設定畫面的運作負擔。"
+        },
+        {
+          "category": "improve",
+          "text": "改寫了設定畫面的說明文字，使其更易閱讀。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "致使用其他 Avatar 作為分身的使用者：更新後，請重新點擊 Doppelin Installer 的「設定」（僅重新上傳不會生效）。",
+      "summary": "",
       "entries": [
         {
           "category": "new",
-          "text": "在將其他 Avatar 作為分身時，現在會讓分身的手臂等初始姿勢與本體保持一致。修復了由於本體與分身在 T-pose/A-pose 等姿勢上不同，導致分身的手臂始終交叉或錯位的問題。"
+          "text": "加入了「隱藏本體」。您可以透過遊戲內的開關，對自己和他人隱藏本體的外觀。這不會影響分身。"
         },
         {
-          "category": "fix",
-          "text": "修復了使用同名基礎 Avatar 設定 2 個以上的分身時，會導致先設定的分身服裝（例如透過 Modular Avatar 合併的衣服等）消失的問題。"
+          "category": "new",
+          "text": "在「NPC 模式」中加入了「指向移動」。您可以讓分身走到手腕指向的位置，並在抵達後播放已註冊的動作。"
         },
         {
-          "category": "fix",
-          "text": "修復了僅僅更新 Doppelin 卻提示「你在變更 Doppelin 的設定後尚未執行設定」的問題。"
+          "category": "new",
+          "text": "在「其他 Avatar」中，分身的來源 Avatar 現在可以與本體共用同名的參數。本體的服裝切換現在會連動到分身，且不會增加同步參數。"
+        },
+        {
+          "category": "improve",
+          "text": "減輕了設定流程與設定畫面的運作負擔。"
+        },
+        {
+          "category": "improve",
+          "text": "改寫了設定畫面的說明文字，使其更易閱讀。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "致使用其他 Avatar 作為分身的用戶：更新後，請重新點擊 Doppelin Installer 的「設定」（僅重新上傳不會生效）。",
+      "summary": "",
       "entries": [
         {
           "category": "new",
-          "text": "在將其他 Avatar 作為分身時，現在會使分身的手臂等初始姿勢與本體保持一致。修復了由於本體與分身在 T-pose/A-pose 等姿勢上不同，導致分身的手臂始終交叉或錯位的問題。"
+          "text": "加入了「隱藏本體」。您可以透過遊戲內的開關，對自己和他人隱藏本體的外觀。這不會影響分身。"
         },
         {
-          "category": "fix",
-          "text": "修復了使用同名基礎 Avatar 設定 2 個或更多分身時，會導致先設定的分身服裝（如透過 Modular Avatar 合併的衣服等）消失的問題。"
+          "category": "new",
+          "text": "在「NPC 模式」中加入了「指向移動」。您可以讓分身走到手腕指向的位置，並在到達後播放已註冊的動作。"
         },
         {
-          "category": "fix",
-          "text": "修復了僅僅更新 Doppelin 卻提示「你在變更 Doppelin 的設定後尚未執行設定」的問題。"
+          "category": "new",
+          "text": "在「其他 Avatar」中，分身的來源 Avatar 現在可以與本體共用同名的參數。本體的服裝切換現在會連動到分身，且不會增加同步參數。"
+        },
+        {
+          "category": "improve",
+          "text": "減輕了設定流程與設定畫面的運作負擔。"
+        },
+        {
+          "category": "improve",
+          "text": "改寫了設定畫面的說明文字，使其更易閱讀。"
         }
       ]
     },
     {
       "lang": "fr",
-      "summary": "À ceux qui utilisent un autre avatar comme clone : après la mise à jour, veuillez appuyer à nouveau sur « Configurer » dans le Doppelin Installer (un simple retéléversement ne suffira pas pour appliquer les changements).",
+      "summary": "",
       "entries": [
         {
           "category": "new",
-          "text": "Lors de l’utilisation d’un autre avatar comme clone, la posture initiale des bras du clone et d’autres parties est désormais ajustée pour correspondre à l’avatar principal. Cela corrige le problème où les bras du clone se croisaient ou se décalaient constamment si l’avatar principal et le clone avaient des postures différentes, telles que la T-pose/A-pose."
+          "text": "Ajout de « Masquer l’avatar principal ». Vous pouvez masquer l’apparence de l’avatar principal pour vous-même et les autres via un bouton en jeu. Cela n’affecte pas le clone."
         },
         {
-          "category": "fix",
-          "text": "Correction d’un problème où la configuration de 2 clones ou plus avec un avatar source du même nom faisait disparaître les tenues du clone configuré précédemment (telles que les vêtements fusionnés avec Modular Avatar)."
+          "category": "new",
+          "text": "Ajout du « Déplacement par pointage » au « Mode PNJ ». Vous pouvez faire marcher le clone vers l’endroit que vous pointez avec votre poignet, et il peut jouer une animation enregistrée à son arrivée."
         },
         {
-          "category": "fix",
-          "text": "Correction d’un problème où le message « Vous avez modifié les réglages de Doppelin sans relancer la configuration » s’affichait alors que vous aviez simplement mis à jour Doppelin."
+          "category": "new",
+          "text": "Dans « Autre Avatar », l’avatar source du clone peut désormais partager des paramètres avec l’avatar principal en utilisant le même nom. Les changements de vêtements de l’avatar principal sont maintenant liés au clone, sans augmenter les paramètres synchronisés."
+        },
+        {
+          "category": "improve",
+          "text": "La configuration et l’écran des paramètres sont désormais plus légers."
+        },
+        {
+          "category": "improve",
+          "text": "Les descriptions sur l’écran des paramètres ont été réécrites pour être plus faciles à lire."
         }
       ]
     },
     {
       "lang": "it",
-      "summary": "A chi utilizza un altro avatar come clone: dopo l’aggiornamento, premere nuovamente «Configurazione» nel Doppelin Installer (il solo ricaricamento non applicherà le modifiche).",
+      "summary": "",
       "entries": [
         {
           "category": "new",
-          "text": "Quando si utilizza un altro avatar come clone, la postura iniziale delle braccia e di altre parti del clone viene ora adattata per corrispondere all’avatar principale. Questo risolve il problema per cui le braccia del clone si incrociavano costantemente o risultavano disallineate se l’avatar principale e il clone avevano posizioni diverse, come la T-pose/A-pose."
+          "text": "Aggiunto «Nascondi avatar principale». Puoi nascondere l'aspetto dell'avatar principale a te stesso e agli altri tramite un interruttore nel gioco. Questo non ha effetto sul clone."
         },
         {
-          "category": "fix",
-          "text": "È stato risolto un problema per cui la configurazione di 2 o più cloni utilizzando un avatar di origine con lo stesso nome faceva scomparire i vestiti del clone configurato in precedenza (come i vestiti uniti con Modular Avatar)."
+          "category": "new",
+          "text": "Aggiunto «Spostamento con puntamento» alla «Modalità NPC». Puoi far camminare il clone verso il punto che indichi con il polso e fargli riprodurre un'animazione registrata all'arrivo."
         },
         {
-          "category": "fix",
-          "text": "È stato risolto un problema per cui veniva visualizzato il messaggio «Le impostazioni di Doppelin sono state modificate ma non è stata eseguita la configurazione» pur avendo solo aggiornato Doppelin."
+          "category": "new",
+          "text": "In «Altro Avatar», l'avatar di origine del clone può ora condividere i parametri con l'avatar principale usando lo stesso nome. I cambi di vestiti sull'avatar principale sono ora collegati al clone e i parametri sincronizzati non aumenteranno."
+        },
+        {
+          "category": "improve",
+          "text": "La configurazione e la schermata delle impostazioni sono ora più leggere."
+        },
+        {
+          "category": "improve",
+          "text": "Le descrizioni nella schermata delle impostazioni sono state riscritte per essere più facili da leggere."
         }
       ]
     }
