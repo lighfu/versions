@@ -1,1 +1,1 @@
-{"version":"0.53.2","changelog":"未変換MeshRendererでビルドを停止せずNDMFに通知。Avatar Optimizerとの鍵配送検証、テクスチャ再暗号化、解錠クライアントの安定性を改善。","url":"https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.53.2"}
+{"version":"0.54.0","changelog":"Animatorの差し替えは対象をメッシュ暗号化から除外して続行。6項目の停止設定を追加し、停止原因をNDMF・Consoleに記録。NDMF表示文言を更新。","url":"https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.54.0"}
