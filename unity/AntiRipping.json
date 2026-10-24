@@ -1,1 +1,1 @@
-{"version":"0.53.1","changelog":"Material Variantの継承マテリアルを使用した際のビルドエラーを修正し、メッシュ暗号化のエラー表示を改善。","url":"https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.53.1"}
+{"version":"0.53.2","changelog":"未変換MeshRendererでビルドを停止せずNDMFに通知。Avatar Optimizerとの鍵配送検証、テクスチャ再暗号化、解錠クライアントの安定性を改善。","url":"https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.53.2"}
