@@ -1,1 +1,1 @@
-{"version":"0.54.1","changelog":"512個を超えるBlendShapeでの暗号化停止を修正。鍵・暗号化画像・シェーダー解析の検証を強化し、テクスチャ単独ビルドも64bit鍵・16bit同期に統一。Client0.21.18の送信・取り込みの失敗表示を改善。","url":"https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.54.1"}
+{"version":"0.54.2","changelog":"lilToon FakeShadowでのメッシュ暗号化停止と、512個を超えるBlendShapeが最終検査で拒否される問題を修正。実アバター（296ボーン・737 BlendShape）で確認済み。","url":"https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.54.2"}
