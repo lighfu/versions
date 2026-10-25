@@ -1,1 +1,5 @@
-{"version":"0.54.2","changelog":"lilToon FakeShadowでのメッシュ暗号化停止と、512個を超えるBlendShapeが最終検査で拒否される問題を修正。実アバター（296ボーン・737 BlendShape）で確認済み。","url":"https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.54.2"}
+{
+  "version": "0.54.3",
+  "changelog": "メッシュ暗号化用データテクスチャが8192pxを超える問題を修正。大きなデータを制限内に格納し、MiltinaのSDK実ビルドと完成ファイル、ユーザー環境での動作を確認。",
+  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.54.3"
+}
