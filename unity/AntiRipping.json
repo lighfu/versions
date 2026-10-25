@@ -1,1 +1,1 @@
-{"version":"0.54.0","changelog":"Animatorの差し替えは対象をメッシュ暗号化から除外して続行。6項目の停止設定を追加し、停止原因をNDMF・Consoleに記録。NDMF表示文言を更新。","url":"https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.54.0"}
+{"version":"0.54.1","changelog":"512個を超えるBlendShapeでの暗号化停止を修正。鍵・暗号化画像・シェーダー解析の検証を強化し、テクスチャ単独ビルドも64bit鍵・16bit同期に統一。Client0.21.18の送信・取り込みの失敗表示を改善。","url":"https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.54.1"}
