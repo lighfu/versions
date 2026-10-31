@@ -1,173 +1,378 @@
 {
-  "version": "1.10.2",
+  "version": "1.10.3",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-10-16",
-  "changelog": "左右反転中、分身の SPS Plug のテクスチャが左右逆になったり、曲がったときに根元が細くなったりする問題を修正しました。\n一部の構成で、左右反転中に分身の表面全体が裏面の色や輪郭線の色で塗られる問題を修正しました。\n更新のお知らせで、長い項目の字下げが消えたり、上に空行が入ったりする問題を修正しました。\n再アップロードで反映されます。セットアップのやり直しは不要です。",
+  "releaseDate": "2026-10-31",
+  "changelog": "不具合や要望を開発者へ直接送れるフォームを追加しました。設定画面の「サポート」から開けます。\n利用状況の送信を追加しました。同意した場合だけ送信され、設定画面の「サポート」からいつでも止められます。アバター名、メニュー名、パラメータ名、ファイル名は送信しません。\n分身全体を運ぶ黄色い球を一度動かすと、次に掴みにくくなる問題を修正しました。\nジョイスティック移動と前後・左右の調整を併用したときに、同期パラメータの見積りが実際より少なくなる問題を修正しました。\n黄色い球の修正を反映するには、もう一度セットアップしてください。",
   "localized": [
     {
       "lang": "ja",
-      "summary": "再アップロードで反映されます。セットアップのやり直しは不要です。",
+      "summary": "黄色い球の修正を反映するには、もう一度セットアップしてください。",
       "entries": [
         {
-          "category": "fix",
-          "text": "左右反転中、分身の SPS Plug のテクスチャが左右逆になったり、曲がったときに根元が細くなったりする問題を修正しました。"
+          "category": "new",
+          "text": "不具合や要望を開発者へ直接送れるフォームを追加しました。設定画面の「サポート」から開けます。"
+        },
+        {
+          "category": "new",
+          "text": "利用状況の送信を追加しました。同意した場合だけ送信され、設定画面の「サポート」からいつでも止められます。アバター名、メニュー名、パラメータ名、ファイル名は送信しません。"
         },
         {
           "category": "fix",
-          "text": "一部の構成で、左右反転中に分身の表面全体が裏面の色や輪郭線の色で塗られる問題を修正しました。"
+          "text": "分身全体を運ぶ黄色い球を一度動かすと、次に掴みにくくなる問題を修正しました。"
         },
         {
           "category": "fix",
-          "text": "更新のお知らせで、長い項目の字下げが消えたり、上に空行が入ったりする問題を修正しました。"
+          "text": "ジョイスティック移動と前後・左右の調整を併用したときに、同期パラメータの見積りが実際より少なくなる問題を修正しました。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "Re-uploading the avatar applies the changes. You do not need to run Setup again.",
+      "summary": "To apply the fix for the yellow sphere, please press Set Up again.",
       "entries": [
         {
-          "category": "fix",
-          "text": "Fixed an issue during Mirror Flip where the clone's SPS Plug texture was horizontally flipped or its base narrowed when bent."
+          "category": "new",
+          "text": "Added a form to send bug reports and feature requests directly to the developer. You can open it from \"Support\" in the settings."
+        },
+        {
+          "category": "new",
+          "text": "Added usage data reporting. Data is sent only with your consent and can be turned off at any time from \"Support\" in the settings. Avatar names, menu names, parameter names, and file names are not sent."
         },
         {
           "category": "fix",
-          "text": "Fixed an issue in some configurations where the clone's whole surface was drawn with the back-face color or the outline color during Mirror Flip."
+          "text": "Fixed an issue where the yellow sphere that moves the entire clone became hard to grab after being moved once."
         },
         {
           "category": "fix",
-          "text": "Fixed an issue in the update notice where indentation for long items disappeared or a blank line was inserted above them."
+          "text": "Fixed an issue where the estimated synced parameter usage was lower than actual when combining joystick movement with forward/backward and left/right adjustments."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "다시 업로드하면 반영됩니다. 셋업을 다시 할 필요는 없습니다.",
+      "summary": "노란 구체의 수정 사항을 반영하려면 다시 '셋업'을 실행해 주세요.",
       "entries": [
         {
-          "category": "fix",
-          "text": "좌우 반전 시 분신의 SPS Plug 텍스처가 좌우로 뒤집히거나, 구부러졌을 때 뿌리 부분이 가늘어지는 문제를 수정했습니다."
+          "category": "new",
+          "text": "버그 제보나 건의 사항을 개발자에게 직접 보낼 수 있는 양식을 추가했습니다. 설정 화면의 '지원'에서 열 수 있습니다."
+        },
+        {
+          "category": "new",
+          "text": "사용 현황 전송 기능을 추가했습니다. 동의한 경우에만 전송되며, 설정 화면의 '지원'에서 언제든지 중단할 수 있습니다. 아바타 이름, 메뉴 이름, 파라미터 이름, 파일 이름은 전송되지 않습니다."
         },
         {
           "category": "fix",
-          "text": "일부 구성에서 좌우 반전 시 분신의 표면 전체가 뒷면 색상이나 외곽선 색상으로 칠해지는 문제를 수정했습니다."
+          "text": "분신 전체를 옮기는 노란 구체를 한 번 움직인 뒤 다시 잡기 어려워지는 문제를 수정했습니다."
         },
         {
           "category": "fix",
-          "text": "업데이트 알림에서 긴 항목의 들여쓰기가 사라지거나 위에 빈 줄이 들어가는 문제를 수정했습니다."
+          "text": "조이스틱 이동과 전후·좌우 조절을 함께 사용할 때 동기화 파라미터 예측치가 실제보다 적게 계산되는 문제를 수정했습니다."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "重新上传即可生效。无需重新进行设置。",
+      "summary": "要应用黄色球体的修复，请再次运行“设置”。",
       "entries": [
         {
-          "category": "fix",
-          "text": "修复了左右翻转时，分身的 SPS Plug 贴图左右颠倒或弯曲时根部变细的问题。"
+          "category": "new",
+          "text": "新增了可直接向开发者发送问题反馈和功能建议的表单。可在设置界面的“技术支持”中打开。"
+        },
+        {
+          "category": "new",
+          "text": "新增了使用情况发送功能。仅在您同意时才会发送，且随时可在设置界面的“技术支持”中关闭。不会发送 Avatar 名称、菜单名称、参数名称和文件名。"
         },
         {
           "category": "fix",
-          "text": "修复了在部分配置下，左右翻转时分身的整个表面被涂成背面颜色或轮廓线颜色的问题。"
+          "text": "修复了用于移动整个分身的黄色球体在移动一次后变得难以再次抓取的问题。"
         },
         {
           "category": "fix",
-          "text": "修复了更新通知中，较长项目的缩进消失或上方出现空行的问题。"
+          "text": "修复了同时使用摇杆移动与前后、左右调整时，同步参数的预估量比实际偏少的问题。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "重新上傳即可生效。無需重新進行設定。",
+      "summary": "若要套用黃色球體的修正，請再次執行「設定」。",
       "entries": [
         {
-          "category": "fix",
-          "text": "修復了左右翻轉時，分身的 SPS Plug 貼圖左右顛倒或彎曲時根部變細的問題。"
+          "category": "new",
+          "text": "新增了可直接向開發者傳送問題回報與功能建議的表單。可從設定畫面的「技術支援」中開啟。"
+        },
+        {
+          "category": "new",
+          "text": "新增了傳送使用狀況的功能。僅在您同意時才會傳送，且隨時可從設定畫面的「技術支援」中停用。不會傳送 Avatar 名稱、選單名稱、參數名稱與檔案名稱。"
         },
         {
           "category": "fix",
-          "text": "修復了在部分配置下，左右翻轉時分身的整個表面被塗成背面顏色或輪廓線顏色的問題。"
+          "text": "修正了用來移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了更新通知中，較長項目的縮排消失或上方出現空白行的問題。"
+          "text": "修正了同時使用搖桿移動與前後、左右調整時，同步參數的預估量比實際還少的問題。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "重新上傳即可生效。無需重新進行設定。",
+      "summary": "若要套用黃色球體的修正，請再次執行「設定」。",
       "entries": [
         {
-          "category": "fix",
-          "text": "修復了左右翻轉時，分身的 SPS Plug 貼圖左右顛倒或彎曲時根部變細的問題。"
+          "category": "new",
+          "text": "新增了可直接向開發者傳送錯誤回報與功能建議的表單。可從設定畫面的「技術支援」中開啟。"
+        },
+        {
+          "category": "new",
+          "text": "新增了傳送使用狀況的功能。僅在您同意時才會傳送，且隨時可從設定畫面的「技術支援」中停用。不會傳送 Avatar 名稱、選單名稱、參數名稱與檔案名稱。"
         },
         {
           "category": "fix",
-          "text": "修復了在部分配置下，左右翻轉時分身的整個表面被塗成背面顏色或輪廓線顏色的問題。"
+          "text": "修正了用來移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了更新通知中，較長項目的縮排消失或上方出現空白行的問題。"
+          "text": "修正了同時使用搖桿移動與前後、左右調整時，同步參數的預估量比實際還少的問題。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "重新上傳即可生效。無需重新進行設定。",
+      "summary": "如要套用黃色球體的修正，請再次執行「設定」。",
       "entries": [
         {
-          "category": "fix",
-          "text": "修復了左右翻轉時，分身的 SPS Plug 貼圖左右顛倒或彎曲時根部變細的問題。"
+          "category": "new",
+          "text": "新增了可直接向開發者發送錯誤報告及功能建議的表格。可於設定畫面的「技術支援」中打開。"
+        },
+        {
+          "category": "new",
+          "text": "新增了發送使用情況的功能。只會在你同意時發送，並可隨時於設定畫面的「技術支援」中停止。不會發送 Avatar 名稱、選單名稱、參數名稱及檔案名稱。"
         },
         {
           "category": "fix",
-          "text": "修復了在部分配置下，左右翻轉時分身的整個表面被塗成背面顏色或輪廓線顏色的問題。"
+          "text": "修正了用於移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
         },
         {
           "category": "fix",
-          "text": "修復了更新通知中，較長項目的縮排消失或上方出現空白行的問題。"
+          "text": "修正了同時使用控制桿移動與前後、左右調整時，同步參數的估算值比實際少的問題。"
         }
       ]
     },
     {
       "lang": "fr",
-      "summary": "Les modifications seront appliquées lors d’un nouveau téléversement. Vous n’avez pas besoin de refaire la configuration.",
+      "summary": "Pour appliquer le correctif de la sphère jaune, veuillez cliquer à nouveau sur « Configurer ».",
       "entries": [
         {
-          "category": "fix",
-          "text": "Correction d’un problème où, lors de l’Inversion miroir, la texture du SPS Plug du clone était inversée horizontalement ou sa base s’amincissait lorsqu’il était plié."
+          "category": "new",
+          "text": "Ajout d'un formulaire permettant d'envoyer directement des signalements de bugs et des suggestions au développeur. Vous pouvez l'ouvrir depuis « Support » dans les paramètres."
+        },
+        {
+          "category": "new",
+          "text": "Ajout de l'envoi des données d'utilisation. Ces données ne sont envoyées qu'avec votre accord et vous pouvez les désactiver à tout moment depuis « Support » dans les paramètres. Les noms d'avatars, de menus, de paramètres et de fichiers ne sont pas envoyés."
         },
         {
           "category": "fix",
-          "text": "Correction d’un problème où, dans certaines configurations, toute la surface du clone était peinte avec la couleur de la face arrière ou du contour lors de l’Inversion miroir."
+          "text": "Correction d'un problème où la sphère jaune permettant de déplacer l'ensemble du clone devenait difficile à saisir après avoir été déplacée une fois."
         },
         {
           "category": "fix",
-          "text": "Correction d’un problème dans la notification de mise à jour où le retrait des éléments longs disparaissait ou une ligne vide s’insérait au-dessus."
+          "text": "Correction d'un problème où l'estimation des paramètres synchronisés était inférieure à la valeur réelle lors de l'utilisation combinée du déplacement au joystick et des ajustements avant/arrière et gauche/droite."
         }
       ]
     },
     {
       "lang": "it",
-      "summary": "Le modifiche verranno applicate con un nuovo caricamento. Non è necessario ripetere la configurazione.",
+      "summary": "Per applicare la correzione della sfera gialla, esegui nuovamente \"Configurazione\".",
       "entries": [
         {
-          "category": "fix",
-          "text": "Risolto un problema per cui, durante l'Inversione orizzontale, la texture dell'SPS Plug del clone risultava invertita orizzontalmente o la base si assottigliava quando veniva piegato."
+          "category": "new",
+          "text": "Aggiunto un modulo per inviare segnalazioni di bug e richieste direttamente allo sviluppatore. Puoi aprirlo da \"Support\" nella schermata delle impostazioni."
+        },
+        {
+          "category": "new",
+          "text": "Aggiunto l'invio dei dati di utilizzo. I dati vengono inviati solo con il tuo consenso e puoi interromperne l'invio in qualsiasi momento da \"Support\" nella schermata delle impostazioni. I nomi di avatar, menu, parametri e file non vengono inviati."
         },
         {
           "category": "fix",
-          "text": "Risolto un problema per cui, in alcune configurazioni, l'intera superficie del clone veniva colorata con il colore della faccia posteriore o del contorno durante l'Inversione orizzontale."
+          "text": "Risolto un problema per cui la sfera gialla che sposta l'intero clone diventava difficile da afferrare dopo essere stata mossa una volta."
         },
         {
           "category": "fix",
-          "text": "Risolto un problema nella notifica di aggiornamento per cui il rientro degli elementi lunghi scompariva o veniva inserita una riga vuota sopra di essi."
+          "text": "Risolto un problema per cui la stima dei parametri sincronizzati risultava inferiore al valore effettivo quando si utilizzava il movimento con joystick insieme alle regolazioni avanti/indietro e sinistra/destra."
         }
       ]
     }
   ],
   "history": [
+    {
+      "version": "1.10.2",
+      "releaseDate": "2026-10-16",
+      "changelog": "左右反転中、分身の SPS Plug のテクスチャが左右逆になったり、曲がったときに根元が細くなったりする問題を修正しました。\n一部の構成で、左右反転中に分身の表面全体が裏面の色や輪郭線の色で塗られる問題を修正しました。\n更新のお知らせで、長い項目の字下げが消えたり、上に空行が入ったりする問題を修正しました。\n再アップロードで反映されます。セットアップのやり直しは不要です。",
+      "localized": [
+        {
+          "lang": "ja",
+          "summary": "再アップロードで反映されます。セットアップのやり直しは不要です。",
+          "entries": [
+            {
+              "category": "fix",
+              "text": "左右反転中、分身の SPS Plug のテクスチャが左右逆になったり、曲がったときに根元が細くなったりする問題を修正しました。"
+            },
+            {
+              "category": "fix",
+              "text": "一部の構成で、左右反転中に分身の表面全体が裏面の色や輪郭線の色で塗られる問題を修正しました。"
+            },
+            {
+              "category": "fix",
+              "text": "更新のお知らせで、長い項目の字下げが消えたり、上に空行が入ったりする問題を修正しました。"
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "summary": "Re-uploading the avatar applies the changes. You do not need to run Setup again.",
+          "entries": [
+            {
+              "category": "fix",
+              "text": "Fixed an issue during Mirror Flip where the clone's SPS Plug texture was horizontally flipped or its base narrowed when bent."
+            },
+            {
+              "category": "fix",
+              "text": "Fixed an issue in some configurations where the clone's whole surface was drawn with the back-face color or the outline color during Mirror Flip."
+            },
+            {
+              "category": "fix",
+              "text": "Fixed an issue in the update notice where indentation for long items disappeared or a blank line was inserted above them."
+            }
+          ]
+        },
+        {
+          "lang": "ko",
+          "summary": "다시 업로드하면 반영됩니다. 셋업을 다시 할 필요는 없습니다.",
+          "entries": [
+            {
+              "category": "fix",
+              "text": "좌우 반전 시 분신의 SPS Plug 텍스처가 좌우로 뒤집히거나, 구부러졌을 때 뿌리 부분이 가늘어지는 문제를 수정했습니다."
+            },
+            {
+              "category": "fix",
+              "text": "일부 구성에서 좌우 반전 시 분신의 표면 전체가 뒷면 색상이나 외곽선 색상으로 칠해지는 문제를 수정했습니다."
+            },
+            {
+              "category": "fix",
+              "text": "업데이트 알림에서 긴 항목의 들여쓰기가 사라지거나 위에 빈 줄이 들어가는 문제를 수정했습니다."
+            }
+          ]
+        },
+        {
+          "lang": "zh-Hans",
+          "summary": "重新上传即可生效。无需重新进行设置。",
+          "entries": [
+            {
+              "category": "fix",
+              "text": "修复了左右翻转时，分身的 SPS Plug 贴图左右颠倒或弯曲时根部变细的问题。"
+            },
+            {
+              "category": "fix",
+              "text": "修复了在部分配置下，左右翻转时分身的整个表面被涂成背面颜色或轮廓线颜色的问题。"
+            },
+            {
+              "category": "fix",
+              "text": "修复了更新通知中，较长项目的缩进消失或上方出现空行的问题。"
+            }
+          ]
+        },
+        {
+          "lang": "zh-Hant",
+          "summary": "重新上傳即可生效。無需重新進行設定。",
+          "entries": [
+            {
+              "category": "fix",
+              "text": "修復了左右翻轉時，分身的 SPS Plug 貼圖左右顛倒或彎曲時根部變細的問題。"
+            },
+            {
+              "category": "fix",
+              "text": "修復了在部分配置下，左右翻轉時分身的整個表面被塗成背面顏色或輪廓線顏色的問題。"
+            },
+            {
+              "category": "fix",
+              "text": "修復了更新通知中，較長項目的縮排消失或上方出現空白行的問題。"
+            }
+          ]
+        },
+        {
+          "lang": "zh-Hant-TW",
+          "summary": "重新上傳即可生效。無需重新進行設定。",
+          "entries": [
+            {
+              "category": "fix",
+              "text": "修復了左右翻轉時，分身的 SPS Plug 貼圖左右顛倒或彎曲時根部變細的問題。"
+            },
+            {
+              "category": "fix",
+              "text": "修復了在部分配置下，左右翻轉時分身的整個表面被塗成背面顏色或輪廓線顏色的問題。"
+            },
+            {
+              "category": "fix",
+              "text": "修復了更新通知中，較長項目的縮排消失或上方出現空白行的問題。"
+            }
+          ]
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "summary": "重新上傳即可生效。無需重新進行設定。",
+          "entries": [
+            {
+              "category": "fix",
+              "text": "修復了左右翻轉時，分身的 SPS Plug 貼圖左右顛倒或彎曲時根部變細的問題。"
+            },
+            {
+              "category": "fix",
+              "text": "修復了在部分配置下，左右翻轉時分身的整個表面被塗成背面顏色或輪廓線顏色的問題。"
+            },
+            {
+              "category": "fix",
+              "text": "修復了更新通知中，較長項目的縮排消失或上方出現空白行的問題。"
+            }
+          ]
+        },
+        {
+          "lang": "fr",
+          "summary": "Les modifications seront appliquées lors d’un nouveau téléversement. Vous n’avez pas besoin de refaire la configuration.",
+          "entries": [
+            {
+              "category": "fix",
+              "text": "Correction d’un problème où, lors de l’Inversion miroir, la texture du SPS Plug du clone était inversée horizontalement ou sa base s’amincissait lorsqu’il était plié."
+            },
+            {
+              "category": "fix",
+              "text": "Correction d’un problème où, dans certaines configurations, toute la surface du clone était peinte avec la couleur de la face arrière ou du contour lors de l’Inversion miroir."
+            },
+            {
+              "category": "fix",
+              "text": "Correction d’un problème dans la notification de mise à jour où le retrait des éléments longs disparaissait ou une ligne vide s’insérait au-dessus."
+            }
+          ]
+        },
+        {
+          "lang": "it",
+          "summary": "Le modifiche verranno applicate con un nuovo caricamento. Non è necessario ripetere la configurazione.",
+          "entries": [
+            {
+              "category": "fix",
+              "text": "Risolto un problema per cui, durante l'Inversione orizzontale, la texture dell'SPS Plug del clone risultava invertita orizzontalmente o la base si assottigliava quando veniva piegato."
+            },
+            {
+              "category": "fix",
+              "text": "Risolto un problema per cui, in alcune configurazioni, l'intera superficie del clone veniva colorata con il colore della faccia posteriore o del contorno durante l'Inversione orizzontale."
+            },
+            {
+              "category": "fix",
+              "text": "Risolto un problema nella notifica di aggiornamento per cui il rientro degli elementi lunghi scompariva o veniva inserita una riga vuota sopra di essi."
+            }
+          ]
+        }
+      ]
+    },
     {
       "version": "1.10.1",
       "releaseDate": "2026-10-07",
