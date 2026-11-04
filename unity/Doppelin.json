@@ -1,209 +1,309 @@
 {
-  "version": "1.10.3",
+  "version": "1.10.4",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-10-31",
-  "changelog": "不具合や要望を開発者へ直接送れるフォームを追加しました。設定画面の「サポート」から開けます。\n利用状況の送信を追加しました。同意した場合だけ送信され、設定画面の「サポート」からいつでも止められます。アバター名、メニュー名、パラメータ名、ファイル名は送信しません。\n分身全体を運ぶ黄色い球を一度動かすと、次に掴みにくくなる問題を修正しました。\nジョイスティック移動と前後・左右の調整を併用したときに、同期パラメータの見積りが実際より少なくなる問題を修正しました。\n黄色い球の修正を反映するには、もう一度セットアップしてください。",
+  "releaseDate": "2026-11-04",
+  "changelog": [
+    "2 体のアバターがお互いを分身の元アバター (B) にしていると、アップロードがエラーで止まる問題を修正しました。分身の中に B 側の Doppelin が入らなくなり、PhysBone と同期パラメータが二重に増えることもなくなります。",
+    "修正を反映するには、もう一度セットアップしてください。"
+  ],
   "localized": [
     {
       "lang": "ja",
-      "summary": "黄色い球の修正を反映するには、もう一度セットアップしてください。",
+      "summary": "修正を反映するには、もう一度セットアップしてください。",
       "entries": [
         {
-          "category": "new",
-          "text": "不具合や要望を開発者へ直接送れるフォームを追加しました。設定画面の「サポート」から開けます。"
-        },
-        {
-          "category": "new",
-          "text": "利用状況の送信を追加しました。同意した場合だけ送信され、設定画面の「サポート」からいつでも止められます。アバター名、メニュー名、パラメータ名、ファイル名は送信しません。"
-        },
-        {
           "category": "fix",
-          "text": "分身全体を運ぶ黄色い球を一度動かすと、次に掴みにくくなる問題を修正しました。"
-        },
-        {
-          "category": "fix",
-          "text": "ジョイスティック移動と前後・左右の調整を併用したときに、同期パラメータの見積りが実際より少なくなる問題を修正しました。"
+          "text": "2 体のアバターがお互いを分身の元アバター (B) にしていると、アップロードがエラーで止まる問題を修正しました。分身の中に B 側の Doppelin が入らなくなり、PhysBone と同期パラメータが二重に増えることもなくなります。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "To apply the fix for the yellow sphere, please press Set Up again.",
+      "summary": "To apply the fix, please press Set Up again.",
       "entries": [
         {
-          "category": "new",
-          "text": "Added a form to send bug reports and feature requests directly to the developer. You can open it from \"Support\" in the settings."
-        },
-        {
-          "category": "new",
-          "text": "Added usage data reporting. Data is sent only with your consent and can be turned off at any time from \"Support\" in the settings. Avatar names, menu names, parameter names, and file names are not sent."
-        },
-        {
           "category": "fix",
-          "text": "Fixed an issue where the yellow sphere that moves the entire clone became hard to grab after being moved once."
-        },
-        {
-          "category": "fix",
-          "text": "Fixed an issue where the estimated synced parameter usage was lower than actual when combining joystick movement with forward/backward and left/right adjustments."
+          "text": "Fixed an issue where uploading stopped with an error when two avatars had each other set as the doppel source avatar (B). Doppelin on side B is no longer included in the clone, and PhysBone and synced parameters are no longer duplicated."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "노란 구체의 수정 사항을 반영하려면 다시 '셋업'을 실행해 주세요.",
+      "summary": "수정 사항을 반영하려면 다시 '셋업'을 실행해 주세요.",
       "entries": [
         {
-          "category": "new",
-          "text": "버그 제보나 건의 사항을 개발자에게 직접 보낼 수 있는 양식을 추가했습니다. 설정 화면의 '지원'에서 열 수 있습니다."
-        },
-        {
-          "category": "new",
-          "text": "사용 현황 전송 기능을 추가했습니다. 동의한 경우에만 전송되며, 설정 화면의 '지원'에서 언제든지 중단할 수 있습니다. 아바타 이름, 메뉴 이름, 파라미터 이름, 파일 이름은 전송되지 않습니다."
-        },
-        {
           "category": "fix",
-          "text": "분신 전체를 옮기는 노란 구체를 한 번 움직인 뒤 다시 잡기 어려워지는 문제를 수정했습니다."
-        },
-        {
-          "category": "fix",
-          "text": "조이스틱 이동과 전후·좌우 조절을 함께 사용할 때 동기화 파라미터 예측치가 실제보다 적게 계산되는 문제를 수정했습니다."
+          "text": "두 아바타가 서로를 분신의 원본 아바타(B)로 설정했을 때 업로드가 오류로 멈추는 문제를 수정했습니다. 분신 안에 B 측의 Doppelin이 들어가지 않게 되어, PhysBone과 동기화 파라미터가 이중으로 늘어나는 일도 없어집니다."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "要应用黄色球体的修复，请再次运行“设置”。",
+      "summary": "要应用修复，请再次运行“设置”。",
       "entries": [
         {
-          "category": "new",
-          "text": "新增了可直接向开发者发送问题反馈和功能建议的表单。可在设置界面的“技术支持”中打开。"
-        },
-        {
-          "category": "new",
-          "text": "新增了使用情况发送功能。仅在您同意时才会发送，且随时可在设置界面的“技术支持”中关闭。不会发送 Avatar 名称、菜单名称、参数名称和文件名。"
-        },
-        {
           "category": "fix",
-          "text": "修复了用于移动整个分身的黄色球体在移动一次后变得难以再次抓取的问题。"
-        },
-        {
-          "category": "fix",
-          "text": "修复了同时使用摇杆移动与前后、左右调整时，同步参数的预估量比实际偏少的问题。"
+          "text": "修复了 2 个 Avatar 互相将对方设为分身的来源 Avatar（B）时，上传会因错误而停止的问题。分身中不会再包含 B 侧的 Doppelin，PhysBone 和同步参数也不会再重复增加。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "若要套用黃色球體的修正，請再次執行「設定」。",
+      "summary": "若要套用修正，請再次執行「設定」。",
       "entries": [
         {
-          "category": "new",
-          "text": "新增了可直接向開發者傳送問題回報與功能建議的表單。可從設定畫面的「技術支援」中開啟。"
-        },
-        {
-          "category": "new",
-          "text": "新增了傳送使用狀況的功能。僅在您同意時才會傳送，且隨時可從設定畫面的「技術支援」中停用。不會傳送 Avatar 名稱、選單名稱、參數名稱與檔案名稱。"
-        },
-        {
           "category": "fix",
-          "text": "修正了用來移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
-        },
-        {
-          "category": "fix",
-          "text": "修正了同時使用搖桿移動與前後、左右調整時，同步參數的預估量比實際還少的問題。"
+          "text": "修正了 2 個 Avatar 互相將對方設為分身的來源 Avatar（B）時，上傳會因錯誤而停止的問題。分身中不會再包含 B 側的 Doppelin，PhysBone 與同步參數也不會再重複增加。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "若要套用黃色球體的修正，請再次執行「設定」。",
+      "summary": "若要套用修正，請再次執行「設定」。",
       "entries": [
         {
-          "category": "new",
-          "text": "新增了可直接向開發者傳送錯誤回報與功能建議的表單。可從設定畫面的「技術支援」中開啟。"
-        },
-        {
-          "category": "new",
-          "text": "新增了傳送使用狀況的功能。僅在您同意時才會傳送，且隨時可從設定畫面的「技術支援」中停用。不會傳送 Avatar 名稱、選單名稱、參數名稱與檔案名稱。"
-        },
-        {
           "category": "fix",
-          "text": "修正了用來移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
-        },
-        {
-          "category": "fix",
-          "text": "修正了同時使用搖桿移動與前後、左右調整時，同步參數的預估量比實際還少的問題。"
+          "text": "修正了 2 個 Avatar 互相將對方設為分身的來源 Avatar（B）時，上傳會因錯誤而停止的問題。分身中不會再包含 B 側的 Doppelin，PhysBone 與同步參數也不會再重複增加。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "如要套用黃色球體的修正，請再次執行「設定」。",
+      "summary": "如要套用修正，請再次執行「設定」。",
       "entries": [
         {
-          "category": "new",
-          "text": "新增了可直接向開發者發送錯誤報告及功能建議的表格。可於設定畫面的「技術支援」中打開。"
-        },
-        {
-          "category": "new",
-          "text": "新增了發送使用情況的功能。只會在你同意時發送，並可隨時於設定畫面的「技術支援」中停止。不會發送 Avatar 名稱、選單名稱、參數名稱及檔案名稱。"
-        },
-        {
           "category": "fix",
-          "text": "修正了用於移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
-        },
-        {
-          "category": "fix",
-          "text": "修正了同時使用控制桿移動與前後、左右調整時，同步參數的估算值比實際少的問題。"
+          "text": "修正了 2 個 Avatar 互相將對方設為分身的來源 Avatar（B）時，上傳會因錯誤而停止的問題。分身中不會再包含 B 側的 Doppelin，PhysBone 與同步參數也不會再重複增加。"
         }
       ]
     },
     {
       "lang": "fr",
-      "summary": "Pour appliquer le correctif de la sphère jaune, veuillez cliquer à nouveau sur « Configurer ».",
+      "summary": "Pour appliquer le correctif, veuillez cliquer à nouveau sur « Configurer ».",
       "entries": [
         {
-          "category": "new",
-          "text": "Ajout d'un formulaire permettant d'envoyer directement des signalements de bugs et des suggestions au développeur. Vous pouvez l'ouvrir depuis « Support » dans les paramètres."
-        },
-        {
-          "category": "new",
-          "text": "Ajout de l'envoi des données d'utilisation. Ces données ne sont envoyées qu'avec votre accord et vous pouvez les désactiver à tout moment depuis « Support » dans les paramètres. Les noms d'avatars, de menus, de paramètres et de fichiers ne sont pas envoyés."
-        },
-        {
           "category": "fix",
-          "text": "Correction d'un problème où la sphère jaune permettant de déplacer l'ensemble du clone devenait difficile à saisir après avoir été déplacée une fois."
-        },
-        {
-          "category": "fix",
-          "text": "Correction d'un problème où l'estimation des paramètres synchronisés était inférieure à la valeur réelle lors de l'utilisation combinée du déplacement au joystick et des ajustements avant/arrière et gauche/droite."
+          "text": "Correction d’un problème où le téléversement s’arrêtait avec une erreur lorsque deux avatars étaient définis mutuellement comme l’avatar source du clone (B). Le Doppelin du côté B n’est plus inclus dans le clone, et les PhysBone ainsi que les paramètres synchronisés ne sont plus doublés."
         }
       ]
     },
     {
       "lang": "it",
-      "summary": "Per applicare la correzione della sfera gialla, esegui nuovamente \"Configurazione\".",
+      "summary": "Per applicare la correzione, esegui nuovamente «Configurazione».",
       "entries": [
         {
-          "category": "new",
-          "text": "Aggiunto un modulo per inviare segnalazioni di bug e richieste direttamente allo sviluppatore. Puoi aprirlo da \"Support\" nella schermata delle impostazioni."
-        },
-        {
-          "category": "new",
-          "text": "Aggiunto l'invio dei dati di utilizzo. I dati vengono inviati solo con il tuo consenso e puoi interromperne l'invio in qualsiasi momento da \"Support\" nella schermata delle impostazioni. I nomi di avatar, menu, parametri e file non vengono inviati."
-        },
-        {
           "category": "fix",
-          "text": "Risolto un problema per cui la sfera gialla che sposta l'intero clone diventava difficile da afferrare dopo essere stata mossa una volta."
-        },
-        {
-          "category": "fix",
-          "text": "Risolto un problema per cui la stima dei parametri sincronizzati risultava inferiore al valore effettivo quando si utilizzava il movimento con joystick insieme alle regolazioni avanti/indietro e sinistra/destra."
+          "text": "Risolto un problema per cui il caricamento si interrompeva con un errore quando due avatar erano impostati a vicenda come l'avatar sorgente del clone (B). Il Doppelin del lato B non viene più incluso nel clone, e i PhysBone e i parametri sincronizzati non vengono più raddoppiati."
         }
       ]
     }
   ],
   "history": [
+    {
+      "version": "1.10.3",
+      "releaseDate": "2026-10-31",
+      "changelog": "不具合や要望を開発者へ直接送れるフォームを追加しました。設定画面の「サポート」から開けます。\n利用状況の送信を追加しました。同意した場合だけ送信され、設定画面の「サポート」からいつでも止められます。アバター名、メニュー名、パラメータ名、ファイル名は送信しません。\n分身全体を運ぶ黄色い球を一度動かすと、次に掴みにくくなる問題を修正しました。\nジョイスティック移動と前後・左右の調整を併用したときに、同期パラメータの見積りが実際より少なくなる問題を修正しました。\n黄色い球の修正を反映するには、もう一度セットアップしてください。",
+      "localized": [
+        {
+          "lang": "ja",
+          "summary": "黄色い球の修正を反映するには、もう一度セットアップしてください。",
+          "entries": [
+            {
+              "category": "new",
+              "text": "不具合や要望を開発者へ直接送れるフォームを追加しました。設定画面の「サポート」から開けます。"
+            },
+            {
+              "category": "new",
+              "text": "利用状況の送信を追加しました。同意した場合だけ送信され、設定画面の「サポート」からいつでも止められます。アバター名、メニュー名、パラメータ名、ファイル名は送信しません。"
+            },
+            {
+              "category": "fix",
+              "text": "分身全体を運ぶ黄色い球を一度動かすと、次に掴みにくくなる問題を修正しました。"
+            },
+            {
+              "category": "fix",
+              "text": "ジョイスティック移動と前後・左右の調整を併用したときに、同期パラメータの見積りが実際より少なくなる問題を修正しました。"
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "summary": "To apply the fix for the yellow sphere, please press Set Up again.",
+          "entries": [
+            {
+              "category": "new",
+              "text": "Added a form to send bug reports and feature requests directly to the developer. You can open it from \"Support\" in the settings."
+            },
+            {
+              "category": "new",
+              "text": "Added usage data reporting. Data is sent only with your consent and can be turned off at any time from \"Support\" in the settings. Avatar names, menu names, parameter names, and file names are not sent."
+            },
+            {
+              "category": "fix",
+              "text": "Fixed an issue where the yellow sphere that moves the entire clone became hard to grab after being moved once."
+            },
+            {
+              "category": "fix",
+              "text": "Fixed an issue where the estimated synced parameter usage was lower than actual when combining joystick movement with forward/backward and left/right adjustments."
+            }
+          ]
+        },
+        {
+          "lang": "ko",
+          "summary": "노란 구체의 수정 사항을 반영하려면 다시 '셋업'을 실행해 주세요.",
+          "entries": [
+            {
+              "category": "new",
+              "text": "버그 제보나 건의 사항을 개발자에게 직접 보낼 수 있는 양식을 추가했습니다. 설정 화면의 '지원'에서 열 수 있습니다."
+            },
+            {
+              "category": "new",
+              "text": "사용 현황 전송 기능을 추가했습니다. 동의한 경우에만 전송되며, 설정 화면의 '지원'에서 언제든지 중단할 수 있습니다. 아바타 이름, 메뉴 이름, 파라미터 이름, 파일 이름은 전송되지 않습니다."
+            },
+            {
+              "category": "fix",
+              "text": "분신 전체를 옮기는 노란 구체를 한 번 움직인 뒤 다시 잡기 어려워지는 문제를 수정했습니다."
+            },
+            {
+              "category": "fix",
+              "text": "조이스틱 이동과 전후·좌우 조절을 함께 사용할 때 동기화 파라미터 예측치가 실제보다 적게 계산되는 문제를 수정했습니다."
+            }
+          ]
+        },
+        {
+          "lang": "zh-Hans",
+          "summary": "要应用黄色球体的修复，请再次运行“设置”。",
+          "entries": [
+            {
+              "category": "new",
+              "text": "新增了可直接向开发者发送问题反馈和功能建议的表单。可在设置界面的“技术支持”中打开。"
+            },
+            {
+              "category": "new",
+              "text": "新增了使用情况发送功能。仅在您同意时才会发送，且随时可在设置界面的“技术支持”中关闭。不会发送 Avatar 名称、菜单名称、参数名称和文件名。"
+            },
+            {
+              "category": "fix",
+              "text": "修复了用于移动整个分身的黄色球体在移动一次后变得难以再次抓取的问题。"
+            },
+            {
+              "category": "fix",
+              "text": "修复了同时使用摇杆移动与前后、左右调整时，同步参数的预估量比实际偏少的问题。"
+            }
+          ]
+        },
+        {
+          "lang": "zh-Hant",
+          "summary": "若要套用黃色球體的修正，請再次執行「設定」。",
+          "entries": [
+            {
+              "category": "new",
+              "text": "新增了可直接向開發者傳送問題回報與功能建議的表單。可從設定畫面的「技術支援」中開啟。"
+            },
+            {
+              "category": "new",
+              "text": "新增了傳送使用狀況的功能。僅在您同意時才會傳送，且隨時可從設定畫面的「技術支援」中停用。不會傳送 Avatar 名稱、選單名稱、參數名稱與檔案名稱。"
+            },
+            {
+              "category": "fix",
+              "text": "修正了用來移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
+            },
+            {
+              "category": "fix",
+              "text": "修正了同時使用搖桿移動與前後、左右調整時，同步參數的預估量比實際還少的問題。"
+            }
+          ]
+        },
+        {
+          "lang": "zh-Hant-TW",
+          "summary": "若要套用黃色球體的修正，請再次執行「設定」。",
+          "entries": [
+            {
+              "category": "new",
+              "text": "新增了可直接向開發者傳送錯誤回報與功能建議的表單。可從設定畫面的「技術支援」中開啟。"
+            },
+            {
+              "category": "new",
+              "text": "新增了傳送使用狀況的功能。僅在您同意時才會傳送，且隨時可從設定畫面的「技術支援」中停用。不會傳送 Avatar 名稱、選單名稱、參數名稱與檔案名稱。"
+            },
+            {
+              "category": "fix",
+              "text": "修正了用來移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
+            },
+            {
+              "category": "fix",
+              "text": "修正了同時使用搖桿移動與前後、左右調整時，同步參數的預估量比實際還少的問題。"
+            }
+          ]
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "summary": "如要套用黃色球體的修正，請再次執行「設定」。",
+          "entries": [
+            {
+              "category": "new",
+              "text": "新增了可直接向開發者發送錯誤報告及功能建議的表格。可於設定畫面的「技術支援」中打開。"
+            },
+            {
+              "category": "new",
+              "text": "新增了發送使用情況的功能。只會在你同意時發送，並可隨時於設定畫面的「技術支援」中停止。不會發送 Avatar 名稱、選單名稱、參數名稱及檔案名稱。"
+            },
+            {
+              "category": "fix",
+              "text": "修正了用於移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
+            },
+            {
+              "category": "fix",
+              "text": "修正了同時使用控制桿移動與前後、左右調整時，同步參數的估算值比實際少的問題。"
+            }
+          ]
+        },
+        {
+          "lang": "fr",
+          "summary": "Pour appliquer le correctif de la sphère jaune, veuillez cliquer à nouveau sur « Configurer ».",
+          "entries": [
+            {
+              "category": "new",
+              "text": "Ajout d'un formulaire permettant d'envoyer directement des signalements de bugs et des suggestions au développeur. Vous pouvez l'ouvrir depuis « Support » dans les paramètres."
+            },
+            {
+              "category": "new",
+              "text": "Ajout de l'envoi des données d'utilisation. Ces données ne sont envoyées qu'avec votre accord et vous pouvez les désactiver à tout moment depuis « Support » dans les paramètres. Les noms d'avatars, de menus, de paramètres et de fichiers ne sont pas envoyés."
+            },
+            {
+              "category": "fix",
+              "text": "Correction d'un problème où la sphère jaune permettant de déplacer l'ensemble du clone devenait difficile à saisir après avoir été déplacée une fois."
+            },
+            {
+              "category": "fix",
+              "text": "Correction d'un problème où l'estimation des paramètres synchronisés était inférieure à la valeur réelle lors de l'utilisation combinée du déplacement au joystick et des ajustements avant/arrière et gauche/droite."
+            }
+          ]
+        },
+        {
+          "lang": "it",
+          "summary": "Per applicare la correzione della sfera gialla, esegui nuovamente \"Configurazione\".",
+          "entries": [
+            {
+              "category": "new",
+              "text": "Aggiunto un modulo per inviare segnalazioni di bug e richieste direttamente allo sviluppatore. Puoi aprirlo da \"Support\" nella schermata delle impostazioni."
+            },
+            {
+              "category": "new",
+              "text": "Aggiunto l'invio dei dati di utilizzo. I dati vengono inviati solo con il tuo consenso e puoi interromperne l'invio in qualsiasi momento da \"Support\" nella schermata delle impostazioni. I nomi di avatar, menu, parametri e file non vengono inviati."
+            },
+            {
+              "category": "fix",
+              "text": "Risolto un problema per cui la sfera gialla che sposta l'intero clone diventava difficile da afferrare dopo essere stata mossa una volta."
+            },
+            {
+              "category": "fix",
+              "text": "Risolto un problema per cui la stima dei parametri sincronizzati risultava inferiore al valore effettivo quando si utilizzava il movimento con joystick insieme alle regolazioni avanti/indietro e sinistra/destra."
+            }
+          ]
+        }
+      ]
+    },
     {
       "version": "1.10.2",
       "releaseDate": "2026-10-16",
