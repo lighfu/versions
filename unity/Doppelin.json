@@ -1,815 +1,102 @@
 {
-  "version": "1.10.4",
+  "version": "1.11.0",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
   "releaseDate": "2026-11-04",
   "changelog": [
-    "2 体のアバターがお互いを分身の元アバター (B) にしていると、アップロードがエラーで止まる問題を修正しました。分身の中に B 側の Doppelin が入らなくなり、PhysBone と同期パラメータが二重に増えることもなくなります。",
-    "修正を反映するには、もう一度セットアップしてください。"
+    "「ドッペル操作」に「目の追従」を追加しました。",
+    "反映するには、もう一度セットアップしてください。"
   ],
   "localized": [
     {
       "lang": "ja",
-      "summary": "修正を反映するには、もう一度セットアップしてください。",
+      "summary": "反映するには、もう一度セットアップしてください。",
       "entries": [
         {
-          "category": "fix",
-          "text": "2 体のアバターがお互いを分身の元アバター (B) にしていると、アップロードがエラーで止まる問題を修正しました。分身の中に B 側の Doppelin が入らなくなり、PhysBone と同期パラメータが二重に増えることもなくなります。"
+          "category": "new",
+          "text": "「ドッペル操作」に「目の追従」を追加しました。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "To apply the fix, please press Set Up again.",
+      "summary": "To apply the changes, please press Set Up again.",
       "entries": [
         {
-          "category": "fix",
-          "text": "Fixed an issue where uploading stopped with an error when two avatars had each other set as the doppel source avatar (B). Doppelin on side B is no longer included in the clone, and PhysBone and synced parameters are no longer duplicated."
+          "category": "new",
+          "text": "Added \"Eye Sync\" to \"Doppel Controls\"."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "수정 사항을 반영하려면 다시 '셋업'을 실행해 주세요.",
+      "summary": "변경 사항을 반영하려면 다시 '셋업'을 실행해 주세요.",
       "entries": [
         {
-          "category": "fix",
-          "text": "두 아바타가 서로를 분신의 원본 아바타(B)로 설정했을 때 업로드가 오류로 멈추는 문제를 수정했습니다. 분신 안에 B 측의 Doppelin이 들어가지 않게 되어, PhysBone과 동기화 파라미터가 이중으로 늘어나는 일도 없어집니다."
+          "category": "new",
+          "text": "\"분신 조작\"에 \"눈 동기화\"를 추가했습니다."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "要应用修复，请再次运行“设置”。",
+      "summary": "要应用更改，请再次运行“设置”。",
       "entries": [
         {
-          "category": "fix",
-          "text": "修复了 2 个 Avatar 互相将对方设为分身的来源 Avatar（B）时，上传会因错误而停止的问题。分身中不会再包含 B 侧的 Doppelin，PhysBone 和同步参数也不会再重复增加。"
+          "category": "new",
+          "text": "在“分身操作”中添加了“眼睛同步”。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "若要套用修正，請再次執行「設定」。",
+      "summary": "若要套用變更，請再次執行「設定」。",
       "entries": [
         {
-          "category": "fix",
-          "text": "修正了 2 個 Avatar 互相將對方設為分身的來源 Avatar（B）時，上傳會因錯誤而停止的問題。分身中不會再包含 B 側的 Doppelin，PhysBone 與同步參數也不會再重複增加。"
+          "category": "new",
+          "text": "在「分身操作」中新增了「眼睛同步」。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "若要套用修正，請再次執行「設定」。",
+      "summary": "若要套用變更，請再次執行「設定」。",
       "entries": [
         {
-          "category": "fix",
-          "text": "修正了 2 個 Avatar 互相將對方設為分身的來源 Avatar（B）時，上傳會因錯誤而停止的問題。分身中不會再包含 B 側的 Doppelin，PhysBone 與同步參數也不會再重複增加。"
+          "category": "new",
+          "text": "在「分身操作」中新增了「眼睛同步」。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "如要套用修正，請再次執行「設定」。",
+      "summary": "如要套用變更，請再次執行「設定」。",
       "entries": [
         {
-          "category": "fix",
-          "text": "修正了 2 個 Avatar 互相將對方設為分身的來源 Avatar（B）時，上傳會因錯誤而停止的問題。分身中不會再包含 B 側的 Doppelin，PhysBone 與同步參數也不會再重複增加。"
+          "category": "new",
+          "text": "在「分身操作」中新增了「眼睛同步」。"
         }
       ]
     },
     {
       "lang": "fr",
-      "summary": "Pour appliquer le correctif, veuillez cliquer à nouveau sur « Configurer ».",
+      "summary": "Pour appliquer les modifications, veuillez cliquer à nouveau sur « Configurer ».",
       "entries": [
         {
-          "category": "fix",
-          "text": "Correction d’un problème où le téléversement s’arrêtait avec une erreur lorsque deux avatars étaient définis mutuellement comme l’avatar source du clone (B). Le Doppelin du côté B n’est plus inclus dans le clone, et les PhysBone ainsi que les paramètres synchronisés ne sont plus doublés."
+          "category": "new",
+          "text": "Ajout de « Synchronisation des yeux » dans « Contrôles du clone »."
         }
       ]
     },
     {
       "lang": "it",
-      "summary": "Per applicare la correzione, esegui nuovamente «Configurazione».",
+      "summary": "Per applicare le modifiche, esegui nuovamente «Configurazione».",
       "entries": [
         {
-          "category": "fix",
-          "text": "Risolto un problema per cui il caricamento si interrompeva con un errore quando due avatar erano impostati a vicenda come l'avatar sorgente del clone (B). Il Doppelin del lato B non viene più incluso nel clone, e i PhysBone e i parametri sincronizzati non vengono più raddoppiati."
+          "category": "new",
+          "text": "Aggiunta «Sincronizzazione occhi» a «Controlli del clone»."
         }
       ]
     }
   ],
-  "history": [
-    {
-      "version": "1.10.3",
-      "releaseDate": "2026-10-31",
-      "changelog": "不具合や要望を開発者へ直接送れるフォームを追加しました。設定画面の「サポート」から開けます。\n利用状況の送信を追加しました。同意した場合だけ送信され、設定画面の「サポート」からいつでも止められます。アバター名、メニュー名、パラメータ名、ファイル名は送信しません。\n分身全体を運ぶ黄色い球を一度動かすと、次に掴みにくくなる問題を修正しました。\nジョイスティック移動と前後・左右の調整を併用したときに、同期パラメータの見積りが実際より少なくなる問題を修正しました。\n黄色い球の修正を反映するには、もう一度セットアップしてください。",
-      "localized": [
-        {
-          "lang": "ja",
-          "summary": "黄色い球の修正を反映するには、もう一度セットアップしてください。",
-          "entries": [
-            {
-              "category": "new",
-              "text": "不具合や要望を開発者へ直接送れるフォームを追加しました。設定画面の「サポート」から開けます。"
-            },
-            {
-              "category": "new",
-              "text": "利用状況の送信を追加しました。同意した場合だけ送信され、設定画面の「サポート」からいつでも止められます。アバター名、メニュー名、パラメータ名、ファイル名は送信しません。"
-            },
-            {
-              "category": "fix",
-              "text": "分身全体を運ぶ黄色い球を一度動かすと、次に掴みにくくなる問題を修正しました。"
-            },
-            {
-              "category": "fix",
-              "text": "ジョイスティック移動と前後・左右の調整を併用したときに、同期パラメータの見積りが実際より少なくなる問題を修正しました。"
-            }
-          ]
-        },
-        {
-          "lang": "en",
-          "summary": "To apply the fix for the yellow sphere, please press Set Up again.",
-          "entries": [
-            {
-              "category": "new",
-              "text": "Added a form to send bug reports and feature requests directly to the developer. You can open it from \"Support\" in the settings."
-            },
-            {
-              "category": "new",
-              "text": "Added usage data reporting. Data is sent only with your consent and can be turned off at any time from \"Support\" in the settings. Avatar names, menu names, parameter names, and file names are not sent."
-            },
-            {
-              "category": "fix",
-              "text": "Fixed an issue where the yellow sphere that moves the entire clone became hard to grab after being moved once."
-            },
-            {
-              "category": "fix",
-              "text": "Fixed an issue where the estimated synced parameter usage was lower than actual when combining joystick movement with forward/backward and left/right adjustments."
-            }
-          ]
-        },
-        {
-          "lang": "ko",
-          "summary": "노란 구체의 수정 사항을 반영하려면 다시 '셋업'을 실행해 주세요.",
-          "entries": [
-            {
-              "category": "new",
-              "text": "버그 제보나 건의 사항을 개발자에게 직접 보낼 수 있는 양식을 추가했습니다. 설정 화면의 '지원'에서 열 수 있습니다."
-            },
-            {
-              "category": "new",
-              "text": "사용 현황 전송 기능을 추가했습니다. 동의한 경우에만 전송되며, 설정 화면의 '지원'에서 언제든지 중단할 수 있습니다. 아바타 이름, 메뉴 이름, 파라미터 이름, 파일 이름은 전송되지 않습니다."
-            },
-            {
-              "category": "fix",
-              "text": "분신 전체를 옮기는 노란 구체를 한 번 움직인 뒤 다시 잡기 어려워지는 문제를 수정했습니다."
-            },
-            {
-              "category": "fix",
-              "text": "조이스틱 이동과 전후·좌우 조절을 함께 사용할 때 동기화 파라미터 예측치가 실제보다 적게 계산되는 문제를 수정했습니다."
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hans",
-          "summary": "要应用黄色球体的修复，请再次运行“设置”。",
-          "entries": [
-            {
-              "category": "new",
-              "text": "新增了可直接向开发者发送问题反馈和功能建议的表单。可在设置界面的“技术支持”中打开。"
-            },
-            {
-              "category": "new",
-              "text": "新增了使用情况发送功能。仅在您同意时才会发送，且随时可在设置界面的“技术支持”中关闭。不会发送 Avatar 名称、菜单名称、参数名称和文件名。"
-            },
-            {
-              "category": "fix",
-              "text": "修复了用于移动整个分身的黄色球体在移动一次后变得难以再次抓取的问题。"
-            },
-            {
-              "category": "fix",
-              "text": "修复了同时使用摇杆移动与前后、左右调整时，同步参数的预估量比实际偏少的问题。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant",
-          "summary": "若要套用黃色球體的修正，請再次執行「設定」。",
-          "entries": [
-            {
-              "category": "new",
-              "text": "新增了可直接向開發者傳送問題回報與功能建議的表單。可從設定畫面的「技術支援」中開啟。"
-            },
-            {
-              "category": "new",
-              "text": "新增了傳送使用狀況的功能。僅在您同意時才會傳送，且隨時可從設定畫面的「技術支援」中停用。不會傳送 Avatar 名稱、選單名稱、參數名稱與檔案名稱。"
-            },
-            {
-              "category": "fix",
-              "text": "修正了用來移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
-            },
-            {
-              "category": "fix",
-              "text": "修正了同時使用搖桿移動與前後、左右調整時，同步參數的預估量比實際還少的問題。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant-TW",
-          "summary": "若要套用黃色球體的修正，請再次執行「設定」。",
-          "entries": [
-            {
-              "category": "new",
-              "text": "新增了可直接向開發者傳送錯誤回報與功能建議的表單。可從設定畫面的「技術支援」中開啟。"
-            },
-            {
-              "category": "new",
-              "text": "新增了傳送使用狀況的功能。僅在您同意時才會傳送，且隨時可從設定畫面的「技術支援」中停用。不會傳送 Avatar 名稱、選單名稱、參數名稱與檔案名稱。"
-            },
-            {
-              "category": "fix",
-              "text": "修正了用來移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
-            },
-            {
-              "category": "fix",
-              "text": "修正了同時使用搖桿移動與前後、左右調整時，同步參數的預估量比實際還少的問題。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant-HK",
-          "summary": "如要套用黃色球體的修正，請再次執行「設定」。",
-          "entries": [
-            {
-              "category": "new",
-              "text": "新增了可直接向開發者發送錯誤報告及功能建議的表格。可於設定畫面的「技術支援」中打開。"
-            },
-            {
-              "category": "new",
-              "text": "新增了發送使用情況的功能。只會在你同意時發送，並可隨時於設定畫面的「技術支援」中停止。不會發送 Avatar 名稱、選單名稱、參數名稱及檔案名稱。"
-            },
-            {
-              "category": "fix",
-              "text": "修正了用於移動整個分身的黃色球體在移動一次後，下次變得難以抓取的問題。"
-            },
-            {
-              "category": "fix",
-              "text": "修正了同時使用控制桿移動與前後、左右調整時，同步參數的估算值比實際少的問題。"
-            }
-          ]
-        },
-        {
-          "lang": "fr",
-          "summary": "Pour appliquer le correctif de la sphère jaune, veuillez cliquer à nouveau sur « Configurer ».",
-          "entries": [
-            {
-              "category": "new",
-              "text": "Ajout d'un formulaire permettant d'envoyer directement des signalements de bugs et des suggestions au développeur. Vous pouvez l'ouvrir depuis « Support » dans les paramètres."
-            },
-            {
-              "category": "new",
-              "text": "Ajout de l'envoi des données d'utilisation. Ces données ne sont envoyées qu'avec votre accord et vous pouvez les désactiver à tout moment depuis « Support » dans les paramètres. Les noms d'avatars, de menus, de paramètres et de fichiers ne sont pas envoyés."
-            },
-            {
-              "category": "fix",
-              "text": "Correction d'un problème où la sphère jaune permettant de déplacer l'ensemble du clone devenait difficile à saisir après avoir été déplacée une fois."
-            },
-            {
-              "category": "fix",
-              "text": "Correction d'un problème où l'estimation des paramètres synchronisés était inférieure à la valeur réelle lors de l'utilisation combinée du déplacement au joystick et des ajustements avant/arrière et gauche/droite."
-            }
-          ]
-        },
-        {
-          "lang": "it",
-          "summary": "Per applicare la correzione della sfera gialla, esegui nuovamente \"Configurazione\".",
-          "entries": [
-            {
-              "category": "new",
-              "text": "Aggiunto un modulo per inviare segnalazioni di bug e richieste direttamente allo sviluppatore. Puoi aprirlo da \"Support\" nella schermata delle impostazioni."
-            },
-            {
-              "category": "new",
-              "text": "Aggiunto l'invio dei dati di utilizzo. I dati vengono inviati solo con il tuo consenso e puoi interromperne l'invio in qualsiasi momento da \"Support\" nella schermata delle impostazioni. I nomi di avatar, menu, parametri e file non vengono inviati."
-            },
-            {
-              "category": "fix",
-              "text": "Risolto un problema per cui la sfera gialla che sposta l'intero clone diventava difficile da afferrare dopo essere stata mossa una volta."
-            },
-            {
-              "category": "fix",
-              "text": "Risolto un problema per cui la stima dei parametri sincronizzati risultava inferiore al valore effettivo quando si utilizzava il movimento con joystick insieme alle regolazioni avanti/indietro e sinistra/destra."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "1.10.2",
-      "releaseDate": "2026-10-16",
-      "changelog": "左右反転中、分身の SPS Plug のテクスチャが左右逆になったり、曲がったときに根元が細くなったりする問題を修正しました。\n一部の構成で、左右反転中に分身の表面全体が裏面の色や輪郭線の色で塗られる問題を修正しました。\n更新のお知らせで、長い項目の字下げが消えたり、上に空行が入ったりする問題を修正しました。\n再アップロードで反映されます。セットアップのやり直しは不要です。",
-      "localized": [
-        {
-          "lang": "ja",
-          "summary": "再アップロードで反映されます。セットアップのやり直しは不要です。",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "左右反転中、分身の SPS Plug のテクスチャが左右逆になったり、曲がったときに根元が細くなったりする問題を修正しました。"
-            },
-            {
-              "category": "fix",
-              "text": "一部の構成で、左右反転中に分身の表面全体が裏面の色や輪郭線の色で塗られる問題を修正しました。"
-            },
-            {
-              "category": "fix",
-              "text": "更新のお知らせで、長い項目の字下げが消えたり、上に空行が入ったりする問題を修正しました。"
-            }
-          ]
-        },
-        {
-          "lang": "en",
-          "summary": "Re-uploading the avatar applies the changes. You do not need to run Setup again.",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "Fixed an issue during Mirror Flip where the clone's SPS Plug texture was horizontally flipped or its base narrowed when bent."
-            },
-            {
-              "category": "fix",
-              "text": "Fixed an issue in some configurations where the clone's whole surface was drawn with the back-face color or the outline color during Mirror Flip."
-            },
-            {
-              "category": "fix",
-              "text": "Fixed an issue in the update notice where indentation for long items disappeared or a blank line was inserted above them."
-            }
-          ]
-        },
-        {
-          "lang": "ko",
-          "summary": "다시 업로드하면 반영됩니다. 셋업을 다시 할 필요는 없습니다.",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "좌우 반전 시 분신의 SPS Plug 텍스처가 좌우로 뒤집히거나, 구부러졌을 때 뿌리 부분이 가늘어지는 문제를 수정했습니다."
-            },
-            {
-              "category": "fix",
-              "text": "일부 구성에서 좌우 반전 시 분신의 표면 전체가 뒷면 색상이나 외곽선 색상으로 칠해지는 문제를 수정했습니다."
-            },
-            {
-              "category": "fix",
-              "text": "업데이트 알림에서 긴 항목의 들여쓰기가 사라지거나 위에 빈 줄이 들어가는 문제를 수정했습니다."
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hans",
-          "summary": "重新上传即可生效。无需重新进行设置。",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "修复了左右翻转时，分身的 SPS Plug 贴图左右颠倒或弯曲时根部变细的问题。"
-            },
-            {
-              "category": "fix",
-              "text": "修复了在部分配置下，左右翻转时分身的整个表面被涂成背面颜色或轮廓线颜色的问题。"
-            },
-            {
-              "category": "fix",
-              "text": "修复了更新通知中，较长项目的缩进消失或上方出现空行的问题。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant",
-          "summary": "重新上傳即可生效。無需重新進行設定。",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "修復了左右翻轉時，分身的 SPS Plug 貼圖左右顛倒或彎曲時根部變細的問題。"
-            },
-            {
-              "category": "fix",
-              "text": "修復了在部分配置下，左右翻轉時分身的整個表面被塗成背面顏色或輪廓線顏色的問題。"
-            },
-            {
-              "category": "fix",
-              "text": "修復了更新通知中，較長項目的縮排消失或上方出現空白行的問題。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant-TW",
-          "summary": "重新上傳即可生效。無需重新進行設定。",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "修復了左右翻轉時，分身的 SPS Plug 貼圖左右顛倒或彎曲時根部變細的問題。"
-            },
-            {
-              "category": "fix",
-              "text": "修復了在部分配置下，左右翻轉時分身的整個表面被塗成背面顏色或輪廓線顏色的問題。"
-            },
-            {
-              "category": "fix",
-              "text": "修復了更新通知中，較長項目的縮排消失或上方出現空白行的問題。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant-HK",
-          "summary": "重新上傳即可生效。無需重新進行設定。",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "修復了左右翻轉時，分身的 SPS Plug 貼圖左右顛倒或彎曲時根部變細的問題。"
-            },
-            {
-              "category": "fix",
-              "text": "修復了在部分配置下，左右翻轉時分身的整個表面被塗成背面顏色或輪廓線顏色的問題。"
-            },
-            {
-              "category": "fix",
-              "text": "修復了更新通知中，較長項目的縮排消失或上方出現空白行的問題。"
-            }
-          ]
-        },
-        {
-          "lang": "fr",
-          "summary": "Les modifications seront appliquées lors d’un nouveau téléversement. Vous n’avez pas besoin de refaire la configuration.",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "Correction d’un problème où, lors de l’Inversion miroir, la texture du SPS Plug du clone était inversée horizontalement ou sa base s’amincissait lorsqu’il était plié."
-            },
-            {
-              "category": "fix",
-              "text": "Correction d’un problème où, dans certaines configurations, toute la surface du clone était peinte avec la couleur de la face arrière ou du contour lors de l’Inversion miroir."
-            },
-            {
-              "category": "fix",
-              "text": "Correction d’un problème dans la notification de mise à jour où le retrait des éléments longs disparaissait ou une ligne vide s’insérait au-dessus."
-            }
-          ]
-        },
-        {
-          "lang": "it",
-          "summary": "Le modifiche verranno applicate con un nuovo caricamento. Non è necessario ripetere la configurazione.",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "Risolto un problema per cui, durante l'Inversione orizzontale, la texture dell'SPS Plug del clone risultava invertita orizzontalmente o la base si assottigliava quando veniva piegato."
-            },
-            {
-              "category": "fix",
-              "text": "Risolto un problema per cui, in alcune configurazioni, l'intera superficie del clone veniva colorata con il colore della faccia posteriore o del contorno durante l'Inversione orizzontale."
-            },
-            {
-              "category": "fix",
-              "text": "Risolto un problema nella notifica di aggiornamento per cui il rientro degli elementi lunghi scompariva o veniva inserita una riga vuota sopra di essi."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "1.10.1",
-      "releaseDate": "2026-10-07",
-      "changelog": "「本体を隠す」で、分身を出していないときに本体を隠してから戻すと、ほかの人から本体も分身も見えないままになる問題を修正しました。アバターをアップロードし直すと直ります(セットアップのやり直しは不要です)。",
-      "localized": [
-        {
-          "lang": "ja",
-          "summary": "",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "「本体を隠す」で、分身を出していないときに本体を隠してから戻すと、ほかの人から本体も分身も見えないままになる問題を修正しました。アバターをアップロードし直すと直ります(セットアップのやり直しは不要です)。"
-            }
-          ]
-        },
-        {
-          "lang": "en",
-          "summary": "",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "Fixed an issue in \"Hide main avatar\" where if you hide the main avatar and then restore it while the clone is not summoned, both the main avatar and the clone remain invisible to other players. Re-uploading the avatar fixes this (you do not need to run Setup again)."
-            }
-          ]
-        },
-        {
-          "lang": "ko",
-          "summary": "",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "\"본체 숨기기\"에서 분신을 소환하지 않았을 때 본체를 숨겼다가 되돌리면 다른 플레이어에게 본체와 분신이 모두 보이지 않은 상태로 남는 문제를 수정했습니다. 아바타를 다시 업로드하면 해결됩니다(셋업을 다시 할 필요는 없습니다)."
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hans",
-          "summary": "",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "修复了在“隐藏本体”中，未召唤分身时隐藏本体再恢复，会导致本体和分身对其他玩家一直保持不可见的问题。重新上传虚拟形象即可修复（不需要重新进行设置）。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant",
-          "summary": "",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "修復了在「隱藏本體」中，未召喚分身時隱藏本體再恢復，會導致本體和分身對其他玩家一直保持不可見的問題。重新上傳虛擬人偶即可修復（不需要重新進行設定）。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant-TW",
-          "summary": "",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "修復了在「隱藏本體」中，未召喚分身時隱藏本體再恢復，會導致本體和分身對其他玩家一直保持不可見的問題。重新上傳虛擬人偶即可修復（不需要重新進行設定）。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant-HK",
-          "summary": "",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "修復了在「隱藏本體」中，未召喚分身時隱藏本體再恢復，會導致本體和分身對其他玩家一直保持不可見的問題。重新上傳虛擬人偶即可修復（不需要重新進行設定）。"
-            }
-          ]
-        },
-        {
-          "lang": "fr",
-          "summary": "",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "Correction d’un problème dans « Masquer l’avatar principal » où, si vous masquez puis réaffichez l’avatar principal sans avoir invoqué le clone, l’avatar principal et le clone restent invisibles pour les autres joueurs. Téléverser à nouveau l’avatar corrige ce problème (il n’est pas nécessaire de relancer la configuration)."
-            }
-          ]
-        },
-        {
-          "lang": "it",
-          "summary": "",
-          "entries": [
-            {
-              "category": "fix",
-              "text": "Risolto un problema in «Nascondi avatar principale» per cui, se si nasconde e poi si ripristina l’avatar principale senza aver evocato il clone, sia l’avatar principale che il clone rimangono invisibili agli altri giocatori. Caricare di nuovo l’avatar risolve il problema (non è necessario ripetere la configurazione)."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "1.10.0",
-      "releaseDate": "2026-10-07",
-      "changelog": "「本体を隠す」を追加しました。ゲーム内のトグルで、自分や他の人から本体の見た目を隠せます。分身には影響しません。\nNPCモードに「指さし移動」を追加しました。手首で指した場所へ分身を歩かせ、着いたら登録したモーションを再生できます。\n「別のアバター」で、分身の元アバターのパラメータを本体と同じ名前で共有できるようになりました。本体の服の切り替えが分身にも連動し、同期パラメータも増えません。\nセットアップと設定画面の動作を軽くしました。\n設定画面の説明文を、読みやすく書き直しました。",
-      "localized": [
-        {
-          "lang": "ja",
-          "summary": "",
-          "entries": [
-            {
-              "category": "new",
-              "text": "「本体を隠す」を追加しました。ゲーム内のトグルで、自分や他の人から本体の見た目を隠せます。分身には影響しません。"
-            },
-            {
-              "category": "new",
-              "text": "NPCモードに「指さし移動」を追加しました。手首で指した場所へ分身を歩かせ、着いたら登録したモーションを再生できます。"
-            },
-            {
-              "category": "new",
-              "text": "「別のアバター」で、分身の元アバターのパラメータを本体と同じ名前で共有できるようになりました。本体の服の切り替えが分身にも連動し、同期パラメータも増えません。"
-            },
-            {
-              "category": "improve",
-              "text": "セットアップと設定画面の動作を軽くしました。"
-            },
-            {
-              "category": "improve",
-              "text": "設定画面の説明文を、読みやすく書き直しました。"
-            }
-          ]
-        },
-        {
-          "lang": "en",
-          "summary": "",
-          "entries": [
-            {
-              "category": "new",
-              "text": "Added \"Hide main avatar\". You can hide the main avatar's appearance from yourself and others via an in-game toggle. This does not affect the clone."
-            },
-            {
-              "category": "new",
-              "text": "Added \"Point-to-Move\" to \"NPC Mode\". You can make the clone walk to where you point with your wrist, and it can play a registered motion upon arriving."
-            },
-            {
-              "category": "new",
-              "text": "In \"Other Avatar\", the clone's source avatar can now share parameters with the main avatar using the same names. Clothing changes on the main avatar are now linked to the clone, and synced parameters will not increase."
-            },
-            {
-              "category": "improve",
-              "text": "Made Setup and the settings screen run lighter."
-            },
-            {
-              "category": "improve",
-              "text": "Rewrote the descriptions on the settings screen to be easier to read."
-            }
-          ]
-        },
-        {
-          "lang": "ko",
-          "summary": "",
-          "entries": [
-            {
-              "category": "new",
-              "text": "\"본체 숨기기\"를 추가했습니다. 게임 내 토글로 자신이나 다른 사람에게서 본체의 모습을 숨길 수 있습니다. 분신에는 영향을 주지 않습니다."
-            },
-            {
-              "category": "new",
-              "text": "\"NPC 모드\"에 \"가리켜 이동\"을 추가했습니다. 손목으로 가리킨 곳으로 분신을 걸어가게 하고, 도착하면 등록된 모션을 재생할 수 있습니다."
-            },
-            {
-              "category": "new",
-              "text": "\"다른 아바타\"에서 분신의 원본 아바타 파라미터를 본체와 같은 이름으로 공유할 수 있게 되었습니다. 본체의 옷 변경이 분신에도 연동되며, 동기화 파라미터도 늘어나지 않습니다."
-            },
-            {
-              "category": "improve",
-              "text": "셋업과 설정 화면의 동작을 가볍게 만들었습니다."
-            },
-            {
-              "category": "improve",
-              "text": "설정 화면의 설명문을 읽기 쉽게 다시 작성했습니다."
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hans",
-          "summary": "",
-          "entries": [
-            {
-              "category": "new",
-              "text": "添加了“隐藏本体”。你可以通过游戏内开关对自己和他人隐藏本体的外观。这不会影响分身。"
-            },
-            {
-              "category": "new",
-              "text": "在“NPC 模式”中添加了“指向移动”。你可以让分身走到手腕指向的位置，到达后还可以播放已注册的动作。"
-            },
-            {
-              "category": "new",
-              "text": "在“其他 Avatar”中，分身的来源 Avatar 现可与本体共享同名的参数。本体的服装切换现在会联动到分身，且不会增加同步参数。"
-            },
-            {
-              "category": "improve",
-              "text": "减轻了设置流程和设置界面的运行负担。"
-            },
-            {
-              "category": "improve",
-              "text": "重写了设置界面的说明文本，使其更易于阅读。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant",
-          "summary": "",
-          "entries": [
-            {
-              "category": "new",
-              "text": "加入了「隱藏本體」。您可以透過遊戲內的開關，對自己和他人隱藏本體的外觀。這不會影響分身。"
-            },
-            {
-              "category": "new",
-              "text": "在「NPC 模式」中加入了「指向移動」。您可以讓分身走到手腕指向的位置，並在到達後播放已註冊的動作。"
-            },
-            {
-              "category": "new",
-              "text": "在「其他 Avatar」中，分身的來源 Avatar 現在可以與本體共用同名的參數。本體的服裝切換現在會連動到分身，且不會增加同步參數。"
-            },
-            {
-              "category": "improve",
-              "text": "減輕了設定流程與設定畫面的運作負擔。"
-            },
-            {
-              "category": "improve",
-              "text": "改寫了設定畫面的說明文字，使其更易閱讀。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant-TW",
-          "summary": "",
-          "entries": [
-            {
-              "category": "new",
-              "text": "加入了「隱藏本體」。您可以透過遊戲內的開關，對自己和他人隱藏本體的外觀。這不會影響分身。"
-            },
-            {
-              "category": "new",
-              "text": "在「NPC 模式」中加入了「指向移動」。您可以讓分身走到手腕指向的位置，並在抵達後播放已註冊的動作。"
-            },
-            {
-              "category": "new",
-              "text": "在「其他 Avatar」中，分身的來源 Avatar 現在可以與本體共用同名的參數。本體的服裝切換現在會連動到分身，且不會增加同步參數。"
-            },
-            {
-              "category": "improve",
-              "text": "減輕了設定流程與設定畫面的運作負擔。"
-            },
-            {
-              "category": "improve",
-              "text": "改寫了設定畫面的說明文字，使其更易閱讀。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant-HK",
-          "summary": "",
-          "entries": [
-            {
-              "category": "new",
-              "text": "加入了「隱藏本體」。您可以透過遊戲內的開關，對自己和他人隱藏本體的外觀。這不會影響分身。"
-            },
-            {
-              "category": "new",
-              "text": "在「NPC 模式」中加入了「指向移動」。您可以讓分身走到手腕指向的位置，並在到達後播放已註冊的動作。"
-            },
-            {
-              "category": "new",
-              "text": "在「其他 Avatar」中，分身的來源 Avatar 現在可以與本體共用同名的參數。本體的服裝切換現在會連動到分身，且不會增加同步參數。"
-            },
-            {
-              "category": "improve",
-              "text": "減輕了設定流程與設定畫面的運作負擔。"
-            },
-            {
-              "category": "improve",
-              "text": "改寫了設定畫面的說明文字，使其更易閱讀。"
-            }
-          ]
-        },
-        {
-          "lang": "fr",
-          "summary": "",
-          "entries": [
-            {
-              "category": "new",
-              "text": "Ajout de « Masquer l’avatar principal ». Vous pouvez masquer l’apparence de l’avatar principal pour vous-même et les autres via un bouton en jeu. Cela n’affecte pas le clone."
-            },
-            {
-              "category": "new",
-              "text": "Ajout du « Déplacement par pointage » au « Mode PNJ ». Vous pouvez faire marcher le clone vers l’endroit que vous pointez avec votre poignet, et il peut jouer une animation enregistrée à son arrivée."
-            },
-            {
-              "category": "new",
-              "text": "Dans « Autre Avatar », l’avatar source du clone peut désormais partager des paramètres avec l’avatar principal en utilisant le même nom. Les changements de vêtements de l’avatar principal sont maintenant liés au clone, sans augmenter les paramètres synchronisés."
-            },
-            {
-              "category": "improve",
-              "text": "La configuration et l’écran des paramètres sont désormais plus légers."
-            },
-            {
-              "category": "improve",
-              "text": "Les descriptions sur l’écran des paramètres ont été réécrites pour être plus faciles à lire."
-            }
-          ]
-        },
-        {
-          "lang": "it",
-          "summary": "",
-          "entries": [
-            {
-              "category": "new",
-              "text": "Aggiunto «Nascondi avatar principale». Puoi nascondere l'aspetto dell'avatar principale a te stesso e agli altri tramite un interruttore nel gioco. Questo non ha effetto sul clone."
-            },
-            {
-              "category": "new",
-              "text": "Aggiunto «Spostamento con puntamento» alla «Modalità NPC». Puoi far camminare il clone verso il punto che indichi con il polso e fargli riprodurre un'animazione registrata all'arrivo."
-            },
-            {
-              "category": "new",
-              "text": "In «Altro Avatar», l'avatar di origine del clone può ora condividere i parametri con l'avatar principale usando lo stesso nome. I cambi di vestiti sull'avatar principale sono ora collegati al clone e i parametri sincronizzati non aumenteranno."
-            },
-            {
-              "category": "improve",
-              "text": "La configurazione e la schermata delle impostazioni sono ora più leggere."
-            },
-            {
-              "category": "improve",
-              "text": "Le descrizioni nella schermata delle impostazioni sono state riscritte per essere più facili da leggere."
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "history": []
 }
