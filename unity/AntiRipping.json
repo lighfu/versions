@@ -1,5 +1,5 @@
 {
-  "version": "0.54.3",
-  "changelog": "メッシュ暗号化用データテクスチャが8192pxを超える問題を修正。大きなデータを制限内に格納し、MiltinaのSDK実ビルドと完成ファイル、ユーザー環境での動作を確認。",
-  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.54.3"
+  "version": "0.55.0",
+  "changelog": "メッシュ暗号化とキー転送の処理改善、対象選択・除外、シェーダー互換性、ネイティブクライアントとテーマ設定を追加。VRChat未起動時にトレイから画面を開けない問題を修正。Client 0.22.1を同梱。",
+  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.55.0"
 }
