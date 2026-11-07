@@ -1,5 +1,5 @@
 {
-  "version": "0.55.0",
-  "changelog": "メッシュ暗号化とキー転送の処理改善、対象選択・除外、シェーダー互換性、ネイティブクライアントとテーマ設定を追加。VRChat未起動時にトレイから画面を開けない問題を修正。Client 0.22.1を同梱。",
-  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.55.0"
+  "version": "0.56.0",
+  "changelog": "Rust製クライアント0.24.0（m3e SDK 1.0.1）を同梱。画面を閉じるとUIメモリを解放し、トレイでOSC監視を継続します。操作アニメーション、設定スイッチ、接続先表示、Q&Aなどを改善。既存のキーと保存データを引き継ぎます。",
+  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.56.0"
 }
