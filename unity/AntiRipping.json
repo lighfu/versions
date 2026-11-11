@@ -1,5 +1,5 @@
 {
-  "version": "0.56.1",
-  "changelog": "利用状況送信の同意画面を開く直前・描画する直前に保存済みの同意を確認し、Unityが復元した画面も同意済みなら閉じるよう修正。同梱クライアントは0.24.0です。",
-  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.56.1"
+  "version": "0.57.0",
+  "changelog": "SDK 3.10.6のキー信号設定を強化し、難読化時のネイティブフェイストラッキング参照を保護。同期予算16 bit・旧SDK対応を維持。適用にはアバターの再ビルドが必要です。同梱クライアントは0.24.0です。",
+  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.57.0"
 }
