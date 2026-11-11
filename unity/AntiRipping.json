@@ -1,5 +1,5 @@
 {
-  "version": "0.56.0",
-  "changelog": "Rust製クライアント0.24.0（m3e SDK 1.0.1）を同梱。画面を閉じるとUIメモリを解放し、トレイでOSC監視を継続します。操作アニメーション、設定スイッチ、接続先表示、Q&Aなどを改善。既存のキーと保存データを引き継ぎます。",
-  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.56.0"
+  "version": "0.56.1",
+  "changelog": "利用状況送信の同意画面を開く直前・描画する直前に保存済みの同意を確認し、Unityが復元した画面も同意済みなら閉じるよう修正。同梱クライアントは0.24.0です。",
+  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.56.1"
 }
