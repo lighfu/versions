@@ -1,203 +1,250 @@
 {
-  "version": "1.11.1",
+  "version": "1.12.0",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-11-09",
+  "releaseDate": "2026-11-13",
   "changelog": [
-    "衣装の表示・非表示など、ほかのギミックでメッシュの ON/OFF を切り替えているアバターでも「本体を隠す」を使えるようにしました。",
-    "再アップロードで適用されます。セットアップのやり直しは要りません。"
+    "「まねっこ」を追加しました。ゲーム内メニューから本体の動きを録画して、あとから分身に再生できます。",
+    "まねっこは VRC Constraint を多く使います。（上限を超えるとビルドエラーになるので注意）",
+    "まねっこした動きは、まねっこを収録したときその場にいた人にだけ見えます。",
+    "設定画面の説明を短く整理しました。",
+    "日本語の画面では、製品名を「どっぺりん」と表記するようにしました。",
+    "まねっこを使うときだけ、設定画面で ON にしてセットアップし直してください。"
   ],
   "localized": [
     {
       "lang": "ja",
-      "summary": "再アップロードで適用されます。セットアップのやり直しは要りません。",
+      "summary": "まねっこを使うときだけ、設定画面で ON にしてセットアップし直してください。",
       "entries": [
         {
-          "category": "fix",
-          "text": "衣装の表示・非表示など、ほかのギミックでメッシュの ON/OFF を切り替えているアバターでも「本体を隠す」を使えるようにしました。"
+          "category": "new",
+          "text": "「まねっこ」を追加しました。ゲーム内メニューから本体の動きを録画して、あとから分身に再生できます。"
+        },
+        {
+          "category": "new",
+          "text": "まねっこは VRC Constraint を多く使います。（上限を超えるとビルドエラーになるので注意）"
+        },
+        {
+          "category": "new",
+          "text": "まねっこした動きは、まねっこを収録したときその場にいた人にだけ見えます。"
+        },
+        {
+          "category": "improve",
+          "text": "設定画面の説明を短く整理しました。"
+        },
+        {
+          "category": "improve",
+          "text": "日本語の画面では、製品名を「どっぺりん」と表記するようにしました。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "Re-uploading applies this fix. You do not need to run Set Up again.",
+      "summary": "Only if you use Motion Recording, please turn it ON in the settings screen and press Set Up again.",
       "entries": [
         {
-          "category": "fix",
-          "text": "\"Hide main avatar\" now works on avatars whose meshes are turned on and off by other gimmicks, such as outfit toggles."
+          "category": "new",
+          "text": "Added \"Motion Recording\". You can record your main avatar's motion from the in-game menu and play it back on your clone later."
+        },
+        {
+          "category": "new",
+          "text": "Motion Recording uses many VRC Constraints. (Note that exceeding the limit will cause a build error.)"
+        },
+        {
+          "category": "new",
+          "text": "Motions recorded with Motion Recording are only visible to people who were in the same place when the recording was made."
+        },
+        {
+          "category": "improve",
+          "text": "Shortened and organized the descriptions in the settings screen."
+        },
+        {
+          "category": "improve",
+          "text": "In the Japanese UI, the product name is now displayed as \"どっぺりん\"."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "다시 업로드하면 적용됩니다. '셋업'을 다시 실행할 필요는 없습니다.",
+      "summary": "동작 기록을 사용할 때만 설정 화면에서 ON으로 설정하고 다시 '셋업'을 실행해 주세요.",
       "entries": [
         {
-          "category": "fix",
-          "text": "의상 표시/숨기기 등 다른 기믹으로 메시를 ON/OFF하는 아바타에서도 \"본체 숨기기\"를 사용할 수 있게 되었습니다."
+          "category": "new",
+          "text": "'동작 기록'을 추가했습니다. 게임 내 메뉴에서 본체의 움직임을 녹화하여 나중에 분신으로 재생할 수 있습니다."
+        },
+        {
+          "category": "new",
+          "text": "동작 기록은 VRC Constraint를 많이 사용합니다. (상한을 초과하면 빌드 에러가 발생하므로 주의해 주세요)"
+        },
+        {
+          "category": "new",
+          "text": "동작 기록으로 녹화한 움직임은 녹화할 때 그 자리에 있던 사람에게만 보입니다."
+        },
+        {
+          "category": "improve",
+          "text": "설정 화면의 설명을 짧게 정리했습니다."
+        },
+        {
+          "category": "improve",
+          "text": "일본어 화면에서는 제품명을 'どっぺりん'으로 표기하도록 변경했습니다."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "重新上传即可生效，无需再次运行“设置”。",
+      "summary": "仅在使用动作录制时，需要在设置界面中将其设为 ON 并再次运行“设置”。",
       "entries": [
         {
-          "category": "fix",
-          "text": "即使虚拟形象通过服装显示/隐藏等其他机关来开关网格，现在也可以使用“隐藏本体”。"
+          "category": "new",
+          "text": "新增了“动作录制”功能。可以从游戏内菜单录制本体的动作，之后在分身上播放。"
+        },
+        {
+          "category": "new",
+          "text": "动作录制会使用大量的 VRC Constraint。（请注意，超过上限会导致构建错误）"
+        },
+        {
+          "category": "new",
+          "text": "动作录制所录下的动作，仅对录制时在场的人可见。"
+        },
+        {
+          "category": "improve",
+          "text": "精简并整理了设置界面的说明。"
+        },
+        {
+          "category": "improve",
+          "text": "在日语界面中，产品名称现在显示为“どっぺりん”。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "重新上傳即可生效，不需要再次執行「設定」。",
+      "summary": "僅在使用動作錄製時，才需要在設定畫面中設為 ON 並再次執行「設定」。",
       "entries": [
         {
-          "category": "fix",
-          "text": "即使虛擬形象透過服裝顯示／隱藏等其他機關來開關網格，現在也可以使用「隱藏本體」。"
+          "category": "new",
+          "text": "新增了「動作錄製」功能。可以從遊戲內選單錄製本體的動作，之後在分身上播放。"
+        },
+        {
+          "category": "new",
+          "text": "動作錄製會使用大量的 VRC Constraint。（請注意，超過上限會導致建置錯誤）"
+        },
+        {
+          "category": "new",
+          "text": "動作錄製所錄下的動作，僅對錄製時在場的人可見。"
+        },
+        {
+          "category": "improve",
+          "text": "精簡並整理了設定畫面的說明。"
+        },
+        {
+          "category": "improve",
+          "text": "在日語畫面中，產品名稱現在顯示為「どっぺりん」。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "重新上傳即可生效，不需要再次執行「設定」。",
+      "summary": "僅在使用動作錄製時，才需要在設定畫面中設為 ON 並再次執行「設定」。",
       "entries": [
         {
-          "category": "fix",
-          "text": "即使虛擬形象透過服裝顯示／隱藏等其他機關來開關網格，現在也可以使用「隱藏本體」。"
+          "category": "new",
+          "text": "新增了「動作錄製」功能。可以從遊戲內選單錄製本體的動作，之後在分身上播放。"
+        },
+        {
+          "category": "new",
+          "text": "動作錄製會使用大量的 VRC Constraint。（請注意，超過上限會導致建置錯誤）"
+        },
+        {
+          "category": "new",
+          "text": "動作錄製所錄下的動作，僅對錄製時在場的人可見。"
+        },
+        {
+          "category": "improve",
+          "text": "精簡並整理了設定畫面的說明。"
+        },
+        {
+          "category": "improve",
+          "text": "在日語畫面中，產品名稱現在顯示為「どっぺりん」。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "重新上載即可生效，毋須再次執行「設定」。",
+      "summary": "僅於使用動作錄製時，才須在設定畫面中設為 ON 並再次執行「設定」。",
       "entries": [
         {
-          "category": "fix",
-          "text": "即使虛擬形象透過服裝顯示／隱藏等其他機關來開關網格，現在亦可以使用「隱藏本體」。"
+          "category": "new",
+          "text": "新增了「動作錄製」功能。可從遊戲內選單錄製本體的動作，稍後在分身上播放。"
+        },
+        {
+          "category": "new",
+          "text": "動作錄製會使用大量的 VRC Constraint。（請注意，超出上限會導致建置錯誤）"
+        },
+        {
+          "category": "new",
+          "text": "動作錄製所錄下的動作，只有錄製時在場的人才能看見。"
+        },
+        {
+          "category": "improve",
+          "text": "精簡並整理了設定畫面的說明。"
+        },
+        {
+          "category": "improve",
+          "text": "在日文畫面中，產品名稱現已顯示為「どっぺりん」。"
         }
       ]
     },
     {
       "lang": "fr",
-      "summary": "Il suffit de renvoyer l’avatar pour appliquer ce correctif. Inutile de relancer « Configurer ».",
+      "summary": "Uniquement si vous utilisez l’Enregistrement de mouvement, veuillez le passer sur ON dans l’écran des paramètres et relancer « Configurer ».",
       "entries": [
         {
-          "category": "fix",
-          "text": "« Masquer l’avatar principal » fonctionne désormais sur les avatars dont les maillages sont activés et désactivés par d’autres gimmicks, comme l’affichage des tenues."
+          "category": "new",
+          "text": "Ajout de « Enregistrement de mouvement ». Vous pouvez enregistrer les mouvements de l’avatar principal depuis le menu en jeu et les rejouer plus tard sur le clone."
+        },
+        {
+          "category": "new",
+          "text": "L’Enregistrement de mouvement utilise beaucoup de VRC Constraint. (Attention : dépasser la limite entraînera une erreur de build.)"
+        },
+        {
+          "category": "new",
+          "text": "Les mouvements enregistrés avec l’Enregistrement de mouvement ne sont visibles que par les personnes présentes sur place lors de l’enregistrement."
+        },
+        {
+          "category": "improve",
+          "text": "Les descriptions de l’écran des paramètres ont été raccourcies et réorganisées."
+        },
+        {
+          "category": "improve",
+          "text": "Dans l’interface en japonais, le nom du produit est désormais affiché sous la forme « どっぺりん »."
         }
       ]
     },
     {
       "lang": "it",
-      "summary": "Basta ricaricare l’avatar per applicare la correzione. Non serve eseguire di nuovo «Configurazione».",
+      "summary": "Solo se si utilizza la Registrazione del movimento, impostarla su ON nella schermata delle impostazioni ed eseguire di nuovo «Configurazione».",
       "entries": [
         {
-          "category": "fix",
-          "text": "«Nascondi avatar principale» ora funziona anche sugli avatar le cui mesh vengono attivate e disattivate da altri gimmick, come i cambi d’abito."
+          "category": "new",
+          "text": "Aggiunta «Registrazione del movimento». È possibile registrare i movimenti dell’avatar principale dal menu di gioco e riprodurli in seguito sul clone."
+        },
+        {
+          "category": "new",
+          "text": "La Registrazione del movimento utilizza molti VRC Constraint. (Attenzione: il superamento del limite causa un errore di build.)"
+        },
+        {
+          "category": "new",
+          "text": "I movimenti registrati con la Registrazione del movimento sono visibili solo a chi era presente sul posto al momento della registrazione."
+        },
+        {
+          "category": "improve",
+          "text": "Le descrizioni nella schermata delle impostazioni sono state abbreviate e riorganizzate."
+        },
+        {
+          "category": "improve",
+          "text": "Nell’interfaccia in giapponese, il nome del prodotto viene ora mostrato come «どっぺりん»."
         }
       ]
     }
   ],
-  "history": [
-    {
-      "version": "1.11.0",
-      "releaseDate": "2026-11-04",
-      "changelog": [
-        "「ドッペル操作」に「目の追従」を追加しました。",
-        "反映するには、もう一度セットアップしてください。"
-      ],
-      "localized": [
-        {
-          "lang": "ja",
-          "summary": "反映するには、もう一度セットアップしてください。",
-          "entries": [
-            {
-              "category": "new",
-              "text": "「ドッペル操作」に「目の追従」を追加しました。"
-            }
-          ]
-        },
-        {
-          "lang": "en",
-          "summary": "To apply the changes, please press Set Up again.",
-          "entries": [
-            {
-              "category": "new",
-              "text": "Added \"Eye Sync\" to \"Doppel Controls\"."
-            }
-          ]
-        },
-        {
-          "lang": "ko",
-          "summary": "변경 사항을 반영하려면 다시 '셋업'을 실행해 주세요.",
-          "entries": [
-            {
-              "category": "new",
-              "text": "\"분신 조작\"에 \"눈 동기화\"를 추가했습니다."
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hans",
-          "summary": "要应用更改，请再次运行“设置”。",
-          "entries": [
-            {
-              "category": "new",
-              "text": "在“分身操作”中添加了“眼睛同步”。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant",
-          "summary": "若要套用變更，請再次執行「設定」。",
-          "entries": [
-            {
-              "category": "new",
-              "text": "在「分身操作」中新增了「眼睛同步」。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant-TW",
-          "summary": "若要套用變更，請再次執行「設定」。",
-          "entries": [
-            {
-              "category": "new",
-              "text": "在「分身操作」中新增了「眼睛同步」。"
-            }
-          ]
-        },
-        {
-          "lang": "zh-Hant-HK",
-          "summary": "如要套用變更，請再次執行「設定」。",
-          "entries": [
-            {
-              "category": "new",
-              "text": "在「分身操作」中新增了「眼睛同步」。"
-            }
-          ]
-        },
-        {
-          "lang": "fr",
-          "summary": "Pour appliquer les modifications, veuillez cliquer à nouveau sur « Configurer ».",
-          "entries": [
-            {
-              "category": "new",
-              "text": "Ajout de « Synchronisation des yeux » dans « Contrôles du clone »."
-            }
-          ]
-        },
-        {
-          "lang": "it",
-          "summary": "Per applicare le modifiche, esegui nuovamente «Configurazione».",
-          "entries": [
-            {
-              "category": "new",
-              "text": "Aggiunta «Sincronizzazione occhi» a «Controlli del clone»."
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "history": []
 }
