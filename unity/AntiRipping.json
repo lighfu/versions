@@ -1,5 +1,5 @@
 {
-  "version": "0.58.0",
-  "changelog": "透かしの署名と隠し透かし・照合ウィンドウを追加し、AAOの無視リストでも保護を維持。VRChat SDK 3.10.6以上を必須にし、依存パッケージが古いと警告。Light Limit ChangerのPoiyomi認識とSapphireの同期精度設定に対応。同梱クライアントは0.24.0です。",
-  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.58.0"
+  "version": "0.58.1",
+  "changelog": "SkinnedMeshRendererのBonesに空の要素があるアバターで、メッシュ暗号化がアップロードを止める問題を修正。該当するメッシュは暗号化せず出力し、ビルドレポートに対象と直し方を表示します。同梱クライアントは0.24.0です。",
+  "url": "https://github.com/lighfu/vpm/releases/tag/anti-ripping-v0.58.1"
 }
