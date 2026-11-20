@@ -1,247 +1,247 @@
 {
-  "version": "1.12.0",
+  "version": "1.13.0",
   "url": "https://ajisaiflow.booth.pm/items/8617534",
-  "releaseDate": "2026-11-13",
+  "releaseDate": "2026-11-20",
   "changelog": [
-    "「まねっこ」を追加しました。ゲーム内メニューから本体の動きを録画して、あとから分身に再生できます。",
-    "まねっこは VRC Constraint を多く使います。（上限を超えるとビルドエラーになるので注意）",
-    "まねっこした動きは、まねっこを収録したときその場にいた人にだけ見えます。",
-    "設定画面の説明を短く整理しました。",
-    "日本語の画面では、製品名を「どっぺりん」と表記するようにしました。",
-    "まねっこを使うときだけ、設定画面で ON にしてセットアップし直してください。"
+    "まねっこに「こだま」を追加。数秒前の自分の動きを、分身が繰り返す機能です。",
+    "「同期パラメータの効率的な圧縮」を追加。使う bit 数を大きく減らします。",
+    "ワールド固定に「止まってから固定する」と「解除したら目の前へ戻す」を追加。",
+    "VRChat SDK 3.10.6 以降では、精度を落とさずに同期パラメータの bit 数を削減。分身の VRC Constraint の数も減らしました。",
+    "「本体と同じ名前のパラメータを共有する」が ON のとき、本体に型の違う同名のパラメータがあるとアップロードに失敗する問題を修正しました(FaceEmo のアバター同士など)。",
+    "この版の変更は、セットアップをやり直すと反映されます。"
   ],
   "localized": [
     {
       "lang": "ja",
-      "summary": "まねっこを使うときだけ、設定画面で ON にしてセットアップし直してください。",
+      "summary": "この版の変更は、セットアップをやり直すと反映されます。",
       "entries": [
         {
           "category": "new",
-          "text": "「まねっこ」を追加しました。ゲーム内メニューから本体の動きを録画して、あとから分身に再生できます。"
+          "text": "まねっこに「こだま」を追加。数秒前の自分の動きを、分身が繰り返す機能です。"
         },
         {
           "category": "new",
-          "text": "まねっこは VRC Constraint を多く使います。（上限を超えるとビルドエラーになるので注意）"
+          "text": "「同期パラメータの効率的な圧縮」を追加。使う bit 数を大きく減らします。"
         },
         {
           "category": "new",
-          "text": "まねっこした動きは、まねっこを収録したときその場にいた人にだけ見えます。"
+          "text": "ワールド固定に「止まってから固定する」と「解除したら目の前へ戻す」を追加。"
         },
         {
           "category": "improve",
-          "text": "設定画面の説明を短く整理しました。"
+          "text": "VRChat SDK 3.10.6 以降では、精度を落とさずに同期パラメータの bit 数を削減。分身の VRC Constraint の数も減らしました。"
         },
         {
-          "category": "improve",
-          "text": "日本語の画面では、製品名を「どっぺりん」と表記するようにしました。"
+          "category": "fix",
+          "text": "「本体と同じ名前のパラメータを共有する」が ON のとき、本体に型の違う同名のパラメータがあるとアップロードに失敗する問題を修正しました(FaceEmo のアバター同士など)。"
         }
       ]
     },
     {
       "lang": "en",
-      "summary": "Only if you use Motion Recording, please turn it ON in the settings screen and press Set Up again.",
+      "summary": "The changes in this version take effect after you run Set Up again.",
       "entries": [
         {
           "category": "new",
-          "text": "Added \"Motion Recording\". You can record your main avatar's motion from the in-game menu and play it back on your clone later."
+          "text": "Added \"Echo\" to Motion Recording. Your clone keeps repeating what you did a few seconds ago."
         },
         {
           "category": "new",
-          "text": "Motion Recording uses many VRC Constraints. (Note that exceeding the limit will cause a build error.)"
+          "text": "Added \"Efficient Compression of Synced Parameters\". It greatly reduces the number of bits used."
         },
         {
           "category": "new",
-          "text": "Motions recorded with Motion Recording are only visible to people who were in the same place when the recording was made."
+          "text": "Added \"Lock After Stopping\" and \"Return in front of you when unlocked\" to World Lock."
         },
         {
           "category": "improve",
-          "text": "Shortened and organized the descriptions in the settings screen."
+          "text": "On VRChat SDK 3.10.6 or later, synced parameters now use fewer bits with no loss of precision. The clone also uses fewer VRC Constraints."
         },
         {
-          "category": "improve",
-          "text": "In the Japanese UI, the product name is now displayed as \"どっぺりん\"."
+          "category": "fix",
+          "text": "Fixed uploads failing when \"Share parameters with the same name as the main body\" is ON and the main body has a parameter with the same name but a different type (for example, two FaceEmo avatars)."
         }
       ]
     },
     {
       "lang": "ko",
-      "summary": "동작 기록을 사용할 때만 설정 화면에서 ON으로 설정하고 다시 '셋업'을 실행해 주세요.",
+      "summary": "이번 버전의 변경 사항은 '셋업'을 다시 실행하면 반영됩니다.",
       "entries": [
         {
           "category": "new",
-          "text": "'동작 기록'을 추가했습니다. 게임 내 메뉴에서 본체의 움직임을 녹화하여 나중에 분신으로 재생할 수 있습니다."
+          "text": "동작 기록에 '메아리'를 추가했습니다. 몇 초 전 자신의 움직임을 분신이 계속 따라 합니다."
         },
         {
           "category": "new",
-          "text": "동작 기록은 VRC Constraint를 많이 사용합니다. (상한을 초과하면 빌드 에러가 발생하므로 주의해 주세요)"
+          "text": "'동기화 파라미터의 효율적인 압축'을 추가했습니다. 사용하는 bit 수를 크게 줄입니다."
         },
         {
           "category": "new",
-          "text": "동작 기록으로 녹화한 움직임은 녹화할 때 그 자리에 있던 사람에게만 보입니다."
+          "text": "월드 고정에 '멈춘 후 고정하기'와 '해제 시 눈앞으로 되돌리기'를 추가했습니다."
         },
         {
           "category": "improve",
-          "text": "설정 화면의 설명을 짧게 정리했습니다."
+          "text": "VRChat SDK 3.10.6 이상에서는 정밀도를 유지한 채 동기화 파라미터의 bit 수를 줄였습니다. 분신의 VRC Constraint 수도 줄였습니다."
         },
         {
-          "category": "improve",
-          "text": "일본어 화면에서는 제품명을 'どっぺりん'으로 표기하도록 변경했습니다."
+          "category": "fix",
+          "text": "'본체와 같은 이름의 파라미터 공유'가 ON일 때, 본체에 타입이 다른 같은 이름의 파라미터가 있으면 업로드에 실패하는 문제를 수정했습니다(FaceEmo 아바타끼리 등)."
         }
       ]
     },
     {
       "lang": "zh-Hans",
-      "summary": "仅在使用动作录制时，需要在设置界面中将其设为 ON 并再次运行“设置”。",
+      "summary": "本版本的更改需要再次运行“设置”后才会生效。",
       "entries": [
         {
           "category": "new",
-          "text": "新增了“动作录制”功能。可以从游戏内菜单录制本体的动作，之后在分身上播放。"
+          "text": "为动作录制新增了“回声”。分身会不断重复你几秒前的动作。"
         },
         {
           "category": "new",
-          "text": "动作录制会使用大量的 VRC Constraint。（请注意，超过上限会导致构建错误）"
+          "text": "新增了“同步参数的高效压缩”。可大幅减少使用的 bit 数。"
         },
         {
           "category": "new",
-          "text": "动作录制所录下的动作，仅对录制时在场的人可见。"
+          "text": "为世界固定新增了“停下后再固定”和“解除后回到面前”。"
         },
         {
           "category": "improve",
-          "text": "精简并整理了设置界面的说明。"
+          "text": "在 VRChat SDK 3.10.6 及以上版本中，在不降低精度的情况下减少了同步参数的 bit 数。同时减少了分身使用的 VRC Constraint 数量。"
         },
         {
-          "category": "improve",
-          "text": "在日语界面中，产品名称现在显示为“どっぺりん”。"
+          "category": "fix",
+          "text": "修复了在“共享与本体同名的参数”为 ON 时，如果本体中有类型不同的同名参数，就会上传失败的问题（例如两个 FaceEmo 头像互为分身时）。"
         }
       ]
     },
     {
       "lang": "zh-Hant",
-      "summary": "僅在使用動作錄製時，才需要在設定畫面中設為 ON 並再次執行「設定」。",
+      "summary": "本版本的變更需要再次執行「設定」後才會生效。",
       "entries": [
         {
           "category": "new",
-          "text": "新增了「動作錄製」功能。可以從遊戲內選單錄製本體的動作，之後在分身上播放。"
+          "text": "為動作錄製新增了「回聲」。分身會不斷重複你幾秒前的動作。"
         },
         {
           "category": "new",
-          "text": "動作錄製會使用大量的 VRC Constraint。（請注意，超過上限會導致建置錯誤）"
+          "text": "新增了「同步參數的高效壓縮」。可大幅減少使用的 bit 數。"
         },
         {
           "category": "new",
-          "text": "動作錄製所錄下的動作，僅對錄製時在場的人可見。"
+          "text": "為世界固定新增了「停下後再固定」與「解除後回到面前」。"
         },
         {
           "category": "improve",
-          "text": "精簡並整理了設定畫面的說明。"
+          "text": "在 VRChat SDK 3.10.6 以上版本中，在不降低精度的情況下減少了同步參數的 bit 數。同時減少了分身使用的 VRC Constraint 數量。"
         },
         {
-          "category": "improve",
-          "text": "在日語畫面中，產品名稱現在顯示為「どっぺりん」。"
+          "category": "fix",
+          "text": "修正了在「共享與本體同名的參數」為 ON 時，若本體有型別不同的同名參數，就會上傳失敗的問題（例如兩個 FaceEmo 虛擬人偶互為分身時）。"
         }
       ]
     },
     {
       "lang": "zh-Hant-TW",
-      "summary": "僅在使用動作錄製時，才需要在設定畫面中設為 ON 並再次執行「設定」。",
+      "summary": "本版本的變更需要再次執行「設定」後才會生效。",
       "entries": [
         {
           "category": "new",
-          "text": "新增了「動作錄製」功能。可以從遊戲內選單錄製本體的動作，之後在分身上播放。"
+          "text": "為動作錄製新增了「回聲」。分身會不斷重複你幾秒前的動作。"
         },
         {
           "category": "new",
-          "text": "動作錄製會使用大量的 VRC Constraint。（請注意，超過上限會導致建置錯誤）"
+          "text": "新增了「同步參數的高效壓縮」。可大幅減少使用的 bit 數。"
         },
         {
           "category": "new",
-          "text": "動作錄製所錄下的動作，僅對錄製時在場的人可見。"
+          "text": "為世界固定新增了「停下後再固定」與「解除後回到面前」。"
         },
         {
           "category": "improve",
-          "text": "精簡並整理了設定畫面的說明。"
+          "text": "在 VRChat SDK 3.10.6 以上版本中，在不降低精度的情況下減少了同步參數的 bit 數。同時減少了分身使用的 VRC Constraint 數量。"
         },
         {
-          "category": "improve",
-          "text": "在日語畫面中，產品名稱現在顯示為「どっぺりん」。"
+          "category": "fix",
+          "text": "修正了在「共享與本體同名的參數」為 ON 時，若本體有型別不同的同名參數，就會上傳失敗的問題（例如兩個 FaceEmo 虛擬人偶互為分身時）。"
         }
       ]
     },
     {
       "lang": "zh-Hant-HK",
-      "summary": "僅於使用動作錄製時，才須在設定畫面中設為 ON 並再次執行「設定」。",
+      "summary": "本版本的變更須再次執行「設定」後才會生效。",
       "entries": [
         {
           "category": "new",
-          "text": "新增了「動作錄製」功能。可從遊戲內選單錄製本體的動作，稍後在分身上播放。"
+          "text": "為動作錄製新增了「回聲」。分身會不斷重複你數秒前的動作。"
         },
         {
           "category": "new",
-          "text": "動作錄製會使用大量的 VRC Constraint。（請注意，超出上限會導致建置錯誤）"
+          "text": "新增了「同步參數的高效壓縮」。可大幅減少所用的 bit 數。"
         },
         {
           "category": "new",
-          "text": "動作錄製所錄下的動作，只有錄製時在場的人才能看見。"
+          "text": "為世界固定新增了「停下後再固定」及「解除後回到面前」。"
         },
         {
           "category": "improve",
-          "text": "精簡並整理了設定畫面的說明。"
+          "text": "於 VRChat SDK 3.10.6 或以上版本，在不降低精度的情況下減少了同步參數的 bit 數。同時減少了分身所用的 VRC Constraint 數量。"
         },
         {
-          "category": "improve",
-          "text": "在日文畫面中，產品名稱現已顯示為「どっぺりん」。"
+          "category": "fix",
+          "text": "修正了在「共享與本體同名的參數」為 ON 時，若本體有類型不同的同名參數，便會上傳失敗的問題（例如兩個 FaceEmo 虛擬形象互為分身時）。"
         }
       ]
     },
     {
       "lang": "fr",
-      "summary": "Uniquement si vous utilisez l’Enregistrement de mouvement, veuillez le passer sur ON dans l’écran des paramètres et relancer « Configurer ».",
+      "summary": "Les changements de cette version s’appliquent après avoir relancé « Configurer ».",
       "entries": [
         {
           "category": "new",
-          "text": "Ajout de « Enregistrement de mouvement ». Vous pouvez enregistrer les mouvements de l’avatar principal depuis le menu en jeu et les rejouer plus tard sur le clone."
+          "text": "Ajout de « Écho » à l’Enregistrement de mouvement. Le clone répète en continu ce que vous avez fait quelques secondes plus tôt."
         },
         {
           "category": "new",
-          "text": "L’Enregistrement de mouvement utilise beaucoup de VRC Constraint. (Attention : dépasser la limite entraînera une erreur de build.)"
+          "text": "Ajout de « Compression efficace des paramètres synchronisés ». Elle réduit fortement le nombre de bits utilisés."
         },
         {
           "category": "new",
-          "text": "Les mouvements enregistrés avec l’Enregistrement de mouvement ne sont visibles que par les personnes présentes sur place lors de l’enregistrement."
+          "text": "Ajout de « Verrouiller après l’arrêt » et « Ramener devant vous au déverrouillage » au Verrouillage monde."
         },
         {
           "category": "improve",
-          "text": "Les descriptions de l’écran des paramètres ont été raccourcies et réorganisées."
+          "text": "Avec le VRChat SDK 3.10.6 ou ultérieur, les paramètres synchronisés utilisent moins de bits sans perte de précision. Le clone utilise aussi moins de VRC Constraints."
         },
         {
-          "category": "improve",
-          "text": "Dans l’interface en japonais, le nom du produit est désormais affiché sous la forme « どっぺりん »."
+          "category": "fix",
+          "text": "Correction de l’échec de l’envoi lorsque « Partager les paramètres avec le même nom que l’avatar principal » est sur ON et que l’avatar principal a un paramètre du même nom mais d’un autre type (par exemple, entre deux avatars FaceEmo)."
         }
       ]
     },
     {
       "lang": "it",
-      "summary": "Solo se si utilizza la Registrazione del movimento, impostarla su ON nella schermata delle impostazioni ed eseguire di nuovo «Configurazione».",
+      "summary": "Le modifiche di questa versione si applicano dopo aver eseguito di nuovo «Configurazione».",
       "entries": [
         {
           "category": "new",
-          "text": "Aggiunta «Registrazione del movimento». È possibile registrare i movimenti dell’avatar principale dal menu di gioco e riprodurli in seguito sul clone."
+          "text": "Aggiunta «Eco» alla Registrazione del movimento. Il clone ripete di continuo ciò che hai fatto alcuni secondi prima."
         },
         {
           "category": "new",
-          "text": "La Registrazione del movimento utilizza molti VRC Constraint. (Attenzione: il superamento del limite causa un errore di build.)"
+          "text": "Aggiunta «Compressione efficiente dei parametri sincronizzati». Riduce notevolmente il numero di bit utilizzati."
         },
         {
           "category": "new",
-          "text": "I movimenti registrati con la Registrazione del movimento sono visibili solo a chi era presente sul posto al momento della registrazione."
+          "text": "Aggiunte «Blocca dopo essersi fermati» e «Riporta davanti al proprio avatar allo sblocco» al Blocco nel mondo."
         },
         {
           "category": "improve",
-          "text": "Le descrizioni nella schermata delle impostazioni sono state abbreviate e riorganizzate."
+          "text": "Con VRChat SDK 3.10.6 o successivo, i parametri sincronizzati usano meno bit senza perdita di precisione. Anche il clone usa meno VRC Constraint."
         },
         {
-          "category": "improve",
-          "text": "Nell’interfaccia in giapponese, il nome del prodotto viene ora mostrato come «どっぺりん»."
+          "category": "fix",
+          "text": "Corretto il caricamento non riuscito quando «Condividi i parametri con lo stesso nome dell'avatar principale» è su ON e l’avatar principale ha un parametro con lo stesso nome ma di tipo diverso (ad esempio, tra due avatar FaceEmo)."
         }
       ]
     }
